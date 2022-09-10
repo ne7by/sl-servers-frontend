@@ -16,6 +16,15 @@ const Map = () => {
     const dispatch = useDispatch();
 
     useEffect(() => {
+        delete window.L.Icon.Default.prototype._getIconUrl;
+        window.L.Icon.Default.mergeOptions({
+            iconRetinaUrl: require("leaflet/dist/images/marker-icon-2x.png"),
+            iconUrl: require("leaflet/dist/images/marker-icon.png"),
+            shadowUrl: require("leaflet/dist/images/marker-shadow.png")
+        });
+    }, [])
+
+    useEffect(() => {
         dispatch(getServerMap());
     }, [dispatch])
 
