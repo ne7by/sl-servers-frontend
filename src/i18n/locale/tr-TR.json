@@ -77,10 +77,9 @@
     "statistics": "Sunucu İstatistikleri",
     "daylight-saving-time": "Grafikteki saat, yaz saati uygulamasından etkilenmez.",
     "graph": {
-      "rendering": "Grafik oluşturuluyor...",
       "loading": "Sunucudan veri alınıyor...",
       "visitors": "Ziyaretçiler",
-      "visitor-suffix": null
+      "visitor-suffix": ""
     }
   },
   "footer": {
@@ -95,16 +94,14 @@
     "users": {
       "title": "Total number of server users",
       "select-compare-country": {
-        "name": "Ülke Seç",
-        "reset-btn": "Ülke Seçimini Sıfırla"
+        "name": "Ülke Seç"
       },
       "show-all": {
         "name": "Display all country data"
       },
       "graph": {
         "all-country": "Tüm Ülkeler"
-      },
-      "empty-country-data": "\"{{countryName}}\" için veri bulunamadı"
+      }
     },
     "mod-loader": {
       "title": "Mod loader statistics",

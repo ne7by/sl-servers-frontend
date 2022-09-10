@@ -77,10 +77,9 @@
     "statistics": "服务器统计",
     "daylight-saving-time": "图表上的时间不受夏令时的影响(其实中国自1992年就已经不受影响了的说)",
     "graph": {
-      "rendering": "正在努力绘制图像喵~",
       "loading": "正在努力获取服务器信息喵~",
       "visitors": "游客数",
-      "visitor-suffix": null
+      "visitor-suffix": ""
     }
   },
   "footer": {
@@ -95,16 +94,14 @@
     "users": {
       "title": "在线服务器玩家总数",
       "select-compare-country": {
-        "name": "查看指定国家/地区",
-        "reset-btn": "重置国家/地区过滤"
+        "name": "查看指定国家/地区"
       },
       "show-all": {
         "name": "Display all country data"
       },
       "graph": {
         "all-country": "所有国家/地区"
-      },
-      "empty-country-data": "嘤嘤嘤,还妹有 \"{{countryName}}\" 的信息呢"
+      }
     },
     "mod-loader": {
       "title": "Mod loader statistics",

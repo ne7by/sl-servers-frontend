@@ -77,7 +77,6 @@
     "statistics": "서버 통계",
     "daylight-saving-time": "그래프의 시간은 일광 절약 시간에 영향을 받지 않습니다. (한국은 관련 없음)",
     "graph": {
-      "rendering": "그래프를 렌더링하는 중입니다...",
       "loading": "서버로 부터 데이터를 불러오는 중입니다...",
       "visitors": "접속자",
       "visitor-suffix": "명"
@@ -95,16 +94,14 @@
     "users": {
       "title": "전체 서버 유저 수",
       "select-compare-country": {
-        "name": "비교할 국가 선택",
-        "reset-btn": "국가 선택 초기화"
+        "name": "비교할 국가 선택"
       },
       "show-all": {
         "name": "모든 국가 데이터 표시"
       },
       "graph": {
         "all-country": "모든 국가"
-      },
-      "empty-country-data": "\"{{countryName}}\" 국가에 대한 데이터가 존재하지 않습니다."
+      }
     },
     "mod-loader": {
       "title": "모드 로더 통계",

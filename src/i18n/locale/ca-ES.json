@@ -77,10 +77,9 @@
     "statistics": "Estadístiques del servidor",
     "daylight-saving-time": "El temps en el gràfic no és alterat per l'horari d'estiu.",
     "graph": {
-      "rendering": "Renderitzant gràfic...",
       "loading": "Carregant dades del servidor...",
       "visitors": "Visitants",
-      "visitor-suffix": null
+      "visitor-suffix": ""
     }
   },
   "footer": {
@@ -95,16 +94,14 @@
     "users": {
       "title": "Nombre total d'usuaris en el servidor",
       "select-compare-country": {
-        "name": "Seleccionar País",
-        "reset-btn": "Esborrar selecció de País"
+        "name": "Seleccionar País"
       },
       "show-all": {
         "name": "Display all country data"
       },
       "graph": {
         "all-country": "Tots els països"
-      },
-      "empty-country-data": "No hi ha dades per al país \"{{countryName}}\"."
+      }
     },
     "mod-loader": {
       "title": "Mod loader statistics",

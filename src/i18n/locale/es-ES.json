@@ -77,10 +77,9 @@
     "statistics": "Estadísticas del servidor",
     "daylight-saving-time": "El tiempo en el gráfico no es alterado por el horario de verano.",
     "graph": {
-      "rendering": "Renderizando gráfico...",
       "loading": "Cargando datos del servidor...",
       "visitors": "Visitantes",
-      "visitor-suffix": null
+      "visitor-suffix": ""
     }
   },
   "footer": {
@@ -95,16 +94,14 @@
     "users": {
       "title": "Número total de usuarios en el servidor",
       "select-compare-country": {
-        "name": "Seleccionar País",
-        "reset-btn": "Borrar selección de País"
+        "name": "Seleccionar País"
       },
       "show-all": {
         "name": "Display all country data"
       },
       "graph": {
         "all-country": "Todos los Países"
-      },
-      "empty-country-data": "No hay datos para el País \"{{countryName}}\"."
+      }
     },
     "mod-loader": {
       "title": "Mod loader statistics",

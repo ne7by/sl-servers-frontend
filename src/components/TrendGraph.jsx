@@ -25,7 +25,7 @@ const TrendGraph = ({layers, fluxResponse}) => {
             _time: time => timeText(time),
             _value: val => `${val}${t('server-info.graph.visitor-suffix') || ''}`,
             iso_code: isoCode => {
-                if (isoCode === 'ALL') return '전체 국가'
+                if (isoCode === 'ALL') return t('all-stats.users.graph.all-country')
 
                 const isoCodeName = I18nIsoCountries().getName(isoCode, userIsoCode);
                 return isoCodeName || isoCode;
