@@ -3,10 +3,14 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import Container from "./Container";
 import {Info, List, Map, Stats} from "../pages";
 import {ToastContainer} from "react-toastify";
+import {CookieConsent} from "react-cookie-consent";
+import {useTranslation} from "react-i18next";
 
 import 'react-toastify/dist/ReactToastify.min.css';
 
 const App = () => {
+    const {t} = useTranslation();
+
     return (
         <>
             <BrowserRouter>
@@ -29,6 +33,14 @@ const App = () => {
                 draggable
                 pauseOnHover
             />
+
+            <CookieConsent
+                cookieName="user.cookie.consent"
+                buttonText={t('cookie-notice.dismiss')}
+            >
+                {t('cookie-notice.message')} <a href="https://www.cookiesandyou.com/"
+                                                target="_blank" rel="noreferrer">{t('cookie-notice.link-text')}</a>
+            </CookieConsent>
         </>
     );
 }
