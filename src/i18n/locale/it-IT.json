@@ -1,0 +1,147 @@
+{
+  "general": {
+    "language-change": "Changed language to {{language}}. Some may need a refresh."
+  },
+  "navbar": {
+    "title": "Server SCP:SL",
+    "server-list": "Lista dei Server",
+    "all-stats": "Statistiche complete",
+    "all-server-map": "Mappa di tutti i Server"
+  },
+  "select": {
+    "placeholder": "Please select an item",
+    "empty": "Non hai selezionato niente"
+  },
+  "filter-option": {
+    "server-search": {
+      "name": "Cerca un Server",
+      "placeholder": "Inserisci i termini di ricerca",
+      "search-btn": "Cerca"
+    },
+    "country-filter": "Filtra per Paese",
+    "hide-empty": "Nascondi i server vuoti",
+    "hide-full": "Nascondi i server pieni",
+    "refresh-btn": "Ricarica la lista",
+    "refreshing": "Caricamento lista...",
+    "yes-no-filter": {
+      "none": "Includi tutto",
+      "yes": "Si",
+      "no": "No",
+      "friendly-fire": "Friendly Fire",
+      "whitelist": "Whitelist",
+      "modded": "Modded",
+      "order-type": {
+        "name": "Ordina per tipo",
+        "player-desc": "Un grande numero di giocatori",
+        "player-asc": "Un piccolo numero di giocatori",
+        "distance-asc": "Più vicino",
+        "distance-desc": "Più lontano"
+      }
+    }
+  },
+  "server-stats": {
+    "online-users": "Utenti totali: {{count}}",
+    "online-servers": "Server online: {{count}}",
+    "display-users": "Utenti in lista: {{count}}",
+    "display-servers": "Server in lista: {{count}}",
+    "offline-servers": "Server offline (cached): {{count}}"
+  },
+  "server-list": {
+    "head": {
+      "number": "Numero",
+      "address": "Indirizzo IP",
+      "name": "Nome",
+      "pastebin": "Pastebin",
+      "players": "Giocatori",
+      "distance": "Distanza"
+    },
+    "loading": "Caricamento dati dal server...",
+    "empty": "Non ci sono dati per questo serber.",
+    "tech": {
+      "yes": "Si",
+      "no": "No",
+      "country": "Paese",
+      "game-version": "Versione del Gioco",
+      "friendly-fire": "Friendly Fire",
+      "whitelist": "Whitelist"
+    }
+  },
+  "server-info": {
+    "title": "Informazioni del Server",
+    "status": {
+      "name": "Stato",
+      "online": "Online",
+      "offline": "Offline"
+    },
+    "address": "Indirizzo IP",
+    "players": "Giocatori",
+    "pastebin": "Pastebin",
+    "distance": "Distanza",
+    "statistics": "Statistiche del Server",
+    "daylight-saving-time": "L'ora sul grafico non è influenzata dall'ora legale.",
+    "graph": {
+      "loading": "Caricamento dati dal server...",
+      "visitors": "Visitatori",
+      "visitor-suffix": "",
+      "options": {
+        "date-format": "yyyy-MM-dd aa hh:mm",
+        "invalid-start-time": "The start time must be earlier than the stop time.",
+        "invalid-stop-time": "The stop time must be later than the start time.",
+        "data-range": "Data Period",
+        "start-time": "Start Time",
+        "stop-time": "Stop Time",
+        "data-resolution": "Data Resolution",
+        "graph-update-btn": "Update Graph",
+        "period": {
+          "custom": "Custom",
+          "1hour": "1 Hour",
+          "8hour": "8 Hours",
+          "1day": "1 Day",
+          "2day": "2 Days",
+          "1week": "1 Week",
+          "1month": "1 Month",
+          "3month": "3 Months",
+          "1year": "1 Year",
+          "4year": "4 Years"
+        },
+        "resolution": {
+          "1m": "1 Minute",
+          "5m": "5 Minutes",
+          "1h": "1 Hour",
+          "1d": "1 Day"
+        }
+      }
+    }
+  },
+  "footer": {
+    "notice": "SCP: Secret Laboratory è un gioco rilasciato da Northwood Studios™, questo sito non è affiliato con Northwood Studios™.<br/>Tutti i diritti sono riservati al creatore del gioco."
+  },
+  "cookie-notice": {
+    "message": "Questo sito utilizza i cookie per un'esperienza migliore di navigazione.",
+    "dismiss": "Capito!",
+    "link-text": "Leggi di più"
+  },
+  "all-stats": {
+    "users": {
+      "title": "Numero totale dei giocatori",
+      "select-compare-country": {
+        "name": "Seleziona un Paese"
+      },
+      "show-all": {
+        "name": "Mostra tutti i dati di ogni paese"
+      },
+      "graph": {
+        "all-country": "Tutti i paesi",
+        "empty-country": "There is no data to query."
+      }
+    },
+    "mod-loader": {
+      "title": "Mod loader statistics",
+      "tooltip": "Mod Loader"
+    }
+  },
+  "all-server-map": {
+    "title": "Mappa dei server",
+    "server-info-btn": "Clicca per vedere le informazioni del server"
+  }
+}

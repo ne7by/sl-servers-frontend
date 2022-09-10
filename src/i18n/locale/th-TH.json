@@ -1,0 +1,147 @@
+{
+  "general": {
+    "language-change": "Changed language to {{language}}. Some may need a refresh."
+  },
+  "navbar": {
+    "title": "เซิฟเวอร์ SCP: SL",
+    "server-list": "รายชื่อเซิร์ฟเวอร์",
+    "all-stats": "สถิติทั้งหมด",
+    "all-server-map": "แผนที่ของเซิร์ฟเวอร์ทั้งหมด"
+  },
+  "select": {
+    "placeholder": "Please select an item",
+    "empty": "ไม่ได้เลือก"
+  },
+  "filter-option": {
+    "server-search": {
+      "name": "ค้นหาเซิร์ฟเวอร์",
+      "placeholder": "ใส่คำค้นหา",
+      "search-btn": "ค้นหา"
+    },
+    "country-filter": "ตัวกรองประเทศ",
+    "hide-empty": "ซ่อนเซิร์ฟเวอร์ไม่มีคน",
+    "hide-full": "ซ่อนเซิร์ฟเวอร์คนเต็ม",
+    "refresh-btn": "โหลดเซิฟเวอร์อีกครั้ง",
+    "refreshing": "กำลังโหลดเซิฟเวอร์...",
+    "yes-no-filter": {
+      "none": "ทั้งหมด",
+      "yes": "ใช่",
+      "no": "ไม่",
+      "friendly-fire": "การยิงกันเอง",
+      "whitelist": "ไวท์ลิสต์",
+      "modded": "มอด",
+      "order-type": {
+        "name": "ประเภท",
+        "player-desc": "คนจำนวนมาก",
+        "player-asc": "คนจำนวนน้อย",
+        "distance-asc": "ระยะใกล้",
+        "distance-desc": "ระยะไกล"
+      }
+    }
+  },
+  "server-stats": {
+    "online-users": "ผู้ใช้ทั้งหมด: {{count}}",
+    "online-servers": "เซิร์ฟเวอร์ออนไลน์: {{count}}",
+    "display-users": "รายชื่อผู้ใช้: {{count}}",
+    "display-servers": "รายชื่อเซิร์ฟเวอร์: {{count}}",
+    "offline-servers": "ออฟไลน์ (cached) เซิร์ฟเวอร์: {{count}}"
+  },
+  "server-list": {
+    "head": {
+      "number": "ตัวเลข",
+      "address": "ที่อยู่ IP",
+      "name": "ชื่อเซิฟ",
+      "pastebin": "Pastebin",
+      "players": "ผู้เล่น",
+      "distance": "ระยะ"
+    },
+    "loading": "กำลังโหลดข้อมูลจากเซิร์ฟเวอร์...",
+    "empty": "ไม่มีข้อมูลที่จะแสดง.",
+    "tech": {
+      "yes": "ใช่",
+      "no": "ไม่",
+      "country": "ประเทศ",
+      "game-version": "เวอร์ชั่นเกม",
+      "friendly-fire": "การยิงกันเอง",
+      "whitelist": "ไวท์ลิสต์"
+    }
+  },
+  "server-info": {
+    "title": "รายละเอียดเซิฟเวอร์",
+    "status": {
+      "name": "สถานะ",
+      "online": "ออนไลน์",
+      "offline": "ออฟไลน์"
+    },
+    "address": "ที่อยู่ IP",
+    "players": "ผู้เล่น",
+    "pastebin": "Pastebin",
+    "distance": "ระยะ",
+    "statistics": "สถิติเซิร์ฟเวอร์",
+    "daylight-saving-time": "เวลาบนกราฟไม่ได้รับผลกระทบจากเวลาออมแสง.",
+    "graph": {
+      "loading": "กำลังโหลดข้อมูลจากเซิร์ฟเวอร์...",
+      "visitors": "ผู้เข้าชม",
+      "visitor-suffix": "",
+      "options": {
+        "date-format": "yyyy-MM-dd aa hh:mm",
+        "invalid-start-time": "The start time must be earlier than the stop time.",
+        "invalid-stop-time": "The stop time must be later than the start time.",
+        "data-range": "Data Period",
+        "start-time": "Start Time",
+        "stop-time": "Stop Time",
+        "data-resolution": "Data Resolution",
+        "graph-update-btn": "Update Graph",
+        "period": {
+          "custom": "Custom",
+          "1hour": "1 Hour",
+          "8hour": "8 Hours",
+          "1day": "1 Day",
+          "2day": "2 Days",
+          "1week": "1 Week",
+          "1month": "1 Month",
+          "3month": "3 Months",
+          "1year": "1 Year",
+          "4year": "4 Years"
+        },
+        "resolution": {
+          "1m": "1 Minute",
+          "5m": "5 Minutes",
+          "1h": "1 Hour",
+          "1d": "1 Day"
+        }
+      }
+    }
+  },
+  "footer": {
+    "notice": "SCP: Secret Laboratory เป็นเกมที่ออกเเบบโดย Northwood Studios™, เว็บไซต์นี้ไม่มีส่วนเกี่ยวข้องกับ Northwood Studios™.<br/>เครื่องหมายการค้าและเครื่องหมายการค้าจดทะเบียนทั้งหมดเป็นทรัพย์สินของเจ้าของที่เกี่ยวข้อง."
+  },
+  "cookie-notice": {
+    "message": "เว็บไซต์นี้ใช้คุกกี้เพื่อให้แน่ใจว่าคุณได้รับประสบการณ์ที่ดีที่สุดบนเว็บไซต์ของเรา.",
+    "dismiss": "เข้าใจแล้ว!",
+    "link-text": "เรียนรู้เพิ่มเติม"
+  },
+  "all-stats": {
+    "users": {
+      "title": "จำนวนผู้ใช้เซิร์ฟเวอร์ทั้งหมด",
+      "select-compare-country": {
+        "name": "เลือกประเทศ"
+      },
+      "show-all": {
+        "name": "แสดงข้อมูลประเทศทั้งหมด"
+      },
+      "graph": {
+        "all-country": "ทุกประเทศ",
+        "empty-country": "There is no data to query."
+      }
+    },
+    "mod-loader": {
+      "title": "สถิติตัวโหลด Mod",
+      "tooltip": "ตัวโหลด Mod"
+    }
+  },
+  "all-server-map": {
+    "title": "แผนที่ของเซิร์ฟเวอร์ทั้งหมด",
+    "server-info-btn": "คลิกเพื่อตรวจสอบข้อมูลเซิร์ฟเวอร์"
+  }
+}

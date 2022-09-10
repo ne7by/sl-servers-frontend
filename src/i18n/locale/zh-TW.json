@@ -1,0 +1,147 @@
+{
+  "general": {
+    "language-change": "Changed language to {{language}}. Some may need a refresh."
+  },
+  "navbar": {
+    "title": "SCP: SL 伺服器",
+    "server-list": "伺服器列表",
+    "all-stats": "整體信息狀態",
+    "all-server-map": "伺服器大地圖"
+  },
+  "select": {
+    "placeholder": "Please select an item",
+    "empty": "未選擇"
+  },
+  "filter-option": {
+    "server-search": {
+      "name": "尋找伺服器",
+      "placeholder": "請輸入關鍵字",
+      "search-btn": "查詢"
+    },
+    "country-filter": "按國家/地區尋找",
+    "hide-empty": "隱藏無人伺服器",
+    "hide-full": "隱藏滿人伺服器",
+    "refresh-btn": "刷新列表",
+    "refreshing": "我正在載入...",
+    "yes-no-filter": {
+      "none": "全部",
+      "yes": "是",
+      "no": "否",
+      "friendly-fire": "是否開啟友軍傷害",
+      "whitelist": "是否開啟白名單",
+      "modded": "是否使用插件",
+      "order-type": {
+        "name": "排序方式",
+        "player-desc": "線上玩家由多到少",
+        "player-asc": "線上玩家由少到多",
+        "distance-asc": "距離由近到遠",
+        "distance-desc": "距離由遠到近"
+      }
+    }
+  },
+  "server-stats": {
+    "online-users": "全球線上玩家: {{count}}",
+    "online-servers": "全球線上伺服器: {{count}}",
+    "display-users": "列表已顯示玩家: {{count}}",
+    "display-servers": "列表已顯示伺服器: {{count}}",
+    "offline-servers": "離線(IDLE)伺服器: {{count}}"
+  },
+  "server-list": {
+    "head": {
+      "number": "編號",
+      "address": "IP位置",
+      "name": "伺服器名稱",
+      "pastebin": "Pastebin",
+      "players": "玩家數量",
+      "distance": "距離"
+    },
+    "loading": "我在正在載入伺服器列表了...",
+    "empty": "痾，找不到伺服器，換個關鍵字試試",
+    "tech": {
+      "yes": "開啟",
+      "no": "關閉",
+      "country": "國家/地區",
+      "game-version": "遊戲版本",
+      "friendly-fire": "友軍傷害",
+      "whitelist": "白名單"
+    }
+  },
+  "server-info": {
+    "title": "伺服器信息",
+    "status": {
+      "name": "狀態",
+      "online": "線上",
+      "offline": "離線"
+    },
+    "address": "IP位置",
+    "players": "玩家數量",
+    "pastebin": "Pastebin",
+    "distance": "距離",
+    "statistics": "伺服器統計",
+    "daylight-saving-time": "圖表上的時間不受夏令時間影響",
+    "graph": {
+      "loading": "我已經在獲取伺服器信息了啦...",
+      "visitors": "遊客數量",
+      "visitor-suffix": "",
+      "options": {
+        "date-format": "yyyy-MM-dd aa hh:mm",
+        "invalid-start-time": "The start time must be earlier than the stop time.",
+        "invalid-stop-time": "The stop time must be later than the start time.",
+        "data-range": "Data Period",
+        "start-time": "Start Time",
+        "stop-time": "Stop Time",
+        "data-resolution": "Data Resolution",
+        "graph-update-btn": "Update Graph",
+        "period": {
+          "custom": "Custom",
+          "1hour": "1 Hour",
+          "8hour": "8 Hours",
+          "1day": "1 Day",
+          "2day": "2 Days",
+          "1week": "1 Week",
+          "1month": "1 Month",
+          "3month": "3 Months",
+          "1year": "1 Year",
+          "4year": "4 Years"
+        },
+        "resolution": {
+          "1m": "1 Minute",
+          "5m": "5 Minutes",
+          "1h": "1 Hour",
+          "1d": "1 Day"
+        }
+      }
+    }
+  },
+  "footer": {
+    "notice": "SCP: Secret Laboratory 是由 Northwood Studios™ 發行的遊戲, 但本網站不屬於 Northwood Studios™ 的<br/>所有商標及註冊商標均為其各自所有者財產"
+  },
+  "cookie-notice": {
+    "message": "為了最好的體驗，本網站需要使用 Cookie",
+    "dismiss": "我明白了",
+    "link-text": "點我了解詳情"
+  },
+  "all-stats": {
+    "users": {
+      "title": "線上伺服器總數",
+      "select-compare-country": {
+        "name": "查看指定國家/地區"
+      },
+      "show-all": {
+        "name": "顯示所有國家資料"
+      },
+      "graph": {
+        "all-country": "所有國家/地區",
+        "empty-country": "There is no data to query."
+      }
+    },
+    "mod-loader": {
+      "title": "插件加載器統計",
+      "tooltip": "插件加載器"
+    }
+  },
+  "all-server-map": {
+    "title": "伺服器大地圖",
+    "server-info-btn": "點擊查看伺服器資訊"
+  }
+}

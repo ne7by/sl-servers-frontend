@@ -7,11 +7,15 @@ import koKR from './locale/ko-KR.json';
 import ruRU from './locale/ru-RU.json';
 import ukUA from './locale/uk-UA.json';
 import zhCN from './locale/zh-CN.json';
+import zhTW from './locale/zh-TW.json';
 import esES from './locale/es-ES.json';
 import plPL from './locale/pl-PL.json';
 import caES from './locale/ca-ES.json';
 import frFR from './locale/fr-FR.json';
 import trTR from './locale/tr-TR.json';
+import thTH from './locale/th-TH.json';
+import itIT from './locale/it-IT.json';
+import deDE from './locale/de-DE.json';
 
 const resource = {
     "en-US": {
@@ -29,6 +33,9 @@ const resource = {
     "zh-CN": {
         translation: zhCN
     },
+    "zh-TW": {
+        translation: zhTW
+    },
     "es-ES": {
         translation: esES
     },
@@ -43,6 +50,15 @@ const resource = {
     },
     "tr-TR": {
         translation: trTR
+    },
+    "th-TH": {
+        translation: thTH
+    },
+    "it-IT": {
+        translation: itIT
+    },
+    "de-DE": {
+        translation: deDE
     }
 }
 

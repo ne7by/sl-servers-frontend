@@ -31,6 +31,13 @@
     ]
   },
   {
+    "code": "zh-TW",
+    "name": "Traditional Chinese",
+    "contributors": [
+      "Cheng Cheng"
+    ]
+  },
+  {
     "code": "es-ES",
     "name": "Spanish",
     "contributors": [
@@ -63,6 +70,27 @@
     "name": "Turkish",
     "contributors": [
       "BOT Benson"
+    ]
+  },
+  {
+    "code": "th-TH",
+    "name": "Thailand",
+    "contributors": [
+      "ImFiwEditer"
+    ]
+  },
+  {
+    "code": "it-IT",
+    "name": "Italian",
+    "contributors": [
+      "FoxWorn3365"
+    ]
+  },
+  {
+    "code": "de-DE",
+    "name": "German",
+    "contributors": [
+      "OptixWolf"
     ]
   }
 ]

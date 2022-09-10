@@ -9,6 +9,9 @@ import i18nPl from 'i18n-iso-countries/langs/pl.json'
 import i18nCa from 'i18n-iso-countries/langs/ca.json'
 import i18nFr from 'i18n-iso-countries/langs/fr.json'
 import i18nTr from 'i18n-iso-countries/langs/tr.json'
+import i18nTh from 'i18n-iso-countries/langs/th.json'
+import i18nIt from 'i18n-iso-countries/langs/it.json'
+import i18nDe from 'i18n-iso-countries/langs/de.json'
 
 const I18nIsoCountries = () => {
     countries.registerLocale(i18nEn);
@@ -22,6 +25,9 @@ const I18nIsoCountries = () => {
     countries.registerLocale(i18nCa);
     countries.registerLocale(i18nFr);
     countries.registerLocale(i18nTr);
+    countries.registerLocale(i18nTh);
+    countries.registerLocale(i18nIt);
+    countries.registerLocale(i18nDe);
 
     return countries;
 }
