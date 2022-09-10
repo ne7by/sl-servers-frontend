@@ -1,13 +1,9 @@
 import {handleActions} from "redux-actions";
-import Axios from "axios";
+import {getCountryListAPI} from "../apiClient";
 
 const COUNTRY_LIST_FETCHING = "COUNTRY_LIST_FETCHING";
 const COUNTRY_LIST_SUCCESS = "COUNTRY_LIST_SUCCESS";
 const COUNTRY_LIST_FAILURE = "COUNTRY_LIST_FAILURE";
-
-const getCountryListAPI = () => {
-    return Axios.get('http://home.horyu.me:30650/api/stats/country');
-}
 
 export const getCountryList = () => (dispatch) => {
     dispatch({type: COUNTRY_LIST_FETCHING});

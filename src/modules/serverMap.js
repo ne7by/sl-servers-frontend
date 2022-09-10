@@ -1,13 +1,9 @@
 import {handleActions} from "redux-actions";
-import Axios from "axios";
+import {getServerMapAPI} from "../apiClient";
 
 const SERVER_MAP_FETCHING = "SERVER_MAP_FETCHING";
 const SERVER_MAP_SUCCESS = "SERVER_MAP_SUCCESS";
 const SERVER_MAP_FAILURE = "SERVER_MAP_FAILURE";
-
-const getServerMapAPI = () => {
-    return Axios.get('http://home.horyu.me:30650/api/map');
-}
 
 export const getServerMap = () => (dispatch) => {
     dispatch({type: SERVER_MAP_FETCHING});

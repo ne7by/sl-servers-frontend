@@ -3,15 +3,11 @@ import {useTranslation} from "react-i18next";
 import Highcharts from 'highcharts'
 import HighchartsDrillDown from 'highcharts/modules/drilldown'
 import HighchartsReact from 'highcharts-react-official'
-import Axios from "axios";
 import Chart from "../../chartOption";
+import {getModLoaderChartAPI} from "../../apiClient";
 
 Highcharts.setOptions(Chart.globalOptions);
 HighchartsDrillDown(Highcharts);
-
-const getModLoaderChartAPI = () => {
-    return Axios.get('http://home.horyu.me:30650/api/stats/mod-loader');
-}
 
 const ModLoaderChart = () => {
     const {t} = useTranslation();

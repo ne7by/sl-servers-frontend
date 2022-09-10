@@ -5,8 +5,8 @@ import ModLoaderChart from "./ModLoaderChart";
 import GraphOption from "../../components/GraphOption";
 import {Alert} from "react-bootstrap";
 import TrendGraph from "../../components/TrendGraph";
-import Axios from "axios";
 import {toast} from "react-toastify";
+import {getCountryTrendAPI} from "../../apiClient";
 
 const Stats = () => {
     const [fluxResponse, setFluxResponse] = useState(null);
@@ -22,6 +22,8 @@ const Stats = () => {
     }, [])
 
     const updateGraph = (isoCodes, options) => {
+        setFluxResponse(null);
+
         getCountryTrendAPI(isoCodes, options).then(res => {
             setFluxResponse(res.data);
         }).catch(() => {
@@ -41,14 +43,6 @@ const Stats = () => {
         }
 
         updateGraph(resultIsoCodes, options);
-    }
-
-    const getCountryTrendAPI = (isoCodes, options) => {
-        setFluxResponse(null);
-
-        return Axios.get(`http://home.horyu.me:30650/api/stats/country/${isoCodes}/graph`, {
-            params: options
-        });
     }
 
     return (

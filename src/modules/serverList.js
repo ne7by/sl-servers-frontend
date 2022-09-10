@@ -1,13 +1,9 @@
 import {handleActions} from "redux-actions";
-import Axios from "axios";
+import {getServerListAPI} from "../apiClient";
 
 const SERVER_LIST_FETCHING = "SERVER_LIST_FETCHING";
 const SERVER_LIST_SUCCESS = "SERVER_LIST_SUCCESS";
 const SERVER_LIST_FAILURE = "SERVER_LIST_FAILURE";
-
-const getServerListAPI = (data) => {
-    return Axios.post('http://home.horyu.me:30650/api/servers', data);
-}
 
 export const getServerList = () => (dispatch, getState) => {
     dispatch({type: SERVER_LIST_FETCHING});

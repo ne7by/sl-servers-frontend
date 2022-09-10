@@ -8,7 +8,7 @@ import ServerDistance from "../../components/ServerDistance";
 import {Alert} from "react-bootstrap";
 import GraphOption from "../../components/GraphOption";
 import TrendGraph from "../../components/TrendGraph";
-import Axios from "axios";
+import {getServerGraphAPI} from "../../apiClient";
 
 const Info = (
     {
@@ -35,19 +35,13 @@ const Info = (
     }, [])
 
     const updateGraph = (options) => {
-        getServerTrendAPI(serverId, options).then(res => {
+        setFluxResponse(null);
+
+        getServerGraphAPI(serverId, options).then(res => {
             setFluxResponse(res.data);
         }).catch(() => {
 
         })
-    }
-
-    const getServerTrendAPI = (serverId, options) => {
-        setFluxResponse(null);
-
-        return Axios.get(`http://home.horyu.me:30650/api/servers/${serverId}/graph`, {
-            params: options
-        });
     }
 
     const handleUpdateGraphOption = (options) => {
