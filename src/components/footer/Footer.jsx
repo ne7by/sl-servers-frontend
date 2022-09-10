@@ -8,9 +8,11 @@ const Footer = () => {
 
     return (
         <div className="jumbotron page-footer">
-            Copyright 2020-2021. horyu1234(류현오) All rights reserved.
+            Copyright 2020-2022. horyu1234(류현오) All rights reserved.
             <br/><br/>
-            {t('footer.notice')}
+            <span dangerouslySetInnerHTML={{__html: t('footer.notice')}}/>
+            <br/><br/>
+            <a target="_blank" href="/credit" rel="noreferrer" style={{color: '#64B5F6'}}>Credit / Third Party Licenses</a>
             <br/><br/>
             I'm looking for applicants for site translation.
             <br/>
