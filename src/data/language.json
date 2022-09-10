@@ -1,0 +1,68 @@
+[
+  {
+    "code": "en-US",
+    "name": "English",
+    "contributors": []
+  },
+  {
+    "code": "ko-KR",
+    "name": "Korean",
+    "contributors": []
+  },
+  {
+    "code": "ru-RU",
+    "name": "Russian",
+    "contributors": [
+      "STANDART SCP"
+    ]
+  },
+  {
+    "code": "uk-UA",
+    "name": "Ukrainian",
+    "contributors": [
+      "STANDART SCP"
+    ]
+  },
+  {
+    "code": "zh-CN",
+    "name": "Chinese",
+    "contributors": [
+      "Ningmeng"
+    ]
+  },
+  {
+    "code": "es-ES",
+    "name": "Spanish",
+    "contributors": [
+      "Jesus-QC"
+    ]
+  },
+  {
+    "code": "pl-PL",
+    "name": "Polish",
+    "contributors": [
+      "Killers0992"
+    ]
+  },
+  {
+    "code": "ca-ES",
+    "name": "Catalan",
+    "contributors": [
+      "xRoier"
+    ]
+  },
+  {
+    "code": "fr-FR",
+    "name": "French",
+    "contributors": [
+      "biolix06"
+    ]
+  },
+  {
+    "code": "tr-TR",
+    "name": "Turkish",
+    "contributors": [
+      "BOT Benson"
+    ]
+  }
+]

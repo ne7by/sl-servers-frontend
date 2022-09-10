@@ -1,0 +1,118 @@
+{
+  "navbar": {
+    "title": "Serveurs SCP:SL",
+    "server-list": "Liste des serveurs",
+    "all-stats": "Statistiques complètes",
+    "all-server-map": "Carte de tous les serveurs"
+  },
+  "select": {
+    "placeholder": "Please select an item",
+    "empty": "Aucune sélection"
+  },
+  "filter-option": {
+    "server-search": {
+      "name": "Rechercher un serveurs",
+      "placeholder": "Entrez les termes de recherche",
+      "search-btn": "Rechercher"
+    },
+    "country-filter": "Filtre de pays",
+    "hide-empty": "Cacher les serveurs vides",
+    "hide-full": "Cacher les serveurs pleins",
+    "refresh-btn": "Recharger la liste",
+    "refreshing": "Rechargement de la liste...",
+    "yes-no-filter": {
+      "none": "Inclure tout",
+      "yes": "Oui",
+      "no": "Non",
+      "friendly-fire": "Tirs alliés",
+      "whitelist": "Liste blanche",
+      "modded": "Moddé",
+      "order-type": {
+        "name": "Trier par",
+        "player-desc": "Un grand nombre de personnes",
+        "player-asc": "Un petit nombre de personnes",
+        "distance-asc": "Courte distance",
+        "distance-desc": "Longue distance"
+      }
+    }
+  },
+  "server-stats": {
+    "online-users": "Tous les utilisateurs: {{count}}",
+    "online-servers": "Serveurs en ligne: {{count}}",
+    "display-users": "Utilisateurs listés: {{count}}",
+    "display-servers": "Serveurs listés: {{count}}",
+    "offline-servers": "Serveurs hors ligne (en cache): {{count}}"
+  },
+  "server-list": {
+    "head": {
+      "number": "Numéro",
+      "address": "Adresse",
+      "name": "Nom",
+      "pastebin": "Pastebin",
+      "players": "Joueurs",
+      "distance": "Distance"
+    },
+    "loading": "Chargement des donnés du serveur...",
+    "empty": "Aucune donné à afficher",
+    "tech": {
+      "yes": "Oui",
+      "no": "Non",
+      "country": "Pays",
+      "game-version": "Version du jeu",
+      "friendly-fire": "Tirs alliés",
+      "whitelist": "Liste blanche"
+    }
+  },
+  "server-info": {
+    "title": "Information du serveur",
+    "status": {
+      "name": "Status",
+      "online": "En ligne",
+      "offline": "Hors ligne"
+    },
+    "address": "Adresse",
+    "players": "Joueurs",
+    "pastebin": "Pastebin",
+    "distance": "Distance",
+    "statistics": "Statistiques du serveur",
+    "daylight-saving-time": "L’heure sur le graphique n’est pas modifiée par l’heure d’été.",
+    "graph": {
+      "rendering": "Rendu du graphique...",
+      "loading": "Chargement des donnés du serveur...",
+      "visitors": "Visiteurs",
+      "visitor-suffix": null
+    }
+  },
+  "footer": {
+    "notice": "SCP: Secret Laboratory est un jeu publié par Northwood Studios™, ce site n’est pas affilié à Northwood Studios™.<br/>Toutes les marques et marques déposées sont la propriété de leurs propriétaires respectifs."
+  },
+  "cookie-notice": {
+    "message": "Ce site utilise des cookies pour vous assurer d’obtenir la meilleure expérience sur notre site Web.",
+    "dismiss": "Accepter",
+    "link-text": "En savoir plus"
+  },
+  "all-stats": {
+    "users": {
+      "title": "Nombre total d’utilisateur de serveurs",
+      "select-compare-country": {
+        "name": "Sélectionner un pays",
+        "reset-btn": "Réinitialiser la sélection de pays"
+      },
+      "show-all": {
+        "name": "Display all country data"
+      },
+      "graph": {
+        "all-country": "Tous les pays"
+      },
+      "empty-country-data": "Il n’y a aucunes donnés pour le pays \"{{countryName}}\"."
+    },
+    "mod-loader": {
+      "title": "Mod loader statistics",
+      "tooltip": "Mod Loader"
+    }
+  },
+  "all-server-map": {
+    "title": "Carte de tous les serveurs",
+    "server-info-btn": "Cliquez pour voir les informations du serveur"
+  }
+}

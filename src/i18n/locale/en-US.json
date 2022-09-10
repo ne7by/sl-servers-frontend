@@ -1,0 +1,118 @@
+{
+  "navbar": {
+    "title": "SCP: SL Servers",
+    "server-list": "Server List",
+    "all-stats": "Full statistics",
+    "all-server-map": "Map of all servers"
+  },
+  "select": {
+    "placeholder": "Please select an item",
+    "empty": "Nothing selected"
+  },
+  "filter-option": {
+    "server-search": {
+      "name": "Server Search",
+      "placeholder": "Enter search terms",
+      "search-btn": "Search"
+    },
+    "country-filter": "Country Filter",
+    "hide-empty": "Hide empty servers",
+    "hide-full": "Hide full servers",
+    "refresh-btn": "Reload List",
+    "refreshing": "Reloading list...",
+    "yes-no-filter": {
+      "none": "Include All",
+      "yes": "Yes",
+      "no": "No",
+      "friendly-fire": "Friendly Fire",
+      "whitelist": "Whitelist",
+      "modded": "Modded",
+      "order-type": {
+        "name": "Order Type",
+        "player-desc": "A large number of people",
+        "player-asc": "Small number of people",
+        "distance-asc": "Close distance",
+        "distance-desc": "Long distance"
+      }
+    }
+  },
+  "server-stats": {
+    "online-users": "All users: {{count}}",
+    "online-servers": "Online servers: {{count}}",
+    "display-users": "Users listed: {{count}}",
+    "display-servers": "Servers listed: {{count}}",
+    "offline-servers": "Offline (cached) servers: {{count}}"
+  },
+  "server-list": {
+    "head": {
+      "number": "Number",
+      "address": "Address",
+      "name": "Name",
+      "pastebin": "Pastebin",
+      "players": "Players",
+      "distance": "Distance"
+    },
+    "loading": "Loading data from server...",
+    "empty": "There is no data to display.",
+    "tech": {
+      "yes": "Yes",
+      "no": "No",
+      "country": "Country",
+      "game-version": "Game Version",
+      "friendly-fire": "Friendly Fire",
+      "whitelist": "Whitelist"
+    }
+  },
+  "server-info": {
+    "title": "Server Information",
+    "status": {
+      "name": "Status",
+      "online": "Online",
+      "offline": "Offline"
+    },
+    "address": "Address",
+    "players": "Players",
+    "pastebin": "Pastebin",
+    "distance": "Distance",
+    "statistics": "Server Statistics",
+    "daylight-saving-time": "The time on the graph is not affected by daylight saving time.",
+    "graph": {
+      "rendering": "Rendering graph...",
+      "loading": "Loading data from server...",
+      "visitors": "Visitors",
+      "visitor-suffix": null
+    }
+  },
+  "footer": {
+    "notice": "SCP: Secret Laboratory is a game released by Northwood Studios™, this site is not affiliated with Northwood Studios™.<br/>All trademarks and registered trademarks are the property of their respective owners."
+  },
+  "cookie-notice": {
+    "message": "This website uses cookies to ensure you get the best experience on our website.",
+    "dismiss": "Got it!",
+    "link-text": "Learn more"
+  },
+  "all-stats": {
+    "users": {
+      "title": "Total number of server users",
+      "select-compare-country": {
+        "name": "Select Country",
+        "reset-btn": "Reset country selection"
+      },
+      "show-all": {
+        "name": "Display all country data"
+      },
+      "graph": {
+        "all-country": "All countries"
+      },
+      "empty-country-data": "No data exists for the country \"{{countryName}}\"."
+    },
+    "mod-loader": {
+      "title": "Mod loader statistics",
+      "tooltip": "Mod Loader"
+    }
+  },
+  "all-server-map": {
+    "title": "Map of all servers",
+    "server-info-btn": "Click to check server info"
+  }
+}

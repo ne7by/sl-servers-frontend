@@ -1,43 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
+<html lang="en,ko">
+<head>
+    <!-- Basic Page Needs
+    ================================================== -->
+    <title>SCP: Secret Laboratory Server List</title>
+
+    <meta charset='UTF-8'/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico"/>
+    <meta content="SCP: Secret Laboratory Server List" property="og:title">
+    <meta content="%PUBLIC_URL%" property="og:url">
+    <meta content="SCP: SL server list. easily sorting/filtering options, user trend graphs etc"
+          property="og:description">
+    <meta content="website" property="og:type">
+    <meta content="%PUBLIC_URL%/icon-1024x1024.png" property="og:image">
+    <meta content="1024" property="og:image:width">
+    <meta content="1024" property="og:image:height">
+    <meta content="horyu1234" name="author">
+    <meta content="scp, scpsl, game, scp재단, scpsl, serverlist, server, list, browser, secret, laboratory, sl servers, scpsl server list"
+          name="keywords">
+    <meta content="SCP: SL server list. easily sorting/filtering options, user trend graphs etc"
+          name="description">
+
+    <!-- Favicons
+    ================================================== -->
+    <link href="%PUBLIC_URL%/apple-icon-57x57.png" rel="apple-touch-icon" sizes="57x57">
+    <link href="%PUBLIC_URL%/apple-icon-60x60.png" rel="apple-touch-icon" sizes="60x60">
+    <link href="%PUBLIC_URL%/apple-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
+    <link href="%PUBLIC_URL%/apple-icon-76x76.png" rel="apple-touch-icon" sizes="76x76">
+    <link href="%PUBLIC_URL%/apple-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
+    <link href="%PUBLIC_URL%/apple-icon-120x120.png" rel="apple-touch-icon" sizes="120x120">
+    <link href="%PUBLIC_URL%/apple-icon-144x144.png" rel="apple-touch-icon" sizes="144x144">
+    <link href="%PUBLIC_URL%/apple-icon-152x152.png" rel="apple-touch-icon" sizes="152x152">
+    <link href="%PUBLIC_URL%/apple-icon-180x180.png" rel="apple-touch-icon" sizes="180x180">
+    <link href="%PUBLIC_URL%/android-icon-192x192.png" rel="icon" sizes="192x192" type="image/png">
+    <link href="%PUBLIC_URL%/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+    <link href="%PUBLIC_URL%/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png">
+    <link href="%PUBLIC_URL%/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+    <link href="%PUBLIC_URL%/manifest.json" rel="manifest">
+
+    <meta content="%PUBLIC_URL%/ms-icon-144x144.png" name="msapplication-TileImage">
+    <meta content="#303030" name="msapplication-TileColor">
+    <meta content="#303030" name="theme-color">
+
+    <!-- Mobile Specific Metas
+     ================================================== -->
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+
+    <!-- Map Styles
+     ================================================== -->
+    <link href="https://unpkg.com/leaflet/dist/leaflet.css" rel="stylesheet"/>
+    <link
+            href="https://unpkg.com/react-leaflet-markercluster/dist/styles.min.css"
+            rel="stylesheet"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <link as="style" crossorigin
+          href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"
+          rel="stylesheet"/>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+    <style>
+        body {
+            font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif !important;
+        }
+    </style>
+</head>
+<body>
+<noscript>You need to enable JavaScript to run this app.</noscript>
+<div id="root"></div>
+</body>
 </html>

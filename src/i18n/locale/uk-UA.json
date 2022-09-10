@@ -1,0 +1,118 @@
+{
+  "navbar": {
+    "title": "Сервера SCP: SL",
+    "server-list": "Список серверів",
+    "all-stats": "Повна статистика",
+    "all-server-map": "Карта всіх серверів"
+  },
+  "select": {
+    "placeholder": "Please select an item",
+    "empty": "Нічого не вибрано"
+  },
+  "filter-option": {
+    "server-search": {
+      "name": "Пошук серверів",
+      "placeholder": "Введіть умови пошуку",
+      "search-btn": "Пошук"
+    },
+    "country-filter": "Фільтр по країнам",
+    "hide-empty": "Приховати порожні сервера",
+    "hide-full": "Приховати повні сервера",
+    "refresh-btn": "Перезавантажити список",
+    "refreshing": "Перезавантажити список...",
+    "yes-no-filter": {
+      "none": "Включити всі",
+      "yes": "Так",
+      "no": "Ні",
+      "friendly-fire": "Вогонь по своїх",
+      "whitelist": "Білий список",
+      "modded": "Модифіковано",
+      "order-type": {
+        "name": "Обрати тип",
+        "player-desc": "Велика кількість людей",
+        "player-asc": "Невелика кількість людей",
+        "distance-asc": "Близька відстань",
+        "distance-desc": "Далька відстань"
+      }
+    }
+  },
+  "server-stats": {
+    "online-users": "Всі користувачі: {{count}}",
+    "online-servers": "Доступно серверів: {{count}}",
+    "display-users": "Користувачів у списку: {{count}}",
+    "display-servers": "Серверів в списку: {{count}}",
+    "offline-servers": "Сервіров в не мережі: {{count}}"
+  },
+  "server-list": {
+    "head": {
+      "number": "Номер",
+      "address": "Адреса",
+      "name": "Імя",
+      "pastebin": "Pastebin",
+      "players": "Гравці",
+      "distance": "Відстань"
+    },
+    "loading": "Завантаження даних з сервера...",
+    "empty": "Немає даних для відображення.",
+    "tech": {
+      "yes": "Так",
+      "no": "Ні",
+      "country": "Країнам",
+      "game-version": "Версія гри",
+      "friendly-fire": "Вогонь по своїх",
+      "whitelist": "Білий список"
+    }
+  },
+  "server-info": {
+    "title": "Інформація про сервер",
+    "status": {
+      "name": "Статус",
+      "online": "Онлайн",
+      "offline": "Не в мережі"
+    },
+    "address": "Адреса",
+    "players": "Гравці",
+    "pastebin": "Pastebin",
+    "distance": "Відстань",
+    "statistics": "Статистика сервера",
+    "daylight-saving-time": "Перехід на літній час не впливає на час на графіку.",
+    "graph": {
+      "rendering": "Візуалізація графіка...",
+      "loading": "Завантаження даних з сервера...",
+      "visitors": "Відвідувачі",
+      "visitor-suffix": ""
+    }
+  },
+  "footer": {
+    "notice": "SCP: Secret Laboratory - гра, випущена Northwood Studios ™, цей сайт не має відношення до Northwood Studios.™<br/>Усі товарні знаки та зареєстровані торгові знаки належать відповідним власникам."
+  },
+  "cookie-notice": {
+    "message": "Цей веб-сайт використовує файли cookie для забезпечення найкращого досвіду роботи на нашому веб-сайті.",
+    "dismiss": "Зрозумів!",
+    "link-text": "Дізнатися більше"
+  },
+  "all-stats": {
+    "users": {
+      "title": "Загальна кількість користувачів серверів",
+      "select-compare-country": {
+        "name": "Виберіть країну",
+        "reset-btn": "Скинути вибір країни"
+      },
+      "show-all": {
+        "name": "Відобразити всі дані про країни"
+      },
+      "graph": {
+        "all-country": "Всі країни"
+      },
+      "empty-country-data": "Дані про країну відсутні \"{{countryName}}\"."
+    },
+    "mod-loader": {
+      "title": "Статистика завантажувача модів",
+      "tooltip": "Завантажувач модів"
+    }
+  },
+  "all-server-map": {
+    "title": "Карта всіх серверів",
+    "server-info-btn": "Клацніть, щоб дізнатися інформацію про цей сервер"
+  }
+}

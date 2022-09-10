@@ -1,0 +1,118 @@
+{
+  "navbar": {
+    "title": "Serwery SCP: SL",
+    "server-list": "Lista serwerów",
+    "all-stats": "Ogólne statystyki",
+    "all-server-map": "Mapa wszystkich serwerów"
+  },
+  "select": {
+    "placeholder": "Please select an item",
+    "empty": "Nie wybrano"
+  },
+  "filter-option": {
+    "server-search": {
+      "name": "Znajdź serwer",
+      "placeholder": "Wprowadź nazwę serwera",
+      "search-btn": "Wyszukaj"
+    },
+    "country-filter": "Filtr kraju",
+    "hide-empty": "Ukryj puste serwery",
+    "hide-full": "Ukryj pełne serwery",
+    "refresh-btn": "Przeładuj listę",
+    "refreshing": "Przeładowywanie listy...",
+    "yes-no-filter": {
+      "none": "Wszystkie",
+      "yes": "Tak",
+      "no": "Nie",
+      "friendly-fire": "Friendly Fire",
+      "whitelist": "Whitelist",
+      "modded": "Modded",
+      "order-type": {
+        "name": "Sortuj po",
+        "player-desc": "Dużej liczbie osób",
+        "player-asc": "Małej liczbie osób",
+        "distance-asc": "Małej odległości",
+        "distance-desc": "Dużej odległości"
+      }
+    }
+  },
+  "server-stats": {
+    "online-users": "Aktywni gracze: {{count}}",
+    "online-servers": "Serwery online: {{count}}",
+    "display-users": "Ogólna liczba osób: {{count}}",
+    "display-servers": "Ogólna liczba serwerów: {{count}}",
+    "offline-servers": "Offline (zapisanych) serwerów: {{count}}"
+  },
+  "server-list": {
+    "head": {
+      "number": "Numer",
+      "address": "Adres IP",
+      "name": "Nazwa",
+      "pastebin": "Pastebin",
+      "players": "Gracze",
+      "distance": "Dystans"
+    },
+    "loading": "Ładowanie danych...",
+    "empty": "Brak danych do wyświetlenia.",
+    "tech": {
+      "yes": "Tak",
+      "no": "Nie",
+      "country": "Kraj",
+      "game-version": "Wersja gry",
+      "friendly-fire": "Friendly Fire",
+      "whitelist": "Whitelist"
+    }
+  },
+  "server-info": {
+    "title": "Informacje o serwerze",
+    "status": {
+      "name": "Status",
+      "online": "Online",
+      "offline": "Offline"
+    },
+    "address": "Adres IP",
+    "players": "Gracze",
+    "pastebin": "Pastebin",
+    "distance": "Dystans",
+    "statistics": "Statystyki serwera",
+    "daylight-saving-time": "Czas na wykresie nie zależy od czasu letniego.",
+    "graph": {
+      "rendering": "Renderowanie wykresu...",
+      "loading": "Ładowanie danych od serwera...",
+      "visitors": "Graczy",
+      "visitor-suffix": null
+    }
+  },
+  "footer": {
+    "notice": "SCP: Secret Laboratory to gra wydana przez Northwood Studios™, ta witryna nie jest powiązana z Northwood Studios™.<br/>Wszystkie znaki towarowe i zastrzeżone znaki towarowe są własnością ich odpowiednich właścicieli."
+  },
+  "cookie-notice": {
+    "message": "Ta strona korzysta z plików cookie, aby zapewnić najlepszą jakość korzystania z naszej witryny.",
+    "dismiss": "Rozumiem!",
+    "link-text": "Przeczytaj więcej"
+  },
+  "all-stats": {
+    "users": {
+      "title": "Całkowita liczba użytkowników serwerów",
+      "select-compare-country": {
+        "name": "Wybierz kraj",
+        "reset-btn": "Zresetuj wybór kraju"
+      },
+      "show-all": {
+        "name": "Display all country data"
+      },
+      "graph": {
+        "all-country": "Wszystkie kraje"
+      },
+      "empty-country-data": "Brak danych dla kraju \"{{countryName}}\"."
+    },
+    "mod-loader": {
+      "title": "Mod loader statistics",
+      "tooltip": "Mod Loader"
+    }
+  },
+  "all-server-map": {
+    "title": "Mapa serwerów",
+    "server-info-btn": "Kliknij, aby sprawdzić informacje o serwerze."
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "navbar": {
+    "title": "SCP: SL Sunucular",
+    "server-list": "Sunucu Listesi",
+    "all-stats": "Bütün İstatistikler",
+    "all-server-map": "Sunucuların Dünya Haritası"
+  },
+  "select": {
+    "placeholder": "Please select an item",
+    "empty": "Hiçbir şey seçilmedi"
+  },
+  "filter-option": {
+    "server-search": {
+      "name": "Sunucu Ara",
+      "placeholder": "Arama terimin girin",
+      "search-btn": "Ara"
+    },
+    "country-filter": "Ülke Filtresi",
+    "hide-empty": "Boş sunucuları gizle",
+    "hide-full": "Dolu sunucuları gizle",
+    "refresh-btn": "Listeyi yenile",
+    "refreshing": "Liste yenileniyor...",
+    "yes-no-filter": {
+      "none": "Include All",
+      "yes": "Evet",
+      "no": "Hayır",
+      "friendly-fire": "Dost Ateşi",
+      "whitelist": "Whitelist",
+      "modded": "Modlu",
+      "order-type": {
+        "name": "Sıralama",
+        "player-desc": "Çok oyuncudan az oyuncuya",
+        "player-asc": "Az oyuncudan çok oyuncuya",
+        "distance-asc": "Yakın Mesafe",
+        "distance-desc": "Uzak Mesafe"
+      }
+    }
+  },
+  "server-stats": {
+    "online-users": "Tüm oyuncular: {{count}}",
+    "online-servers": "Çevrimiçi Sunucular: {{count}}",
+    "display-users": "Oyuncu Sayısı: {{count}}",
+    "display-servers": "Sunucu Sayısı: {{count}}",
+    "offline-servers": "Çevrımdışı (önbellek) Sunucu Sayısı: {{count}}"
+  },
+  "server-list": {
+    "head": {
+      "number": "Numara",
+      "address": "IP Adres",
+      "name": "Sunucu Adı",
+      "pastebin": "Pastebin",
+      "players": "Oyuncular",
+      "distance": "Uzaklık"
+    },
+    "loading": "Sunucu verileri alınıyor...",
+    "empty": "Gösterilecek veri bulunamadı.",
+    "tech": {
+      "yes": "Evet",
+      "no": "Hayır",
+      "country": "Ülke",
+      "game-version": "Oyun Sürümü",
+      "friendly-fire": "Dost Ateşi",
+      "whitelist": "Whitelist"
+    }
+  },
+  "server-info": {
+    "title": "Sunucu Bilgisi",
+    "status": {
+      "name": "Durum",
+      "online": "Çevrimiçi",
+      "offline": "Çevrımdışı"
+    },
+    "address": "Adres",
+    "players": "Oyuncular",
+    "pastebin": "Pastebin",
+    "distance": "Uzaklık",
+    "statistics": "Sunucu İstatistikleri",
+    "daylight-saving-time": "Grafikteki saat, yaz saati uygulamasından etkilenmez.",
+    "graph": {
+      "rendering": "Grafik oluşturuluyor...",
+      "loading": "Sunucudan veri alınıyor...",
+      "visitors": "Ziyaretçiler",
+      "visitor-suffix": null
+    }
+  },
+  "footer": {
+    "notice": "SCP: Secret Laboratory, Northwood Studios ™ tarafından yayınlanan bir oyundur, bu site Northwood Studios ™ ile bağlantılı değildir. <br/> Tüm ticari markalar ve tescilli markalar, ilgili sahiplerinin mülkiyetindedir."
+  },
+  "cookie-notice": {
+    "message": "Bu websitesi, en iyi deneyimi yaşayabilmeniz için cookie verilerinizi kullanır.",
+    "dismiss": "Anladım!",
+    "link-text": "Daha fazla bilgi edin"
+  },
+  "all-stats": {
+    "users": {
+      "title": "Total number of server users",
+      "select-compare-country": {
+        "name": "Ülke Seç",
+        "reset-btn": "Ülke Seçimini Sıfırla"
+      },
+      "show-all": {
+        "name": "Display all country data"
+      },
+      "graph": {
+        "all-country": "Tüm Ülkeler"
+      },
+      "empty-country-data": "\"{{countryName}}\" için veri bulunamadı"
+    },
+    "mod-loader": {
+      "title": "Mod loader statistics",
+      "tooltip": "Mod Loader"
+    }
+  },
+  "all-server-map": {
+    "title": "Sunucuların Dünya Haritası",
+    "server-info-btn": "Sunucu bilgilerini kontrol etmek için tıklayın"
+  }
+}

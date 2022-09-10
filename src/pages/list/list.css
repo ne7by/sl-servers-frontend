@@ -1,0 +1,121 @@
+.container-fluid {
+    margin-top: 20px;
+}
+
+@media (max-width: 1204px) {
+    .container-fluid {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+
+@media (min-width: 1205px) {
+    .container-fluid {
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+}
+
+.text-center {
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    #search-filter {
+        border-top: solid 2px #b7b7b7;
+        padding-top: 10px;
+    }
+}
+
+@media (min-width: 768px) {
+    #search-filter {
+        border-left: solid 2px #b7b7b7;
+    }
+}
+
+#search-option .dropdown-toggle.btn-secondary {
+    border-radius: unset;
+}
+
+#search-option .search-option-name {
+    width: 150px;
+    text-align: center;
+}
+
+#search-option .search-option-toggle {
+    margin-left: 100px;
+    text-align: left;
+}
+
+#search-filter .yes-no-filter {
+    display: inline-flex;
+}
+
+#search-filter .yes-no-filter-name {
+    width: 150px;
+    text-align: right;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.8203125rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+}
+
+.maxmind-credit {
+    color: #b7b7b7;
+}
+
+#server-list-table tr td {
+    text-align: center;
+}
+
+#server-list-table .server-no {
+    width: 55px;
+}
+
+#server-list-table .server-address {
+    width: 160px;
+}
+
+#server-list-table .server-info {
+    min-width: 500px;
+    white-space: normal;
+    text-align: left;
+    cursor: pointer;
+}
+
+#server-list-table .server-info .server-tech {
+    display: flex;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+#server-list-table .server-info .server-tech-divider {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#server-list-table .server-info .server-tech-name {
+    color: #9E9E9E;
+}
+
+#server-list-table .server-info .server-tech-version {
+    margin-left: 2px;
+}
+
+#server-list-table .server-pastebin {
+    width: 110px;
+}
+
+#server-list-table .server-players {
+    width: 70px;
+}
+
+#server-list-table .server-distance {
+    width: 130px;
+}
+
+#server-list-table-container {
+    height: 1000px;
+    overflow-x: auto;
+}

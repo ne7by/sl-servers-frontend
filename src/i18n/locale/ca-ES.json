@@ -1,0 +1,118 @@
+{
+  "navbar": {
+    "title": "Servidors SCP: SL",
+    "server-list": "Llista de servidors",
+    "all-stats": "Estadístiques completes",
+    "all-server-map": "Map of all servers"
+  },
+  "select": {
+    "placeholder": "Please select an item",
+    "empty": "Res seleccionat"
+  },
+  "filter-option": {
+    "server-search": {
+      "name": "Cercar servidor",
+      "placeholder": "Introdueix els termes de cerca",
+      "search-btn": "Cercar"
+    },
+    "country-filter": "Filtre de país",
+    "hide-empty": "Amagar servidors buits",
+    "hide-full": "Amagar servidors plens",
+    "refresh-btn": "Recarregar llista",
+    "refreshing": "Recarregant llista...",
+    "yes-no-filter": {
+      "none": "Incloure Tot",
+      "yes": "Si",
+      "no": "No",
+      "friendly-fire": "Foc Amic",
+      "whitelist": "Whitelist",
+      "modded": "Modded",
+      "order-type": {
+        "name": "Ordenar per",
+        "player-desc": "Un nombre gran de persones",
+        "player-asc": "Un nombre petit de persones",
+        "distance-asc": "Distància curta",
+        "distance-desc": "Distància llarga"
+      }
+    }
+  },
+  "server-stats": {
+    "online-users": "Tots els usuaris: {{count}}",
+    "online-servers": "Servidors en línia: {{count}}",
+    "display-users": "Usuaris seleccionats: {{count}}",
+    "display-servers": "Servidors seleccionats: {{count}}",
+    "offline-servers": "Servidors offline (en caixet): {{count}}"
+  },
+  "server-list": {
+    "head": {
+      "number": "Número",
+      "address": "Direcció",
+      "name": "Nom",
+      "pastebin": "Pastebin",
+      "players": "Jugadors",
+      "distance": "Distància"
+    },
+    "loading": "Carregant dades del servidor...",
+    "empty": "No hi ha dades que mostrar.",
+    "tech": {
+      "yes": "Si",
+      "no": "No",
+      "country": "País",
+      "game-version": "Versió de Joc",
+      "friendly-fire": "Foc Amic",
+      "whitelist": "Whitelist"
+    }
+  },
+  "server-info": {
+    "title": "Informació del servidor",
+    "status": {
+      "name": "Estat",
+      "online": "Online",
+      "offline": "Offline"
+    },
+    "address": "Direcció",
+    "players": "Jugadors",
+    "pastebin": "Pastebin",
+    "distance": "Distància",
+    "statistics": "Estadístiques del servidor",
+    "daylight-saving-time": "El temps en el gràfic no és alterat per l'horari d'estiu.",
+    "graph": {
+      "rendering": "Renderitzant gràfic...",
+      "loading": "Carregant dades del servidor...",
+      "visitors": "Visitants",
+      "visitor-suffix": null
+    }
+  },
+  "footer": {
+    "notice": "SCP: Secret Laboratory és un joc publicat per Northwood Studios™, aquest lloc no està afiliat amb Northwood Studios™.<br/>Totes les marques comercials i marques comercials registrades són propietat dels seus respectius amos."
+  },
+  "cookie-notice": {
+    "message": "Aquesta pàgina utilitza cookies per a donar-te una millor experiència.",
+    "dismiss": "Entés!",
+    "link-text": "Saber més"
+  },
+  "all-stats": {
+    "users": {
+      "title": "Nombre total d'usuaris en el servidor",
+      "select-compare-country": {
+        "name": "Seleccionar País",
+        "reset-btn": "Esborrar selecció de País"
+      },
+      "show-all": {
+        "name": "Display all country data"
+      },
+      "graph": {
+        "all-country": "Tots els països"
+      },
+      "empty-country-data": "No hi ha dades per al país \"{{countryName}}\"."
+    },
+    "mod-loader": {
+      "title": "Mod loader statistics",
+      "tooltip": "Mod Loader"
+    }
+  },
+  "all-server-map": {
+    "title": "Map of all servers",
+    "server-info-btn": "Click to check server info"
+  }
+}
