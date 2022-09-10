@@ -1,4 +1,7 @@
 {
+  "general": {
+    "language-change": "Changed language to {{language}}. Some may need a refresh."
+  },
   "navbar": {
     "title": "Servidors SCP: SL",
     "server-list": "Llista de servidors",
@@ -79,7 +82,35 @@
     "graph": {
       "loading": "Carregant dades del servidor...",
       "visitors": "Visitants",
-      "visitor-suffix": ""
+      "visitor-suffix": "",
+      "options": {
+        "date-format": "yyyy-MM-dd aa hh:mm",
+        "invalid-start-time": "The start time must be earlier than the stop time.",
+        "invalid-stop-time": "The stop time must be later than the start time.",
+        "data-range": "Data Period",
+        "start-time": "Start Time",
+        "stop-time": "Stop Time",
+        "data-resolution": "Data Resolution",
+        "graph-update-btn": "Update Graph",
+        "period": {
+          "custom": "Custom",
+          "1hour": "1 Hour",
+          "8hour": "8 Hours",
+          "1day": "1 Day",
+          "2day": "2 Days",
+          "1week": "1 Week",
+          "1month": "1 Month",
+          "3month": "3 Months",
+          "1year": "1 Year",
+          "4year": "4 Years"
+        },
+        "resolution": {
+          "1m": "1 Minute",
+          "5m": "5 Minutes",
+          "1h": "1 Hour",
+          "1d": "1 Day"
+        }
+      }
     }
   },
   "footer": {
@@ -100,7 +131,8 @@
         "name": "Display all country data"
       },
       "graph": {
-        "all-country": "Tots els països"
+        "all-country": "Tots els països",
+        "empty-country": "There is no data to query."
       }
     },
     "mod-loader": {

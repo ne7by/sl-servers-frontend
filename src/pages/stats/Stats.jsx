@@ -38,7 +38,7 @@ const Stats = () => {
         resultIsoCodes.push(...isoCodes);
         if (resultIsoCodes.length === 0) {
             setFluxResponse(null);
-            toast.warn('조회할 데이터가 없습니다.');
+            toast.warn(t('all-stats.graph.empty-country'));
             return;
         }
 

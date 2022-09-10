@@ -87,7 +87,7 @@ const GraphOption = (
 
     const handleChangeStartTime = (time) => {
         if (!isValidTimeRange(time, stopTime)) {
-            toast.warn('시작 일자는 종료 일자보다 이전이어야 합니다.');
+            toast.warn(t('server-info.graph.options.invalid-start-time'));
             setStartTime(GRAPH_DATA_START_TIME);
             return;
         }
@@ -97,7 +97,7 @@ const GraphOption = (
 
     const handleChangeStopTime = (time) => {
         if (!isValidTimeRange(startTime, time)) {
-            toast.warn('종료 일자는 시작 일자보다 이후여야 합니다.');
+            toast.warn(t('server-info.graph.options.invalid-stop-time'));
             setStopTime(new Date());
             return;
         }
@@ -142,21 +142,21 @@ const GraphOption = (
         <>
             <Row className="justify-content-sm-center">
                 <Col lg={2} md={6} sm={16}>
-                    <p className="text-center mb-0">데이터 기간</p>
+                    <p className="text-center mb-0">{t('server-info.graph.options.data-range')}</p>
                     <PeriodSelect value={period} onChange={setPeriod}/>
                 </Col>
                 {period === 'custom' && <>
                     <Col lg={4} md={6} sm={16}>
-                        <p className="text-center mb-0">시작 일자</p>
+                        <p className="text-center mb-0">{t('server-info.graph.options.start-time')}</p>
                         <DateTimeSelect value={startTime} onChange={handleChangeStartTime}/>
                     </Col>
                     <Col lg={4} md={6} sm={16}>
-                        <p className="text-center mb-0">종료 일자</p>
+                        <p className="text-center mb-0">{t('server-info.graph.options.stop-time')}</p>
                         <DateTimeSelect value={stopTime} onChange={handleChangeStopTime}/>
                     </Col>
                 </>}
                 <Col lg={2} md={6} sm={16}>
-                    <p className="text-center mb-0">데이터 간격</p>
+                    <p className="text-center mb-0">{t('server-info.graph.options.data-resolution')}</p>
                     <ResolutionSelect value={resolution} onChange={setResolution}
                                       availableValues={availableResolutions}/>
                 </Col>
@@ -165,7 +165,7 @@ const GraphOption = (
             <Row className="mt-3 mb-3">
                 <Col sm={12} className="text-center">
                     <Button variant="success" onClick={handleUpdateGraph}>
-                        <FontAwesomeIcon icon={faArrowsRotate}/> 그래프 업데이트
+                        <FontAwesomeIcon icon={faArrowsRotate}/> {t('server-info.graph.options.graph-update-btn')}
                     </Button>
                 </Col>
             </Row>

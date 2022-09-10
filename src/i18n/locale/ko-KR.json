@@ -1,4 +1,7 @@
 {
+  "general": {
+    "language-change": "언어를 {{language}} (으)로 변경했습니다. 일부는 새로고침이 필요할 수도 있습니다."
+  },
   "navbar": {
     "title": "SCP: SL 서버 목록",
     "server-list": "서버 목록",
@@ -79,7 +82,35 @@
     "graph": {
       "loading": "서버로 부터 데이터를 불러오는 중입니다...",
       "visitors": "접속자",
-      "visitor-suffix": "명"
+      "visitor-suffix": "명",
+      "options": {
+        "date-format": "yyyy년 MM월 dd일 aa hh시 mm분",
+        "invalid-start-time": "시작 일자는 종료 일자보다 이전이어야 합니다.",
+        "invalid-stop-time": "종료 일자는 시작 일자보다 이후여야 합니다.",
+        "data-range": "데이터 기간",
+        "start-time": "시작 일자",
+        "stop-time": "종료 일자",
+        "data-resolution": "데이터 간격",
+        "graph-update-btn": "그래프 업데이트",
+        "period": {
+          "custom": "직접지정",
+          "1hour": "1시간",
+          "8hour": "8시간",
+          "1day": "1일",
+          "2day": "2일",
+          "1week": "1주",
+          "1month": "1달",
+          "3month": "3달",
+          "1year": "1년",
+          "4year": "4년"
+        },
+        "resolution": {
+          "1m": "1분",
+          "5m": "5분",
+          "1h": "1시간",
+          "1d": "1일"
+        }
+      }
     }
   },
   "footer": {
@@ -100,7 +131,8 @@
         "name": "모든 국가 데이터 표시"
       },
       "graph": {
-        "all-country": "모든 국가"
+        "all-country": "모든 국가",
+        "empty-country": "조회할 데이터가 없습니다."
       }
     },
     "mod-loader": {

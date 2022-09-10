@@ -10,19 +10,19 @@ const ResolutionSelect = ({value, onChange, availableValues}) => {
     const resolutionOptions = [
         {
             value: '1m',
-            label: '1분',
+            label: t('server-info.graph.options.resolution.1m'),
         },
         {
             value: '5m',
-            label: '5분'
+            label: t('server-info.graph.options.resolution.5m'),
         },
         {
             value: '1h',
-            label: '1시간'
+            label: t('server-info.graph.options.resolution.1h'),
         },
         {
             value: '1d',
-            label: '1일'
+            label: t('server-info.graph.options.resolution.1d'),
         },
     ];
 

@@ -4,8 +4,10 @@ import languages from "../../data/language.json";
 import getStyles from "../SelectCustomStyles";
 import i18n from "i18next";
 import {toast} from "react-toastify";
+import {useTranslation} from "react-i18next";
 
 const LanguageSelect = () => {
+    const {t} = useTranslation();
     const customStyles = useMemo(() => getStyles(100), []);
     const languageOptions = languages.map(language => {
         return {
@@ -16,7 +18,7 @@ const LanguageSelect = () => {
 
     const handleChangeLanguage = (option) => {
         i18n.changeLanguage(option.value).then(() => {
-            toast.success(`언어를 ${option.label} (으)로 변경했습니다. 일부는 새로고침이 필요할 수도 있습니다.`);
+            toast.success(t('general.language-change', {language: option.label}));
         })
     }
 

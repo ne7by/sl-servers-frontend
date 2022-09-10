@@ -15,7 +15,7 @@ const DateTimeSelect = ({value, onChange}) => {
                 showTimeSelect
                 minDate={GRAPH_DATA_START_TIME}
                 maxDate={new Date()}
-                dateFormat="yyyy년 MM월 dd일 aa h시 mm분"
+                dateFormat={t('server-info.graph.options.date-format')}
                 customInput={<input type="text" className="form-control btn-secondary datetime-select-input"/>}
                 selected={value}
                 onChange={onChange}

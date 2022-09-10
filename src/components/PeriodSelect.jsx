@@ -10,43 +10,43 @@ const PeriodSelect = ({value, onChange}) => {
     const periodOptions = [
         {
             value: 'custom',
-            label: '직접지정'
+            label: t('server-info.graph.options.period.custom'),
         },
         {
             value: '1hour',
-            label: '1시간'
+            label: t('server-info.graph.options.period.1hour'),
         },
         {
             value: '8hour',
-            label: '8시간'
+            label: t('server-info.graph.options.period.8hour'),
         },
         {
             value: '1day',
-            label: '1일'
+            label: t('server-info.graph.options.period.1day'),
         },
         {
             value: '2day',
-            label: '2일'
+            label: t('server-info.graph.options.period.2day'),
         },
         {
             value: '1week',
-            label: '1주'
+            label: t('server-info.graph.options.period.1week'),
         },
         {
             value: '1month',
-            label: '1달'
+            label: t('server-info.graph.options.period.1month'),
         },
         {
             value: '3month',
-            label: '3달'
+            label: t('server-info.graph.options.period.3month'),
         },
         {
             value: '1year',
-            label: '1년'
+            label: t('server-info.graph.options.period.1year'),
         },
         {
             value: '4year',
-            label: '4년'
+            label: t('server-info.graph.options.period.4year'),
         },
     ];
 
