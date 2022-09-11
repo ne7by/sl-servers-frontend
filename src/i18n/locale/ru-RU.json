@@ -1,66 +1,66 @@
 {
   "general": {
-    "language-change": "Changed language to {{language}}. Some may need a refresh."
+    "language-change": "Язык изменен на {{language}}. Некоторые языки могут нуждаться в обновлении."
   },
   "navbar": {
-    "title": "Сервера SCP: SL",
-    "server-list": "Список серверов",
-    "all-stats": "Полная статистика",
-    "all-server-map": "Карта всех серверов"
+    "title": "Сервера SCP:SL",
+    "server-list": "Список",
+    "all-stats": "Статистика",
+    "all-server-map": "Карта серверов"
   },
   "select": {
-    "placeholder": "Please select an item",
+    "placeholder": "Выберите элемент",
     "empty": "Ничего не выбрано"
   },
   "filter-option": {
     "server-search": {
       "name": "Поиск сервера",
-      "placeholder": "Введите условия поиска",
+      "placeholder": "Введите запрос",
       "search-btn": "Поиск"
     },
-    "country-filter": "Фильтр по странам",
+    "country-filter": "Фильтр Государств",
     "hide-empty": "Скрыть пустые сервера",
-    "hide-full": "Скрыть полные сервера",
-    "refresh-btn": "Перезагрузить список",
-    "refreshing": "Перезагрузить список...",
+    "hide-full": "Скрыть заполненные сервера",
+    "refresh-btn": "Перезагрузить",
+    "refreshing": "Перезагрузка...",
     "yes-no-filter": {
-      "none": "Включить все",
+      "none": "Неважно",
       "yes": "Да",
       "no": "Нет",
       "friendly-fire": "Огонь по своим",
       "whitelist": "Белый список",
-      "modded": "Модифицировано",
+      "modded": "Модификации",
       "order-type": {
-        "name": "Выбрать тип",
-        "player-desc": "Большое количество людей",
-        "player-asc": "Небольшое количество людей",
-        "distance-asc": "Близкое расстояние",
-        "distance-desc": "Дальние расстояние"
+        "name": "Сортировка",
+        "player-desc": "Больше игроков",
+        "player-asc": "Меньше игроков",
+        "distance-asc": "Ближайшие",
+        "distance-desc": "Дальние"
       }
     }
   },
   "server-stats": {
-    "online-users": "Все пользователи: {{count}}",
-    "online-servers": "Доступно серверов: {{count}}",
+    "online-users": "Пользователей: {{count}}",
+    "online-servers": "Серверов: {{count}}",
     "display-users": "Пользователей в списке: {{count}}",
     "display-servers": "Серверов в списке: {{count}}",
-    "offline-servers": "Сервера не в сети: {{count}}"
+    "offline-servers": "Серверов офлайн: {{count}}"
   },
   "server-list": {
     "head": {
       "number": "Номер",
       "address": "Адрес",
-      "name": "Имя",
-      "pastebin": "Pastebin",
-      "players": "Игроки",
-      "distance": "Расстояние"
+      "name": "Название",
+      "pastebin": "Информация",
+      "players": "Игроков",
+      "distance": "Дистанция"
     },
-    "loading": "Загрузка данных с сервера...",
-    "empty": "Нет данных для отображения.",
+    "loading": "Загрузка данных...",
+    "empty": "Нет данных.",
     "tech": {
-      "yes": "Да",
-      "no": "Нет",
-      "country": "Страна",
+      "yes": "Вкл",
+      "no": "Выкл",
+      "country": "Гос-во",
       "game-version": "Версия игры",
       "friendly-fire": "Огонь по своим",
       "whitelist": "Белый список"
@@ -71,77 +71,77 @@
     "status": {
       "name": "Статус",
       "online": "Онлайн",
-      "offline": "Не в сети"
+      "offline": "Офлайн"
     },
     "address": "Адрес",
-    "players": "Игроки",
-    "pastebin": "Pastebin",
-    "distance": "Расстояние",
-    "statistics": "Статистика сервера",
-    "daylight-saving-time": "Переход на летнее время не влияет на время на графике.",
+    "players": "Игроков",
+    "pastebin": "Инфо",
+    "distance": "Расстояние до вас",
+    "statistics": "Статистика",
+    "daylight-saving-time": "Переход на летнее время не влияет на график.",
     "graph": {
-      "loading": "Загрузка данных с сервера...",
-      "visitors": "Посетители",
+      "loading": "Загрузка данных...",
+      "visitors": "Игроков",
       "visitor-suffix": "",
       "options": {
         "date-format": "yyyy-MM-dd aa hh:mm",
-        "invalid-start-time": "The start time must be earlier than the stop time.",
-        "invalid-stop-time": "The stop time must be later than the start time.",
-        "data-range": "Data Period",
-        "start-time": "Start Time",
-        "stop-time": "Stop Time",
-        "data-resolution": "Data Resolution",
-        "graph-update-btn": "Update Graph",
+        "invalid-start-time": "Начало должно быть раньше конца.",
+        "invalid-stop-time": "Конец должен быть позже начала.",
+        "data-range": "Период",
+        "start-time": "Начало",
+        "stop-time": "Конец",
+        "data-resolution": "Масштаб",
+        "graph-update-btn": "Обновить график",
         "period": {
-          "custom": "Custom",
-          "1hour": "1 Hour",
-          "8hour": "8 Hours",
-          "1day": "1 Day",
-          "2day": "2 Days",
-          "1week": "1 Week",
-          "1month": "1 Month",
-          "3month": "3 Months",
-          "1year": "1 Year",
-          "4year": "4 Years"
+          "custom": "Свой",
+          "1hour": "Час",
+          "8hour": "8 Часов",
+          "1day": "Сутки",
+          "2day": "2 Суток",
+          "1week": "Неделя",
+          "1month": "Месяц",
+          "3month": "Квартал",
+          "1year": "Год",
+          "4year": "4 Года"
         },
         "resolution": {
-          "1m": "1 Minute",
-          "5m": "5 Minutes",
-          "1h": "1 Hour",
-          "1d": "1 Day"
+          "1m": "1 Минута",
+          "5m": "5 Минут",
+          "1h": "Час",
+          "1d": "День"
         }
       }
     }
   },
   "footer": {
-    "notice": "SCP: Secret Laboratory - игра, выпущенная Northwood Studios ™, этот сайт не имеет отношения к Northwood Studios.™.<br/>Все товарные знаки и зарегистрированные товарные знаки являются собственностью соответствующих владельцев."
+    "notice": "SCP: Secret Laboratory - игра, выпущенная Northwood Studios™. Сайт не имеет никакого отношения к Northwood Studios™.<br/>Все товарные знаки и зарегистрированные товарные знаки являются собственностью соответствующих владельцев."
   },
   "cookie-notice": {
-    "message": "Этот веб-сайт использует файлы cookie, чтобы вы могли максимально эффективно использовать наш веб-сайт.",
-    "dismiss": "Хорошо!",
+    "message": "Этот сайт использует файлы cookie для максимальной производительности и удобства.",
+    "dismiss": "Хорошо",
     "link-text": "Узнать больше"
   },
   "all-stats": {
     "users": {
-      "title": "Общее количество пользователей серверов",
+      "title": "Общее число игроков",
       "select-compare-country": {
-        "name": "Выберите страну"
+        "name": "Выбрать гос-во"
       },
       "show-all": {
-        "name": "Показать все данные по стране"
+        "name": "Показывать все данные по стране"
       },
       "graph": {
         "all-country": "Все страны",
-        "empty-country": "There is no data to query."
+        "empty-country": "Нет данных для отображения."
       }
     },
     "mod-loader": {
-      "title": "Статистика загрузчика модов",
-      "tooltip": "Загрузчик модов"
+      "title": "Статистика фреймворков",
+      "tooltip": "Фреймворк"
     }
   },
   "all-server-map": {
-    "title": "Карта всех серверов",
-    "server-info-btn": "Нажмите, чтобы узнать информацию о сервере"
+    "title": "Карта серверов",
+    "server-info-btn": "Нажмите для получения подробной информации"
   }
 }
