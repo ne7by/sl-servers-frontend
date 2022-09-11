@@ -26,8 +26,6 @@ const Stats = () => {
 
         getCountryTrendAPI(isoCodes, options).then(res => {
             setFluxResponse(res.data);
-        }).catch(() => {
-
         })
     }
 

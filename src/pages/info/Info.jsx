@@ -39,8 +39,6 @@ const Info = (
 
         getServerGraphAPI(serverId, options).then(res => {
             setFluxResponse(res.data);
-        }).catch(() => {
-
         })
     }
 
