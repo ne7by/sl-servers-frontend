@@ -69,6 +69,7 @@
   },
   "server-info": {
     "title": "服务器信息",
+    "not-exist": "The server does not exist.",
     "status": {
       "name": "状态",
       "online": "在线",

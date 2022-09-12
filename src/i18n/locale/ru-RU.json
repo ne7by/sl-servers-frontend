@@ -69,6 +69,7 @@
   },
   "server-info": {
     "title": "Информация о сервере",
+    "not-exist": "The server does not exist.",
     "status": {
       "name": "Статус",
       "online": "Онлайн",

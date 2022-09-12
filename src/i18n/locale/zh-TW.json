@@ -69,6 +69,7 @@
   },
   "server-info": {
     "title": "伺服器信息",
+    "not-exist": "The server does not exist.",
     "status": {
       "name": "狀態",
       "online": "線上",

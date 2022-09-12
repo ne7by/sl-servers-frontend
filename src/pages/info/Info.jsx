@@ -24,6 +24,8 @@ const Info = (
     const {serverId} = useParams();
 
     useEffect(() => {
+        if (!isNumber(serverId)) return;
+
         ServerInfoActions.getServerInfo(serverId)
     }, [ServerInfoActions, serverId])
 
@@ -34,7 +36,12 @@ const Info = (
         });
     }, [])
 
+    const isNumber = () => {
+        return !isNaN(parseInt(serverId));
+    }
+
     const updateGraph = (options) => {
+        if (!isNumber(serverId)) return;
         setFluxResponse(null);
 
         getServerGraphAPI(serverId, options).then(res => {
@@ -44,6 +51,19 @@ const Info = (
 
     const handleUpdateGraphOption = (options) => {
         updateGraph(options);
+    }
+
+    if (!isNumber(serverId) || server === null) {
+        return (
+            <div className="container">
+                <div className="jumbotron" style={{padding: "20px", marginTop: "20px"}}>
+                    <h3 className="col-12 text-center">{t('server-info.title')}</h3>
+                    <Alert variant="danger" className="mt-3 mb-0">
+                        {t('server-info.not-exist')}
+                    </Alert>
+                </div>
+            </div>
+        );
     }
 
     return (

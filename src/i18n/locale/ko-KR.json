@@ -69,6 +69,7 @@
   },
   "server-info": {
     "title": "서버 정보",
+    "not-exist": "존재하지 않는 서버입니다.",
     "status": {
       "name": "상태",
       "online": "온라인",

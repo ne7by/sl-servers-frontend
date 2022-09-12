@@ -69,6 +69,7 @@
   },
   "server-info": {
     "title": "Server Information",
+    "not-exist": "The server does not exist.",
     "status": {
       "name": "Status",
       "online": "Online",
