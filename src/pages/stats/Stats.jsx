@@ -36,7 +36,7 @@ const Stats = () => {
         resultIsoCodes.push(...isoCodes);
         if (resultIsoCodes.length === 0) {
             setFluxResponse(null);
-            toast.warn(t('all-stats.graph.empty-country'));
+            toast.warn(t('all-stats.users.graph.empty-country'));
             return;
         }
 
