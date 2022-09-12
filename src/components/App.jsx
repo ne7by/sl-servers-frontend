@@ -1,12 +1,18 @@
 import React from 'react';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import Container from "./Container";
-import {Credit, Info, List, Map, NotFound, Stats} from "../pages";
 import {ToastContainer} from "react-toastify";
 import {CookieConsent} from "react-cookie-consent";
 import {useTranslation} from "react-i18next";
 
 import 'react-toastify/dist/ReactToastify.min.css';
+
+const Info = React.lazy(() => import('../pages/info/Info'));
+const List = React.lazy(() => import('../pages/list/List'));
+const Map = React.lazy(() => import('../pages/map/Map'));
+const Stats = React.lazy(() => import('../pages/stats/Stats'));
+const Credit = React.lazy(() => import('../pages/credit/Credit'));
+const NotFound = React.lazy(() => import('../pages/NotFound'));
 
 const App = () => {
     const {t} = useTranslation();
@@ -14,14 +20,16 @@ const App = () => {
     return (
         <>
             <BrowserRouter>
-                <Switch>
-                    <Route exact path="/" render={() => <Container view={<List/>}/>}/>
-                    <Route path="/servers/:serverId" render={() => <Container view={<Info/>}/>}/>
-                    <Route path="/stats" render={() => <Container view={<Stats/>}/>}/>
-                    <Route path="/map" render={() => <Container view={<Map/>}/>}/>
-                    <Route path="/credit" render={() => <Container view={<Credit/>}/>}/>
-                    <Route path="/*" render={() => <Container view={<NotFound/>}/>}/>
-                </Switch>
+                <React.Suspense fallback={<h1>Please wait...</h1>}>
+                    <Switch>
+                        <Route exact path="/" render={() => <Container view={<List/>}/>}/>
+                        <Route path="/servers/:serverId" render={() => <Container view={<Info/>}/>}/>
+                        <Route path="/stats" render={() => <Container view={<Stats/>}/>}/>
+                        <Route path="/map" render={() => <Container view={<Map/>}/>}/>
+                        <Route path="/credit" render={() => <Container view={<Credit/>}/>}/>
+                        <Route path="/*" render={() => <Container view={<NotFound/>}/>}/>
+                    </Switch>
+                </React.Suspense>
             </BrowserRouter>
 
             <ToastContainer
