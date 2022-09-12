@@ -1,6 +1,7 @@
 {
   "general": {
-    "language-change": "Язык изменен на {{language}}. Некоторые языки могут нуждаться в обновлении."
+    "language-change": "Язык изменен на {{language}}. Некоторые языки могут нуждаться в обновлении.",
+    "not-found": "The page you requested could not be found."
   },
   "navbar": {
     "title": "Сервера SCP:SL",

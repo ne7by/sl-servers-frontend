@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import Container from "./Container";
-import {Credit, Info, List, Map, Stats} from "../pages";
+import {Credit, Info, List, Map, NotFound, Stats} from "../pages";
 import {ToastContainer} from "react-toastify";
 import {CookieConsent} from "react-cookie-consent";
 import {useTranslation} from "react-i18next";
@@ -20,6 +20,7 @@ const App = () => {
                     <Route path="/stats" render={() => <Container view={<Stats/>}/>}/>
                     <Route path="/map" render={() => <Container view={<Map/>}/>}/>
                     <Route path="/credit" render={() => <Container view={<Credit/>}/>}/>
+                    <Route path="/*" render={() => <Container view={<NotFound/>}/>}/>
                 </Switch>
             </BrowserRouter>
 

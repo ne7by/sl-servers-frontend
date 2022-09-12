@@ -1,6 +1,7 @@
 {
   "general": {
-    "language-change": "Changed language to {{language}}. Some may need a refresh."
+    "language-change": "Changed language to {{language}}. Some may need a refresh.",
+    "not-found": "The page you requested could not be found."
   },
   "navbar": {
     "title": "Сервера SCP: SL",
