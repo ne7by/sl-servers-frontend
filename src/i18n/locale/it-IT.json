@@ -1,7 +1,7 @@
 {
   "general": {
-    "language-change": "Changed language to {{language}}. Some may need a refresh.",
-    "not-found": "The page you requested could not be found."
+    "language-change": "Lingua impostata su {{language}}. Potrebbe essere necessario ricaricare la pagina.",
+    "not-found": "La pagina che hai richiesto non esiste."
   },
   "navbar": {
     "title": "Server SCP:SL",
@@ -10,7 +10,7 @@
     "all-server-map": "Mappa di tutti i Server"
   },
   "select": {
-    "placeholder": "Please select an item",
+    "placeholder": "Per favore, seleziona qualcosa",
     "empty": "Non hai selezionato niente"
   },
   "filter-option": {
@@ -30,7 +30,7 @@
       "no": "No",
       "friendly-fire": "Friendly Fire",
       "whitelist": "Whitelist",
-      "modded": "Modded",
+      "modded": "Moddato",
       "order-type": {
         "name": "Ordina per tipo",
         "player-desc": "Un grande numero di giocatori",
@@ -87,30 +87,30 @@
       "visitor-suffix": "",
       "options": {
         "date-format": "yyyy-MM-dd aa hh:mm",
-        "invalid-start-time": "The start time must be earlier than the stop time.",
-        "invalid-stop-time": "The stop time must be later than the start time.",
-        "data-range": "Data Period",
-        "start-time": "Start Time",
-        "stop-time": "Stop Time",
-        "data-resolution": "Data Resolution",
-        "graph-update-btn": "Update Graph",
+        "invalid-start-time": "La data di inizio deve essere prima della data di file.",
+        "invalid-stop-time": "La data di fine deve essere dopo la data di inizio.",
+        "data-range": "Periodo",
+        "start-time": "Da",
+        "stop-time": "A",
+        "data-resolution": "Risoluzione",
+        "graph-update-btn": "Aggiorna il grafico",
         "period": {
-          "custom": "Custom",
-          "1hour": "1 Hour",
-          "8hour": "8 Hours",
-          "1day": "1 Day",
-          "2day": "2 Days",
-          "1week": "1 Week",
-          "1month": "1 Month",
-          "3month": "3 Months",
-          "1year": "1 Year",
-          "4year": "4 Years"
+          "custom": "Personalizzato",
+          "1hour": "1 ora",
+          "8hour": "8 ore",
+          "1day": "1 giorno",
+          "2day": "2 giorni",
+          "1week": "1 settimana",
+          "1month": "1 mese",
+          "3month": "3 mesi",
+          "1year": "1 anno",
+          "4year": "4 anni"
         },
         "resolution": {
-          "1m": "1 Minute",
-          "5m": "5 Minutes",
-          "1h": "1 Hour",
-          "1d": "1 Day"
+          "1m": "1 minuto",
+          "5m": "5 minuti",
+          "1h": "1 ora",
+          "1d": "1 giorno"
         }
       }
     }
@@ -134,11 +134,11 @@
       },
       "graph": {
         "all-country": "Tutti i paesi",
-        "empty-country": "There is no data to query."
+        "empty-country": "Non ci sono dati riguardanti questo paese."
       }
     },
     "mod-loader": {
-      "title": "Mod loader statistics",
+      "title": "Statistiche dei Mod Loader",
       "tooltip": "Mod Loader"
     }
   },
