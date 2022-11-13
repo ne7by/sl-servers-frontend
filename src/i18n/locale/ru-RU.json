@@ -1,11 +1,11 @@
 {
   "general": {
     "language-change": "Язык изменен на {{language}}. Некоторые языки могут нуждаться в обновлении.",
-    "not-found": "The page you requested could not be found."
+    "not-found": "Запрашиваемая страница не найдена."
   },
   "navbar": {
-    "title": "Сервера SCP:SL",
-    "server-list": "Список",
+    "title": "Серверы SCP:SL",
+    "server-list": "Список серверов",
     "all-stats": "Статистика",
     "all-server-map": "Карта серверов"
   },
@@ -19,33 +19,33 @@
       "placeholder": "Введите запрос",
       "search-btn": "Поиск"
     },
-    "country-filter": "Фильтр Государств",
-    "hide-empty": "Скрыть пустые сервера",
-    "hide-full": "Скрыть заполненные сервера",
+    "country-filter": "Фильтр стран",
+    "hide-empty": "Скрыть пустые серверы",
+    "hide-full": "Скрыть заполненные серверы",
     "refresh-btn": "Перезагрузить",
-    "refreshing": "Перезагрузка...",
+    "refreshing": "Обновление...",
     "yes-no-filter": {
-      "none": "Неважно",
-      "yes": "Да",
-      "no": "Нет",
+      "none": "Не важно",
+      "yes": "Вкл",
+      "no": "Выкл",
       "friendly-fire": "Огонь по своим",
       "whitelist": "Белый список",
       "modded": "Модификации",
       "order-type": {
-        "name": "Сортировка",
-        "player-desc": "Больше игроков",
-        "player-asc": "Меньше игроков",
-        "distance-asc": "Ближайшие",
-        "distance-desc": "Дальние"
+        "name": "Сортировать по",
+        "player-desc": "Увеличению количества игроков",
+        "player-asc": "Уменьшению количества игроков",
+        "distance-asc": "Увеличении дистанции",
+        "distance-desc": "Уменьшении дистанции"
       }
     }
   },
   "server-stats": {
-    "online-users": "Пользователей: {{count}}",
+    "online-users": "Игроков: {{count}}",
     "online-servers": "Серверов: {{count}}",
-    "display-users": "Пользователей в списке: {{count}}",
+    "display-users": "Игроков в списке: {{count}}",
     "display-servers": "Серверов в списке: {{count}}",
-    "offline-servers": "Серверов офлайн: {{count}}"
+    "offline-servers": "Серверов оффлайн (кэшированных): {{count}}"
   },
   "server-list": {
     "head": {
@@ -61,7 +61,7 @@
     "tech": {
       "yes": "Вкл",
       "no": "Выкл",
-      "country": "Гос-во",
+      "country": "Страна",
       "game-version": "Версия игры",
       "friendly-fire": "Огонь по своим",
       "whitelist": "Белый список"
@@ -69,16 +69,16 @@
   },
   "server-info": {
     "title": "Информация о сервере",
-    "not-exist": "The server does not exist.",
+    "not-exist": "Указанный сервер не существует.",
     "status": {
       "name": "Статус",
       "online": "Онлайн",
-      "offline": "Офлайн"
+      "offline": "Оффлайн"
     },
     "address": "Адрес",
     "players": "Игроков",
-    "pastebin": "Инфо",
-    "distance": "Расстояние до вас",
+    "pastebin": "Pastebin",
+    "distance": "Дистанция",
     "statistics": "Статистика",
     "daylight-saving-time": "Переход на летнее время не влияет на график.",
     "graph": {
@@ -90,25 +90,25 @@
         "invalid-start-time": "Начало должно быть раньше конца.",
         "invalid-stop-time": "Конец должен быть позже начала.",
         "data-range": "Период",
-        "start-time": "Начало",
-        "stop-time": "Конец",
+        "start-time": "С",
+        "stop-time": "По",
         "data-resolution": "Масштаб",
         "graph-update-btn": "Обновить график",
         "period": {
-          "custom": "Свой",
+          "custom": "Пользовательский",
           "1hour": "Час",
-          "8hour": "8 Часов",
-          "1day": "Сутки",
-          "2day": "2 Суток",
+          "8hour": "8 часов",
+          "1day": "День",
+          "2day": "2 дня",
           "1week": "Неделя",
           "1month": "Месяц",
-          "3month": "Квартал",
+          "3month": "3 месяца",
           "1year": "Год",
-          "4year": "4 Года"
+          "4year": "4 года"
         },
         "resolution": {
-          "1m": "1 Минута",
-          "5m": "5 Минут",
+          "1m": "1 минута",
+          "5m": "5 минут",
           "1h": "Час",
           "1d": "День"
         }
@@ -127,7 +127,7 @@
     "users": {
       "title": "Общее число игроков",
       "select-compare-country": {
-        "name": "Выбрать гос-во"
+        "name": "Выбрать страну"
       },
       "show-all": {
         "name": "Показывать все данные по стране"
@@ -138,12 +138,12 @@
       }
     },
     "mod-loader": {
-      "title": "Статистика фреймворков",
-      "tooltip": "Фреймворк"
+      "title": "Статистика загрузчиков плагинов",
+      "tooltip": "Загрузчик плагинов"
     }
   },
   "all-server-map": {
     "title": "Карта серверов",
-    "server-info-btn": "Нажмите для получения подробной информации"
+    "server-info-btn": "Подробнее о сервере"
   }
 }
