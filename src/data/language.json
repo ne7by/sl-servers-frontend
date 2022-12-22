@@ -89,6 +89,13 @@
     ]
   },
   {
+    "code": "lij-IT",
+    "name": "Ligurian",
+    "contributors": [
+      "FoxWorn3365"
+    ]
+  },
+  {
     "code": "de-DE",
     "name": "German",
     "contributors": [

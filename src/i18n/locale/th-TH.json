@@ -1,75 +1,75 @@
 {
   "general": {
-    "language-change": "Changed language to {{language}}. Some may need a refresh.",
-    "not-found": "The page you requested could not be found."
+    "language-change": "เปลี่ยนภาษาเป็น {{language}}. อาจต้องรีเฟรช.",
+    "not-found": "ไม่พบหน้า."
   },
   "navbar": {
-    "title": "เซิฟเวอร์ SCP: SL",
+    "title": "เซิร์ฟเวอร์ SCP: SL",
     "server-list": "รายชื่อเซิร์ฟเวอร์",
     "all-stats": "สถิติทั้งหมด",
     "all-server-map": "แผนที่ของเซิร์ฟเวอร์ทั้งหมด"
   },
   "select": {
-    "placeholder": "Please select an item",
+    "placeholder": "กรุณาเลือกรายการ",
     "empty": "ไม่ได้เลือก"
   },
   "filter-option": {
     "server-search": {
       "name": "ค้นหาเซิร์ฟเวอร์",
-      "placeholder": "ใส่คำค้นหา",
+      "placeholder": "ป้อนคำค้นหา",
       "search-btn": "ค้นหา"
     },
     "country-filter": "ตัวกรองประเทศ",
     "hide-empty": "ซ่อนเซิร์ฟเวอร์ไม่มีคน",
     "hide-full": "ซ่อนเซิร์ฟเวอร์คนเต็ม",
-    "refresh-btn": "โหลดเซิฟเวอร์อีกครั้ง",
-    "refreshing": "กำลังโหลดเซิฟเวอร์...",
+    "refresh-btn": "โหลดอีกครั้ง",
+    "refreshing": "กำลังโหลด...",
     "yes-no-filter": {
       "none": "ทั้งหมด",
       "yes": "ใช่",
-      "no": "ไม่",
-      "friendly-fire": "การยิงกันเอง",
+      "no": "ไม่ใช่",
+      "friendly-fire": "ยิงกันเอง",
       "whitelist": "ไวท์ลิสต์",
-      "modded": "มอด",
+      "modded": "ดัดเเปลง",
       "order-type": {
         "name": "ประเภท",
-        "player-desc": "คนจำนวนมาก",
-        "player-asc": "คนจำนวนน้อย",
-        "distance-asc": "ระยะใกล้",
-        "distance-desc": "ระยะไกล"
+        "player-desc": "ผู้เล่นเยอะ",
+        "player-asc": "ผู้เล่นน้อย",
+        "distance-asc": "ใกล้",
+        "distance-desc": "ไกล"
       }
     }
   },
   "server-stats": {
     "online-users": "ผู้ใช้ทั้งหมด: {{count}}",
-    "online-servers": "เซิร์ฟเวอร์ออนไลน์: {{count}}",
+    "online-servers": "เซิร์ฟเวอร์ร์ออนไลน์: {{count}}",
     "display-users": "รายชื่อผู้ใช้: {{count}}",
     "display-servers": "รายชื่อเซิร์ฟเวอร์: {{count}}",
-    "offline-servers": "ออฟไลน์ (cached) เซิร์ฟเวอร์: {{count}}"
+    "offline-servers": "เซิร์ฟเวอร์ออฟไลน์ (แคช): {{count}}"
   },
   "server-list": {
     "head": {
-      "number": "ตัวเลข",
+      "number": "หมายเลข",
       "address": "ที่อยู่ IP",
-      "name": "ชื่อเซิฟ",
+      "name": "ชื่อ",
       "pastebin": "Pastebin",
       "players": "ผู้เล่น",
-      "distance": "ระยะ"
+      "distance": "ระยะห่าง"
     },
     "loading": "กำลังโหลดข้อมูลจากเซิร์ฟเวอร์...",
-    "empty": "ไม่มีข้อมูลที่จะแสดง.",
+    "empty": "ไม่มีข้อมูลให้แสดง.",
     "tech": {
       "yes": "ใช่",
-      "no": "ไม่",
+      "no": "ไม่ใช่",
       "country": "ประเทศ",
       "game-version": "เวอร์ชั่นเกม",
-      "friendly-fire": "การยิงกันเอง",
+      "friendly-fire": "ยิงกันเอง",
       "whitelist": "ไวท์ลิสต์"
     }
   },
   "server-info": {
-    "title": "รายละเอียดเซิฟเวอร์",
-    "not-exist": "The server does not exist.",
+    "title": "ข้อมูลเซิร์ฟเวอร์",
+    "not-exist": "ไม่มีเซิร์ฟเวอร์.",
     "status": {
       "name": "สถานะ",
       "online": "ออนไลน์",
@@ -78,45 +78,45 @@
     "address": "ที่อยู่ IP",
     "players": "ผู้เล่น",
     "pastebin": "Pastebin",
-    "distance": "ระยะ",
+    "distance": "ระยะห่าง",
     "statistics": "สถิติเซิร์ฟเวอร์",
-    "daylight-saving-time": "เวลาบนกราฟไม่ได้รับผลกระทบจากเวลาออมแสง.",
+    "daylight-saving-time": "เวลาบนกราฟจะไม่ได้รับผลกระทบจากระบบ.",
     "graph": {
       "loading": "กำลังโหลดข้อมูลจากเซิร์ฟเวอร์...",
-      "visitors": "ผู้เข้าชม",
+      "visitors": "ผู้เล่น",
       "visitor-suffix": "",
       "options": {
         "date-format": "yyyy-MM-dd aa hh:mm",
-        "invalid-start-time": "The start time must be earlier than the stop time.",
-        "invalid-stop-time": "The stop time must be later than the start time.",
-        "data-range": "Data Period",
-        "start-time": "Start Time",
-        "stop-time": "Stop Time",
-        "data-resolution": "Data Resolution",
-        "graph-update-btn": "Update Graph",
+        "invalid-start-time": "เวลาเริ่มต้นต้องมาก่อนเวลาหยุด.",
+        "invalid-stop-time": "เวลาหยุดต้องช้ากว่าเวลาเริ่มต้น.",
+        "data-range": "ระยะเวลาข้อมูล",
+        "start-time": "เวลาเริ่มต้น",
+        "stop-time": "หยุดเวลา",
+        "data-resolution": "ความละเอียดของข้อมูล",
+        "graph-update-btn": "อัพเดทกราฟ",
         "period": {
-          "custom": "Custom",
-          "1hour": "1 Hour",
-          "8hour": "8 Hours",
-          "1day": "1 Day",
-          "2day": "2 Days",
-          "1week": "1 Week",
-          "1month": "1 Month",
-          "3month": "3 Months",
-          "1year": "1 Year",
-          "4year": "4 Years"
+          "custom": "กำหนดเอง",
+          "1hour": "1 ชั่วโมง",
+          "8hour": "8 ชั่วโมง",
+          "1day": "1 วัน",
+          "2day": "2 วัน",
+          "1week": "1 สัปดาห์",
+          "1month": "1 เดือน",
+          "3month": "3 เดือน",
+          "1year": "1 ปี",
+          "4year": "4 ปี"
         },
         "resolution": {
-          "1m": "1 Minute",
-          "5m": "5 Minutes",
-          "1h": "1 Hour",
-          "1d": "1 Day"
+          "1m": "1 นาที",
+          "5m": "5 นาที",
+          "1h": "1 ชั่วโมง",
+          "1d": "1 วัน"
         }
       }
     }
   },
   "footer": {
-    "notice": "SCP: Secret Laboratory เป็นเกมที่ออกเเบบโดย Northwood Studios™, เว็บไซต์นี้ไม่มีส่วนเกี่ยวข้องกับ Northwood Studios™.<br/>เครื่องหมายการค้าและเครื่องหมายการค้าจดทะเบียนทั้งหมดเป็นทรัพย์สินของเจ้าของที่เกี่ยวข้อง."
+    "notice": "SCP: Secret Laboratory เป็นเกมที่ออกโดย Northwood Studios™ เว็บไซต์นี้ไม่มีส่วนเกี่ยวข้องกับ Northwood Studios™<br/>เครื่องหมายการค้าและเครื่องหมายการค้าจดทะเบียนทั้งหมดเป็นทรัพย์สินของเจ้าของที่เกี่ยวข้อง"
   },
   "cookie-notice": {
     "message": "เว็บไซต์นี้ใช้คุกกี้เพื่อให้แน่ใจว่าคุณได้รับประสบการณ์ที่ดีที่สุดบนเว็บไซต์ของเรา.",
@@ -134,11 +134,11 @@
       },
       "graph": {
         "all-country": "ทุกประเทศ",
-        "empty-country": "There is no data to query."
+        "empty-country": "ไม่มีข้อมูลที่จะตรวจสอบ."
       }
     },
     "mod-loader": {
-      "title": "สถิติตัวโหลด Mod",
+      "title": "สถิติของตัวโหลด Mod",
       "tooltip": "ตัวโหลด Mod"
     }
   },

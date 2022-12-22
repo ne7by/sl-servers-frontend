@@ -15,6 +15,7 @@ import frFR from './locale/fr-FR.json';
 import trTR from './locale/tr-TR.json';
 import thTH from './locale/th-TH.json';
 import itIT from './locale/it-IT.json';
+import lijIT from './locale/lij-IT.json';
 import deDE from './locale/de-DE.json';
 
 const resource = {
@@ -56,6 +57,9 @@ const resource = {
     },
     "it-IT": {
         translation: itIT
+    },
+    "lij-IT": {
+        translation: lijIT
     },
     "de-DE": {
         translation: deDE

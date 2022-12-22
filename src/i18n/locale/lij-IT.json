@@ -1,0 +1,149 @@
+{
+  "general": {
+    "language-change": "Lìngua impostata su {{language}}. Potrebbe êse necesâio caregâ tórna a pàgina.",
+    "not-found": "A pàgina che ti avéi domandòu no exìste."
+  },
+  "navbar": {
+    "title": "Sèrver SCP:SL",
+    "server-list": "Lìsta di Sèrver",
+    "all-stats": "Statistiche conplête",
+    "all-server-map": "Màppa de tutti i Sèrver"
+  },
+  "select": {
+    "placeholder": "Pe cortexîa, indicâ quarcösa",
+    "empty": "No avéi indicâ zóbbo!"
+  },
+  "filter-option": {
+    "server-search": {
+      "name": "Çèrchia 'n Sèrver",
+      "placeholder": "Inserî i termini de o riçèrca",
+      "search-btn": "Çèrchia"
+    },
+    "country-filter": "Filtrâ pe o naçión",
+    "hide-empty": "Intafoâ i sèrver vuoti",
+    "hide-full": "Intafoâ i sèrver pieni",
+    "refresh-btn": "Recàrega a lìsta",
+    "refreshing": "Caregaménto lìsta inte còrso...",
+    "yes-no-filter": {
+      "none": "Inclùdde tùtto",
+      "yes": "Si",
+      "no": "Nôe",
+      "friendly-fire": "Friendly Fire",
+      "whitelist": "Whitelist",
+      "modded": "Moddato",
+      "order-type": {
+        "name": "Ordinâ pe o tîpo",
+        "player-desc": "'n grànde nùmero de zugòui",
+        "player-asc": "'n piccolo nùmero de zugòui",
+        "distance-asc": "Più arénte",
+        "distance-desc": "Più lónxi"
+      }
+    }
+  },
+  "server-stats": {
+    "online-users": "Utènti totâli: {{count}}",
+    "online-servers": "Sèrver conéssi: {{count}}",
+    "display-users": "Utènti inta lìsta: {{count}}",
+    "display-servers": "Sèrver inta lìsta: {{count}}",
+    "offline-servers": "Sèrver no conéssi (cached): {{count}}"
+  },
+  "server-list": {
+    "head": {
+      "number": "Nùmero",
+      "address": "Indirìsso IP",
+      "name": "Nómme",
+      "pastebin": "Pastebin",
+      "players": "Zugòui",
+      "distance": "Distànsa"
+    },
+    "loading": "Caregaménto informaçióni da-o sèrver inte còrso...",
+    "empty": "No ghe sono informaçióni pe quésto sèrver.",
+    "tech": {
+      "yes": "Si",
+      "no": "Nôe",
+      "country": "Naçión",
+      "game-version": "Versción de o zêugo",
+      "friendly-fire": "Friendly Fire",
+      "whitelist": "Whitelist"
+    }
+  },
+  "server-info": {
+    "title": "informaçióni do Sèrver",
+    "not-exist": "O sèerver no exìste",
+    "status": {
+      "name": "Stâto",
+      "online": "Conésso",
+      "offline": "Desconésso"
+    },
+    "address": "Indirìsso IP",
+    "players": "Zugòui",
+    "pastebin": "Pastebin",
+    "distance": "Distànsa",
+    "statistics": "Statistiche do Sèrver",
+    "daylight-saving-time": "L'ôa in sciô gràfico no êse influenzata da-a ôa legâle.",
+    "graph": {
+      "loading": "Caregaménto informaçióni da-o sèrver inte còrso...",
+      "visitors": "Vixitatôi",
+      "visitor-suffix": "",
+      "options": {
+        "date-format": "yyyy-MM-dd aa hh:mm",
+        "invalid-start-time": "A dæta de inìçio dovéi êse alò a dæta de fìn.",
+        "invalid-stop-time": "A dæta de fìn dovéi êse depoî a dæta de inìçio.",
+        "data-range": "Perîodo",
+        "start-time": "Da",
+        "stop-time": "A",
+        "data-resolution": "Resoluçión",
+        "graph-update-btn": "Agiornâ o gràfico",
+        "period": {
+          "custom": "Personalizòu",
+          "1hour": "1 ôa",
+          "8hour": "8 ôe",
+          "1day": "1 giórno",
+          "2day": "2 giórni",
+          "1week": "1 setemànn-a",
+          "1month": "1 méize",
+          "3month": "3 méizi",
+          "1year": "1 ànno",
+          "4year": "4 ànni"
+        },
+        "resolution": {
+          "1m": "1 menûto",
+          "5m": "5 menûti",
+          "1h": "1 ôa",
+          "1d": "1 giórno"
+        }
+      }
+    }
+  },
+  "footer": {
+    "notice": "SCP: Secret Laboratory êse 'n zêugo prodûto da Northwood Studios™, 'sto scîto d’Internétte no êse afiliòu con Northwood Studios™.<br/>Tùtti i dirìtti sono riservòui a-o creatô do zêugo."
+  },
+  "cookie-notice": {
+    "message": "Quésto scîto d’Internétte dêuviâ i cookie per unn-a espertîxe mêgio(e) de navegaçión.",
+    "dismiss": "Acapîo!",
+    "link-text": "Lêze âtro"
+  },
+  "all-stats": {
+    "users": {
+      "title": "Nùmero totâle di zugòui",
+      "select-compare-country": {
+        "name": "Seleçionâ 'n naçión"
+      },
+      "show-all": {
+        "name": "Móstra tùtti i dati de ògni naçión"
+      },
+      "graph": {
+        "all-country": "Tùtti(e) i naçión",
+        "empty-country": "No ghe sun dati rigoardànte quésto naçión."
+      }
+    },
+    "mod-loader": {
+      "title": "Statìstiche di Mod Loader",
+      "tooltip": "Mod Loader"
+    }
+  },
+  "all-server-map": {
+    "title": "Màppa di sèrver",
+    "server-info-btn": "Sciacâ per védde-e informaçióni de sèrver"
+  }
+}
