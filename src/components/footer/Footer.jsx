@@ -8,7 +8,7 @@ const Footer = () => {
 
     return (
         <div className="jumbotron page-footer">
-            Copyright 2020-2022. horyu1234(류현오) All rights reserved.
+            Copyright 2020-2023. Horyu(류현오) All rights reserved.
             <br/><br/>
             <span dangerouslySetInnerHTML={{__html: t('footer.notice')}}/>
             <br/><br/>
