@@ -1,7 +1,7 @@
 {
   "general": {
     "language-change": "Changed language to {{language}}. Some may need a refresh.",
-    "not-found": "The page you requested could not be found."
+    "not-found": "Запитана вами сторінка не знайдена."
   },
   "navbar": {
     "title": "Сервера SCP: SL",
@@ -69,7 +69,7 @@
   },
   "server-info": {
     "title": "Інформація про сервер",
-    "not-exist": "The server does not exist.",
+    "not-exist": "Сервер не існує.",
     "status": {
       "name": "Статус",
       "online": "Онлайн",
@@ -89,22 +89,22 @@
         "date-format": "yyyy-MM-dd aa hh:mm",
         "invalid-start-time": "The start time must be earlier than the stop time.",
         "invalid-stop-time": "The stop time must be later than the start time.",
-        "data-range": "Data Period",
-        "start-time": "Start Time",
-        "stop-time": "Stop Time",
+        "data-range": "Період даних",
+        "start-time": "Час початку",
+        "stop-time": "Час зупинки",
         "data-resolution": "Data Resolution",
-        "graph-update-btn": "Update Graph",
+        "graph-update-btn": "Відновити графік",
         "period": {
-          "custom": "Custom",
-          "1hour": "1 Hour",
-          "8hour": "8 Hours",
-          "1day": "1 Day",
-          "2day": "2 Days",
-          "1week": "1 Week",
-          "1month": "1 Month",
-          "3month": "3 Months",
-          "1year": "1 Year",
-          "4year": "4 Years"
+          "custom": "Свій",
+          "1hour": "1 Година",
+          "8hour": "8 Годин",
+          "1day": "1 День",
+          "2day": "2 Дні",
+          "1week": "1 Тиждень",
+          "1month": "1 Місяць",
+          "3month": "3 Місяці",
+          "1year": "1 Рік",
+          "4year": "4 Роки"
         },
         "resolution": {
           "1m": "1 Minute",
