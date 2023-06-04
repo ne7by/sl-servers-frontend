@@ -102,5 +102,12 @@
     "contributors": [
       "OptixWolf"
     ]
+  },
+    {
+    "code": "bg-BG",
+    "name": "Bulgarian",
+    "contributors": [
+      "georgi170109"
+    ]
   }
 ]

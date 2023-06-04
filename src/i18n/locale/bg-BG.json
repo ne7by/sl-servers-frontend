@@ -1,0 +1,149 @@
+{
+  "general": {
+    "language-change": "Променихте езика към {{language}}. Някой промени изискват рестартиране на страницата.",
+    "not-found": "Страницата в която влизате не може да е намерена."
+  },
+  "navbar": {
+    "title": "SCP: SL Сървъри",
+    "server-list": "Списък от сървъри",
+    "all-stats": "Пълна статистика",
+    "all-server-map": "Карта на всички сървъри"
+  },
+  "select": {
+    "placeholder": "Моля изберете едно от посочените",
+    "empty": "Нищо не е избрано"
+  },
+  "filter-option": {
+    "server-search": {
+      "name": "Търсене на сървъри",
+      "placeholder": "Въведете фрази",
+      "search-btn": "Търсете"
+    },
+    "country-filter": "Филтър държави",
+    "hide-empty": "Скрийте празни сървъри",
+    "hide-full": "Скрийте пълни сървъри",
+    "refresh-btn": "Презареди списъка",
+    "refreshing": "Презареждане на списъка...",
+    "yes-no-filter": {
+      "none": "Включи всички",
+      "yes": "Да",
+      "no": "Не",
+      "friendly-fire": "Приятелски Огън",
+      "whitelist": "Частен",
+      "modded": "Моднат",
+      "order-type": {
+        "name": "Тип спрямо хора",
+        "player-desc": "Много хора",
+        "player-asc": "Малко хора",
+        "distance-asc": "Близко по локация",
+        "distance-desc": "Далеч по локация"
+      }
+    }
+  },
+  "server-stats": {
+    "online-users": "Всички играчи: {{count}}",
+    "online-servers": "Онлайн сървъри: {{count}}",
+    "display-users": "Потребители изброени: {{count}}",
+    "display-servers": "Сървъри изброени: {{count}}",
+    "offline-servers": "Офлайн (запазени) сървъри: {{count}}"
+  },
+  "server-list": {
+    "head": {
+      "number": "Номер",
+      "address": "Адрес",
+      "name": "Име",
+      "pastebin": "Pastebin",
+      "players": "Играчи",
+      "distance": "Разстояние"
+    },
+    "loading": "Зареждане на данни от сървър...",
+    "empty": "Няма данни за показване.",
+    "tech": {
+      "yes": "Да",
+      "no": "Не",
+      "country": "Държава",
+      "game-version": "Версия на играта",
+      "friendly-fire": "Приятелски Огън",
+      "whitelist": "Частен"
+    }
+  },
+  "server-info": {
+    "title": "Информация на сървъра",
+    "not-exist": "Сървъра не съществува.",
+    "status": {
+      "name": "Статус",
+      "online": "Онлайн",
+      "offline": "Офлайн"
+    },
+    "address": "Адрес",
+    "players": "Играчи",
+    "pastebin": "Pastebin",
+    "distance": "Разстояние",
+    "statistics": "Статистика на сървър",
+    "daylight-saving-time": "Часът на графиката не се влияе от лятното часово време.",
+    "graph": {
+      "loading": "Зареждане на данни от сървър...",
+      "visitors": "Посетителя",
+      "visitor-suffix": "",
+      "options": {
+        "date-format": "yyyy-MM-dd aa hh:mm",
+        "invalid-start-time": "Началното време трябва да е по-рано отколкото крайното време.",
+        "invalid-stop-time": "Крайното време трябва да е по-късно отколкото началното време",
+        "data-range": "Период на данни",
+        "start-time": "Начално време",
+        "stop-time": "Крайно време",
+        "data-resolution": "Резолюция на данните",
+        "graph-update-btn": "Поднови графа",
+        "period": {
+          "custom": "Персонализирано",
+          "1hour": "1 Час",
+          "8hour": "8 Часа",
+          "1day": "1 Ден",
+          "2day": "2 Дена",
+          "1week": "1 Седмица",
+          "1month": "1 Месец",
+          "3month": "3 Месеца",
+          "1year": "1 Година",
+          "4year": "4 Години"
+        },
+        "resolution": {
+          "1m": "1 Минута",
+          "5m": "5 Минути",
+          "1h": "1 Час",
+          "1d": "1 Ден"
+        }
+      }
+    }
+  },
+  "footer": {
+    "notice": "SCP: Secret Laboratory е игра публикувана от Northwood Studios™, този сайт не е по никакъв начин свързан с Northwood Studios™.<br/>Всички марки са регистрирани марки и собственост на техните собственици.."
+  },
+  "cookie-notice": {
+    "message": "Тозй сайт ползва бисквити за да осигури най-доброто преживяване в сайта ни.",
+    "dismiss": "Добре!",
+    "link-text": "Научи повече"
+  },
+  "all-stats": {
+    "users": {
+      "title": "Число на всички сървър потребители",
+      "select-compare-country": {
+        "name": "Избери държава"
+      },
+      "show-all": {
+        "name": "Покажи на всички държави данни"
+      },
+      "graph": {
+        "all-country": "Всички държави",
+        "empty-country": "Няма данни за тази държава."
+      }
+    },
+    "mod-loader": {
+      "title": "Mod loader статистика",
+      "tooltip": "Mod Loader"
+    }
+  },
+  "all-server-map": {
+    "title": "Карта на всички сървъри",
+    "server-info-btn": "Цъкни за да видиш информация за сървъра"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "general": {
-    "language-change": "Changed language to {{language}}. Some may need a refresh.",
-    "not-found": "The page you requested could not be found."
+    "language-change": "Idioma cambiado a {{language}}. Algunas veces tienes que refrescar la página.",
+    "not-found": "No se encontró la pagina que solicitaste."
   },
   "navbar": {
     "title": "Servidores SCP: SL",
@@ -10,7 +10,7 @@
     "all-server-map": "Mapa de todos los servidores"
   },
   "select": {
-    "placeholder": "Please select an item",
+    "placeholder": "Por favor selecciona un término.",
     "empty": "Nada seleccionado"
   },
   "filter-option": {
@@ -30,7 +30,7 @@
       "no": "No",
       "friendly-fire": "Fuego Amigo",
       "whitelist": "Whitelist",
-      "modded": "Modded",
+      "modded": "Modificado",
       "order-type": {
         "name": "Ordenar por",
         "player-desc": "Un número grande de personas",
@@ -69,7 +69,7 @@
   },
   "server-info": {
     "title": "Información del servidor",
-    "not-exist": "The server does not exist.",
+    "not-exist": "El servidor no existe.",
     "status": {
       "name": "Estado",
       "online": "Online",
@@ -87,30 +87,30 @@
       "visitor-suffix": "",
       "options": {
         "date-format": "yyyy-MM-dd aa hh:mm",
-        "invalid-start-time": "The start time must be earlier than the stop time.",
-        "invalid-stop-time": "The stop time must be later than the start time.",
-        "data-range": "Data Period",
-        "start-time": "Start Time",
-        "stop-time": "Stop Time",
-        "data-resolution": "Data Resolution",
-        "graph-update-btn": "Update Graph",
+        "invalid-start-time": "La hora de inicio debe ser anterior a la hora de finalización.",
+        "invalid-stop-time": "La hora de finalización debe ser posterior a la hora de inicio.",
+        "data-range": "Periodo de datos",
+        "start-time": "Tiempo de inicio",
+        "stop-time": "Tiempo de parada",
+        "data-resolution": "Resolución de datos.",
+        "graph-update-btn": "Actualizar gráfico",
         "period": {
-          "custom": "Custom",
-          "1hour": "1 Hour",
-          "8hour": "8 Hours",
-          "1day": "1 Day",
-          "2day": "2 Days",
-          "1week": "1 Week",
-          "1month": "1 Month",
-          "3month": "3 Months",
-          "1year": "1 Year",
-          "4year": "4 Years"
+          "custom": "Personalizar",
+          "1hour": "1 Hora",
+          "8hour": "8 Horas",
+          "1day": "1 Día",
+          "2day": "2 Días",
+          "1week": "1 Semana",
+          "1month": "1 Mes",
+          "3month": "3 Meses",
+          "1year": "1 Año",
+          "4year": "4 Años"
         },
         "resolution": {
-          "1m": "1 Minute",
-          "5m": "5 Minutes",
-          "1h": "1 Hour",
-          "1d": "1 Day"
+          "1m": "1 Minuto",
+          "5m": "5 Minutos",
+          "1h": "1 Horas",
+          "1d": "1 Días"
         }
       }
     }
@@ -130,16 +130,16 @@
         "name": "Seleccionar País"
       },
       "show-all": {
-        "name": "Display all country data"
+        "name": "Mostrar datos de todos los países"
       },
       "graph": {
         "all-country": "Todos los Países",
-        "empty-country": "There is no data to query."
+        "empty-country": "No hay datos para consultar.."
       }
     },
     "mod-loader": {
-      "title": "Mod loader statistics",
-      "tooltip": "Mod Loader"
+      "title": "Estadísticas del cargador de mods",
+      "tooltip": "Cargador de Mods"
     }
   },
   "all-server-map": {

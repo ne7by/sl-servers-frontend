@@ -17,6 +17,7 @@ import thTH from './locale/th-TH.json';
 import itIT from './locale/it-IT.json';
 import lijIT from './locale/lij-IT.json';
 import deDE from './locale/de-DE.json';
+import bgBG from './locale/bg-BG.json';
 
 const resource = {
     "en-US": {
@@ -63,6 +64,9 @@ const resource = {
     },
     "de-DE": {
         translation: deDE
+    },
+    "bg-BG": {
+        translation: bgBG
     }
 }
 
