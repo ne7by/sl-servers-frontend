@@ -12,6 +12,9 @@ import {getServerGraphAPI} from "../../apiClient";
 
 const Info = (
     {
+        isServerInfoFetching,
+        isServerInfoError,
+
         server,
 
         ServerInfoActions
@@ -19,6 +22,7 @@ const Info = (
 ) => {
     const [showDaylightAlert, setShowDaylightAlert] = useState(true);
     const [fluxResponse, setFluxResponse] = useState(null);
+    const [isGraphError, setGraphError] = useState(false);
 
     const {t} = useTranslation();
     const {serverId} = useParams();
@@ -43,9 +47,12 @@ const Info = (
     const updateGraph = (options) => {
         if (!isNumber(serverId)) return;
         setFluxResponse(null);
+        setGraphError(false);
 
         getServerGraphAPI(serverId, options).then(res => {
             setFluxResponse(res.data);
+        }).catch(error => {
+            setGraphError(true);
         })
     }
 
@@ -66,10 +73,28 @@ const Info = (
         );
     }
 
+    if (isServerInfoError) {
+        return (
+            <div className="container">
+                <div className="jumbotron" style={{padding: "20px", marginTop: "20px"}}>
+                    <h3 className="col-12 text-center">{t('server-info.title')}</h3>
+                    <Alert variant="danger" className="mt-3 mb-0">
+                        {t('general.server-error')}
+                    </Alert>
+                </div>
+            </div>
+        );
+    }
+
     return (
         <div className="container">
             <div className="jumbotron" style={{padding: "20px", marginTop: "20px"}}>
                 <h3 className="col-12 text-center">{t('server-info.title')}</h3>
+
+                {/*{isServerInfoFetching && <Alert variant="info" className="mt-3 mb-0">*/}
+                {/*    {t('server-info.loading')}*/}
+                {/*</Alert>}*/}
+
                 <div className="col-12" dangerouslySetInnerHTML={{__html: server.info}}/>
                 <div className="row" style={{marginTop: "20px", fontSize: "14pt"}}>
                     <div className="col-md-6" style={{textAlign: "right"}}>
@@ -122,10 +147,14 @@ const Info = (
                     <div className="col-12">
                         <GraphOption onUpdate={handleUpdateGraphOption}/>
 
-                        {!fluxResponse && <Alert variant="info" style={{width: "100%"}}>
+                        {!fluxResponse && !isGraphError && <Alert variant="info" style={{width: "100%"}}>
                             {t('server-info.graph.loading')}
                         </Alert>}
-                        {fluxResponse && <TrendGraph
+                        {isGraphError && <Alert variant="danger" style={{width: "100%"}}>
+                            {t('general.server-error')}
+                        </Alert>}
+
+                        {!isGraphError && !fluxResponse && <TrendGraph
                             layers={[
                                 {
                                     type: "line",
@@ -148,6 +177,9 @@ const Info = (
 
 export default connect(
     (state) => ({
+        isServerInfoFetching: state.serverInfo.fetching,
+        isServerInfoError: state.serverInfo.error,
+
         server: state.serverInfo.data,
     }),
     (dispatch) => ({
