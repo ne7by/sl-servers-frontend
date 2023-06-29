@@ -75,14 +75,16 @@ const resource = {
 }
 
 const languageDetectorOption = {
+
     // order and from where user language should be detected
-    order: ['cookie', 'navigator'],
+    order: ['cookie', 'localStorage', 'navigator'],
 
     // keys or params to lookup language from
     lookupCookie: 'user.language',
+    lookupLocalStorage: 'user.language',
 
     // cache user language on
-    caches: ['cookie']
+    caches: ['localStorage', 'cookie']
 }
 
 i18n
