@@ -13,6 +13,7 @@ import i18nTh from 'i18n-iso-countries/langs/th.json'
 import i18nIt from 'i18n-iso-countries/langs/it.json'
 import i18nDe from 'i18n-iso-countries/langs/de.json'
 import i18nBg from 'i18n-iso-countries/langs/bg.json'
+import i18nNb from 'i18n-iso-countries/langs/nb.json'
 
 const I18nIsoCountries = () => {
     countries.registerLocale(i18nEn);
@@ -30,6 +31,7 @@ const I18nIsoCountries = () => {
     countries.registerLocale(i18nIt);
     countries.registerLocale(i18nDe);
     countries.registerLocale(i18nBg);
+    countries.registerLocale(i18nNb);
 
     return countries;
 }
