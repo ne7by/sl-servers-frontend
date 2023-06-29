@@ -9,7 +9,6 @@ import {toast} from "react-toastify";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faArrowsRotate} from "@fortawesome/free-solid-svg-icons";
 
-const MILLIS_1_SECOND = 1000;
 const SECONDS_1_HOUR = 60 * 60;
 const SECONDS_8_HOURS = 8 * SECONDS_1_HOUR;
 const SECONDS_1_DAY = 24 * SECONDS_1_HOUR;
