@@ -103,11 +103,18 @@
       "OptixWolf"
     ]
   },
-    {
+  {
     "code": "bg-BG",
     "name": "Bulgarian",
     "contributors": [
       "georgi170109"
+    ]
+  },
+  {
+    "code": "nb-NO",
+    "name": "Norwegian",
+    "contributors": [
+      "Kf637"
     ]
   }
 ]

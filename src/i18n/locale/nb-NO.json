@@ -1,0 +1,149 @@
+{
+  "general": {
+    "language-change": "Endret språket til {{language}}. Noen sider kan trenge å bli oppdatert.",
+    "not-found": "Siden du ba om kunne ikke bli funnet."
+  },
+  "navbar": {
+    "title": "SCP:SL Servere",
+    "server-list": "Serverliste",
+    "all-stats": "Full statistikk",
+    "all-server-map": "Kart over alle servere"
+  },
+  "select": {
+    "placeholder": "Vennligst velg et element",
+    "empty": "Ingenting valgt"
+  },
+  "filter-option": {
+    "server-search": {
+      "name": "Server Søk",
+      "placeholder": "Skriv inn søkeord",
+      "search-btn": "Søk"
+    },
+    "country-filter": "Landfilter",
+    "hide-empty": "Skjul tomme servere",
+    "hide-full": "Skjul fulle servere",
+    "refresh-btn": "Last inn liste på nytt",
+    "refreshing": "Laster inn liste...",
+    "yes-no-filter": {
+      "none": "Inkluder alle",
+      "yes": "Ja",
+      "no": "Nei",
+      "friendly-fire": "Vennligsinnede skudd",
+      "whitelist": "Hviteliste",
+      "modded": "Modifisert",
+      "order-type": {
+        "name": "Sorteringsrekkefølge",
+        "player-desc": "Et stort antall mennesker",
+        "player-asc": "Et lite antall mennesker",
+        "distance-asc": "Kort avstand",
+        "distance-desc": "Lang avstand"
+      }
+    }
+  },
+  "server-stats": {
+    "online-users": "Alle brukere: {{count}}",
+    "online-servers": "Online servere: {{count}}",
+    "display-users": "Listede brukere: {{count}}",
+    "display-servers": "Listede servere: {{count}}",
+    "offline-servers": "Offline (bufrede) servere: {{count}}"
+  },
+  "server-list": {
+    "head": {
+      "number": "Nummer",
+      "address": "Adresse",
+      "name": "Navn",
+      "pastebin": "Pastebin",
+      "players": "Spillere",
+      "distance": "Avstand"
+    },
+    "loading": "Laster data fra server...",
+    "empty": "Det er ingen data å vise.",
+    "tech": {
+      "yes": "Ja",
+      "no": "Nei",
+      "country": "Land",
+      "game-version": "Spillversjon",
+      "friendly-fire": "Vennligsinnede skudd",
+      "whitelist": "Hviteliste"
+    }
+  },
+  "server-info": {
+    "title": "Serverinformasjon",
+    "not-exist": "Serveren eksisterer ikke.",
+    "status": {
+      "name": "Status",
+      "online": "Online",
+      "offline": "Offline"
+    },
+    "address": "Adresse",
+    "players": "Spillere",
+    "pastebin": "Pastebin",
+    "distance": "Avstand",
+    "statistics": "Serverstatistikk",
+    "daylight-saving-time": "Tiden på grafen påvirkes ikke av sommertid.",
+    "graph": {
+      "loading": "Laster data fra server...",
+      "visitors": "Besøkende",
+      "visitor-suffix": "",
+      "options": {
+        "date-format": "yyyy-MM-dd aa hh:mm",
+        "invalid-start-time": "Starttiden må være tidligere enn stopptiden.",
+        "invalid-stop-time": "Stopptiden må være senere enn starttiden.",
+        "data-range": "Dataperiode",
+        "start-time": "Starttid",
+        "stop-time": "Stoptid",
+        "data-resolution": "Dataoppløsning",
+        "graph-update-btn": "Oppdater Graf",
+        "period": {
+          "custom": "Tilpasset",
+          "1hour": "1 time",
+          "8hour": "8 timer",
+          "1day": "1 dag",
+          "2day": "2 dager",
+          "1week": "1 uke",
+          "1month": "1 måned",
+          "3month": "3 måneder",
+          "1year": "1 år",
+          "4year": "4 år"
+        },
+        "resolution": {
+          "1m": "1 minutt",
+          "5m": "5 minutter",
+          "1h": "1 time",
+          "1d": "1 dag"
+        }
+      }
+    }
+  },
+  "footer": {
+    "notice": "SCP: Secret Laboratory er et spill utgitt av Northwood Studios. Denne nettsiden er ikke tilknyttet Northwood Studios.<br/>Alle varemerker og registrerte varemerker tilhører sine respektive eiere."
+  },
+  "cookie-notice": {
+    "message": "Denne nettsiden bruker informasjonskapsler for å sikre at du får den beste opplevelsen på vår nettside.",
+    "dismiss": "Forstått!",
+    "link-text": "Lær mer"
+  },
+  "all-stats": {
+    "users": {
+      "title": "Totalt antall brukere på serveren",
+      "select-compare-country": {
+        "name": "Velg land"
+      },
+      "show-all": {
+        "name": "Vis all landsdata"
+      },
+      "graph": {
+        "all-country": "Alle land",
+        "empty-country": "Det er ingen data å hente."
+      }
+    },
+    "mod-loader": {
+      "title": "Statistikk for mod-laster",
+      "tooltip": "Mod-laster"
+    }
+  },
+  "all-server-map": {
+    "title": "Kart over alle servere",
+    "server-info-btn": "Klikk for å sjekke serverinformasjon"
+  }
+}

@@ -18,6 +18,7 @@ import itIT from './locale/it-IT.json';
 import lijIT from './locale/lij-IT.json';
 import deDE from './locale/de-DE.json';
 import bgBG from './locale/bg-BG.json';
+import nbNo from './locale/nb-NO.json';
 
 const resource = {
     "en-US": {
@@ -67,7 +68,10 @@ const resource = {
     },
     "bg-BG": {
         translation: bgBG
-    }
+    },
+    "nb-NO": {
+        translation: nbNo
+    },
 }
 
 const languageDetectorOption = {
