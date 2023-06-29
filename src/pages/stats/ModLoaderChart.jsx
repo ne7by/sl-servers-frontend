@@ -5,12 +5,15 @@ import HighchartsDrillDown from 'highcharts/modules/drilldown'
 import HighchartsReact from 'highcharts-react-official'
 import Chart from "../../chartOption";
 import {getModLoaderChartAPI} from "../../apiClient";
+import {Alert} from "react-bootstrap";
 
 Highcharts.setOptions(Chart.globalOptions);
 HighchartsDrillDown(Highcharts);
 
 const ModLoaderChart = () => {
     const {t} = useTranslation();
+    const [isLoading, setLoading] = useState(true);
+    const [isServerError, setServerError] = useState(false);
     const [chartOptions, setChartOptions] = useState(null);
 
     useEffect(() => {
@@ -48,13 +51,21 @@ const ModLoaderChart = () => {
                 });
             })
 
+            setLoading(false);
             setChartOptions(chartOption);
+        }).catch(error => {
+            setLoading(false);
+            setServerError(true);
         })
     }, [])
 
     return (
         <>
-            <HighchartsReact highcharts={Highcharts} options={chartOptions}/>
+            {isServerError && <Alert variant="danger" style={{width: "100%"}}>
+                {t('general.server-error')}
+            </Alert>}
+
+            {!isServerError && <HighchartsReact highcharts={Highcharts} options={chartOptions}/>}
         </>
     )
 }

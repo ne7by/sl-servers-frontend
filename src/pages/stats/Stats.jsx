@@ -10,6 +10,7 @@ import {getCountryTrendAPI} from "../../apiClient";
 
 const Stats = () => {
     const [fluxResponse, setFluxResponse] = useState(null);
+    const [isServerError, setServerError] = useState(false);
     const [showAll, setShowAll] = useState(true);
     const [isoCodes, setIsoCodes] = useState([]);
     const {t} = useTranslation();
@@ -23,9 +24,12 @@ const Stats = () => {
 
     const updateGraph = (isoCodes, options) => {
         setFluxResponse(null);
+        setServerError(false);
 
         getCountryTrendAPI(isoCodes, options).then(res => {
             setFluxResponse(res.data);
+        }).catch(error => {
+            setServerError(true);
         })
     }
 
@@ -76,10 +80,14 @@ const Stats = () => {
                 <div className="col-12">
                     <GraphOption onUpdate={handleUpdateGraphOption}/>
 
-                    {!fluxResponse && <Alert variant="info" style={{width: "100%"}}>
+                    {!fluxResponse && !isServerError && <Alert variant="info" style={{width: "100%"}}>
                         {t('server-info.graph.loading')}
                     </Alert>}
-                    {fluxResponse && <TrendGraph
+                    {isServerError && <Alert variant="danger" style={{width: "100%"}}>
+                        {t('general.server-error')}
+                    </Alert>}
+
+                    {!isServerError && fluxResponse && <TrendGraph
                         layers={[
                             {
                                 type: "line",
