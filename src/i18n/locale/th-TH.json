@@ -1,7 +1,8 @@
 {
   "general": {
     "language-change": "เปลี่ยนภาษาเป็น {{language}}. อาจต้องรีเฟรช.",
-    "not-found": "ไม่พบหน้า."
+    "not-found": "ไม่พบหน้า.",
+    "server-error": "An error occurred while fetching data from the server. These issues are typically temporary, so please try again in a little while. If the problem persists, please contact 'horyu' on Discord."
   },
   "navbar": {
     "title": "เซิร์ฟเวอร์ SCP: SL",

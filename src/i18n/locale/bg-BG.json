@@ -1,7 +1,8 @@
 {
   "general": {
     "language-change": "Променихте езика към {{language}}. Някой промени изискват рестартиране на страницата.",
-    "not-found": "Страницата в която влизате не може да е намерена."
+    "not-found": "Страницата в която влизате не може да е намерена.",
+    "server-error": "An error occurred while fetching data from the server. These issues are typically temporary, so please try again in a little while. If the problem persists, please contact 'horyu' on Discord."
   },
   "navbar": {
     "title": "SCP: SL Сървъри",

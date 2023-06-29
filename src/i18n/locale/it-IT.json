@@ -1,7 +1,8 @@
 {
   "general": {
     "language-change": "Lingua impostata su {{language}}. Potrebbe essere necessario ricaricare la pagina.",
-    "not-found": "La pagina che hai richiesto non esiste."
+    "not-found": "La pagina che hai richiesto non esiste.",
+    "server-error": "An error occurred while fetching data from the server. These issues are typically temporary, so please try again in a little while. If the problem persists, please contact 'horyu' on Discord."
   },
   "navbar": {
     "title": "Server SCP:SL",

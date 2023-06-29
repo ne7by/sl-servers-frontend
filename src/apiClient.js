@@ -2,7 +2,7 @@ import Axios from "axios";
 
 const instance = Axios.create({
     baseURL: process.env.REACT_APP_API_URL,
-    timeout: 10000,
+    timeout: 5000,
 });
 
 export const getServerListAPI = (data) => {

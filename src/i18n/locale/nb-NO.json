@@ -1,7 +1,8 @@
 {
   "general": {
     "language-change": "Endret språket til {{language}}. Noen sider kan trenge å bli oppdatert.",
-    "not-found": "Siden du ba om kunne ikke bli funnet."
+    "not-found": "Siden du ba om kunne ikke bli funnet.",
+    "server-error": "An error occurred while fetching data from the server. These issues are typically temporary, so please try again in a little while. If the problem persists, please contact 'horyu' on Discord."
   },
   "navbar": {
     "title": "SCP:SL Servere",

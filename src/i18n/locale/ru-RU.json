@@ -1,7 +1,8 @@
 {
   "general": {
     "language-change": "Язык изменен на {{language}}. Некоторые языки могут нуждаться в обновлении.",
-    "not-found": "Запрашиваемая страница не найдена."
+    "not-found": "Запрашиваемая страница не найдена.",
+    "server-error": "An error occurred while fetching data from the server. These issues are typically temporary, so please try again in a little while. If the problem persists, please contact 'horyu' on Discord."
   },
   "navbar": {
     "title": "Серверы SCP:SL",

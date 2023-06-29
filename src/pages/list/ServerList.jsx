@@ -6,6 +6,7 @@ import ServerListItem from "./ServerListItem";
 const ServerList = (
     {
         serverListFetching,
+        serverListError,
 
         servers
     }
@@ -29,7 +30,10 @@ const ServerList = (
                 {serverListFetching && <tr>
                     <td colSpan={6}>{t('server-list.loading')}</td>
                 </tr>}
-                {!serverListFetching && servers.length === 0 && <tr>
+                {serverListError && <tr>
+                    <td colSpan={6} className="text-danger">{t('general.server-error')}</td>
+                </tr>}
+                {!serverListFetching && !serverListError && servers.length === 0 && <tr>
                     <td colSpan={6}>{t('server-list.empty')}</td>
                 </tr>}
                 {servers.map((server, index) =>
@@ -49,6 +53,7 @@ const ServerList = (
 export default connect(
     (state) => ({
         serverListFetching: state.serverList.fetching,
+        serverListError: state.serverList.error,
         servers: state.serverList.data.servers || []
     })
 )(ServerList);
