@@ -19,6 +19,7 @@ import lijIT from './locale/lij-IT.json';
 import deDE from './locale/de-DE.json';
 import bgBG from './locale/bg-BG.json';
 import nbNo from './locale/nb-NO.json';
+import svSV from './locale/sv-SV.json';
 
 const resource = {
     "en-US": {
@@ -71,6 +72,9 @@ const resource = {
     },
     "nb-NO": {
         translation: nbNo
+    },
+    "sv-SV": {
+        translation: svSV
     },
 }
 

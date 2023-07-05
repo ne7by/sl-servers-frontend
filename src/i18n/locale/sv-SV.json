@@ -1,0 +1,150 @@
+{
+  "general": {
+    "language-change": "Bytte språk till {{language}}. Vissa sidor kan behöva uppdateras.",
+    "not-found": "Den begärda sidan kunde inte hittas.",
+    "server-error": "Ett fel inträffade vid hämtning av data från servern. Dessa problem är vanligtvis tillfälliga, så försök igen om en stund. Om problemet kvarstår, kontakta 'horyu' på Discord."
+  },
+  "navbar": {
+    "title": "SCP:SL-servrar",
+    "server-list": "Serverlista",
+    "all-stats": "Fullständig statistik",
+    "all-server-map": "Karta över alla servrar"
+  },
+  "select": {
+    "placeholder": "Välj ett objekt",
+    "empty": "Inget valt"
+  },
+  "filter-option": {
+    "server-search": {
+      "name": "Serversökning",
+      "placeholder": "Ange söktermer",
+      "search-btn": "Sök"
+    },
+    "country-filter": "Landfilter",
+    "hide-empty": "Dölj tomma servrar",
+    "hide-full": "Dölj fulla servrar",
+    "refresh-btn": "Ladda om lista",
+    "refreshing": "Laddar om lista...",
+    "yes-no-filter": {
+      "none": "Inkludera alla",
+      "yes": "Ja",
+      "no": "Nej",
+      "friendly-fire": "Vänligt eld",
+      "whitelist": "Vitlista",
+      "modded": "Moddat",
+      "order-type": {
+        "name": "Sorteringsordning",
+        "player-desc": "Ett stort antal spelare",
+        "player-asc": "Ett litet antal spelare",
+        "distance-asc": "Kort avstånd",
+        "distance-desc": "Långt avstånd"
+      }
+    }
+  },
+  "server-stats": {
+    "online-users": "Alla användare: {{count}}",
+    "online-servers": "Online-servrar: {{count}}",
+    "display-users": "Visade användare: {{count}}",
+    "display-servers": "Visade servrar: {{count}}",
+    "offline-servers": "Offline (cacheade) servrar: {{count}}"
+  },
+  "server-list": {
+    "head": {
+      "number": "Nummer",
+      "address": "Adress",
+      "name": "Namn",
+      "pastebin": "Pastebin",
+      "players": "Spelare",
+      "distance": "Avstånd"
+    },
+    "loading": "Laddar data från servern...",
+    "empty": "Det finns ingen data att visa.",
+    "tech": {
+      "yes": "Ja",
+      "no": "Nej",
+      "country": "Land",
+      "game-version": "Spelversion",
+      "friendly-fire": "Vänligt eld",
+      "whitelist": "Vitlista"
+    }
+  },
+  "server-info": {
+    "title": "Serversinformation",
+    "not-exist": "Servern finns inte.",
+    "status": {
+      "name": "Status",
+      "online": "Online",
+      "offline": "Offline"
+    },
+    "address": "Adress",
+    "players": "Spelare",
+    "pastebin": "Pastebin",
+    "distance": "Avstånd",
+    "statistics": "Serversstatistik",
+    "daylight-saving-time": "Tiden på grafen påverkas inte av sommartid.",
+    "graph": {
+      "loading": "Laddar data från servern...",
+      "visitors": "Besökare",
+      "visitor-suffix": "",
+      "options": {
+        "date-format": "yyyy-MM-dd aa hh:mm",
+        "invalid-start-time": "Starttiden måste vara tidigare än stopptiden.",
+        "invalid-stop-time": "Stopptiden måste vara senare än starttiden.",
+        "data-range": "Dataperiod",
+        "start-time": "Starttid",
+        "stop-time": "Stopptid",
+        "data-resolution": "Datupplösning",
+        "graph-update-btn": "Uppdatera graf",
+        "period": {
+          "custom": "Anpassat",
+          "1hour": "1 timme",
+          "8hour": "8 timmar",
+          "1day": "1 dag",
+          "2day": "2 dagar",
+          "1week": "1 vecka",
+          "1month": "1 månad",
+          "3month": "3 månader",
+          "1year": "1 år",
+          "4year": "4 år"
+        },
+        "resolution": {
+          "1m": "1 minut",
+          "5m": "5 minuter",
+          "1h": "1 timme",
+          "1d": "1 dag"
+        }
+      }
+    }
+  },
+  "footer": {
+    "notice": "SCP:Secret Laboratory är ett spel släppt av Northwood Studios™, denna webbplats är inte associerad med Northwood Studios™.<br/>Alla varumärken tillhör sina respektive ägare."
+  },
+  "cookie-notice": {
+    "message": "Denna webbplats använder cookies för att säkerställa att du får den bästa upplevelsen på vår webbplats.",
+    "dismiss": "Förstått!",
+    "link-text": "Läs mer"
+  },
+  "all-stats": {
+    "users": {
+      "title": "Totalt antal serveranvändare",
+      "select-compare-country": {
+        "name": "Välj land"
+      },
+      "show-all": {
+        "name": "Visa all landdata"
+      },
+      "graph": {
+        "all-country": "Alla länder",
+        "empty-country": "Det finns ingen data att hämta."
+      }
+    },
+    "mod-loader": {
+      "title": "Statistik för modloader",
+      "tooltip": "Mod Loader"
+    }
+  },
+  "all-server-map": {
+    "title": "Karta över alla servrar",
+    "server-info-btn": "Klicka för att se serverinfo"
+  }
+}
