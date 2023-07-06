@@ -154,7 +154,7 @@ const Info = (
                             {t('general.server-error')}
                         </Alert>}
 
-                        {!isGraphError && !fluxResponse && <TrendGraph
+                        {!isGraphError && fluxResponse && <TrendGraph
                             layers={[
                                 {
                                     type: "line",
