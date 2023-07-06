@@ -12,6 +12,7 @@ const List = React.lazy(() => import('../pages/list/List'));
 const Map = React.lazy(() => import('../pages/map/Map'));
 const Stats = React.lazy(() => import('../pages/stats/Stats'));
 const Credit = React.lazy(() => import('../pages/credit/Credit'));
+const Api = React.lazy(() => import('../pages/api/Api'));
 const NotFound = React.lazy(() => import('../pages/NotFound'));
 
 const App = () => {
@@ -27,6 +28,7 @@ const App = () => {
                         <Route path="/stats" render={() => <Container view={<Stats/>}/>}/>
                         <Route path="/map" render={() => <Container view={<Map/>}/>}/>
                         <Route path="/credit" render={() => <Container view={<Credit/>}/>}/>
+                        <Route path="/api" render={() => <Container view={<Api/>}/>}/>
                         <Route path="/*" render={() => <Container view={<NotFound/>}/>}/>
                     </Switch>
                 </React.Suspense>

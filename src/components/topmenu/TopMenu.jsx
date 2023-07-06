@@ -3,7 +3,7 @@ import {Form, Nav, Navbar} from "react-bootstrap";
 import {NavLink} from "react-router-dom";
 import {useTranslation} from "react-i18next";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faChartPie, faList, faMap} from "@fortawesome/free-solid-svg-icons";
+import {faChartPie, faList, faMap, faGears} from "@fortawesome/free-solid-svg-icons";
 import LanguageSelect from "./LanguageSelect";
 import SiSelect from "./SiSelect";
 
@@ -24,6 +24,9 @@ const TopMenu = () => {
                     </NavLink>
                     <NavLink className="nav-link" to="/map">
                         <FontAwesomeIcon icon={faMap}/> {t('navbar.all-server-map')}
+                    </NavLink>
+                    <NavLink className="nav-link" to="/api">
+                        <FontAwesomeIcon icon={faGears}/> API
                     </NavLink>
                 </Nav>
                 <Form inline>
