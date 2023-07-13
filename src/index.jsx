@@ -5,6 +5,8 @@ import App from './components/App';
 import {Provider} from "react-redux";
 import store from "./store";
 import reportWebVitals from './reportWebVitals';
+import {NoticeProvider} from "./components/notice/NoticeContext";
+import NoticeBanner from "./components/notice/NoticeBanner";
 import "./i18n/i18n";
 
 import 'bootswatch/dist/darkly/bootstrap.min.css';
@@ -29,9 +31,12 @@ const root = createRoot(document.getElementById('root'));
 
 root.render(
     <React.StrictMode>
-        <Provider store={store}>
-            <App/>
-        </Provider>
+        <NoticeProvider>
+            <NoticeBanner/>
+            <Provider store={store}>
+                <App/>
+            </Provider>
+        </NoticeProvider>
     </React.StrictMode>
 );
 
