@@ -1,5 +1,5 @@
 import React from "react";
-import I18nIsoCountries from "../../i18n/i18n-iso-countries";
+import getCountryName from "../../i18n/i18n-iso-countries";
 import ServerTech from "./ServerTech";
 import ServerDistance from "../../components/ServerDistance";
 import {useTranslation} from "react-i18next";
@@ -22,7 +22,7 @@ const ServerListItem = (
     const commonTechList = [
         {
             name: t('server-list.tech.country'),
-            version: I18nIsoCountries().getName(server.isoCode, userIsoCode)
+            version: getCountryName(server.isoCode, userIsoCode)
         },
         {
             name: t('server-list.tech.game-version'),

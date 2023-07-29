@@ -20,6 +20,9 @@ import deDE from './locale/de-DE.json';
 import bgBG from './locale/bg-BG.json';
 import nbNo from './locale/nb-NO.json';
 import svSV from './locale/sv-SV.json';
+import dkDk from './locale/dk-DK.json';
+import eoEo from './locale/eo-EO.json';
+import fiFi from './locale/fi-FI.json';
 
 const resource = {
     "en-US": {
@@ -75,6 +78,15 @@ const resource = {
     },
     "sv-SV": {
         translation: svSV
+    },
+    "dk-DK": {
+        translation: dkDk
+    },
+    "eo-EO": {
+        translation: eoEo
+    },
+    "fi-FI": {
+        translation: fiFi
     },
 }
 

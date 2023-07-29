@@ -1,0 +1,150 @@
+{
+  "general": {
+    "language-change": "Sprogændring til {{language}}. Nogle sider kan kræve en opdatering.",
+    "not-found": "Siden, du anmodede om, kunne ikke findes.",
+    "server-error": "Der opstod en fejl under hentning af data fra serveren. Disse problemer er typisk midlertidige, så prøv igen om lidt. Hvis problemet fortsætter, bedes du kontakte 'horyu' på Discord."
+  },
+  "navbar": {
+    "title": "SCP: SL Servere",
+    "server-list": "Serverliste",
+    "all-stats": "Fuldstændig statistik",
+    "all-server-map": "Kort over alle servere"
+  },
+  "select": {
+    "placeholder": "Vælg venligst et element",
+    "empty": "Intet valgt"
+  },
+  "filter-option": {
+    "server-search": {
+      "name": "Søg efter server",
+      "placeholder": "Indtast søgetermer",
+      "search-btn": "Søg"
+    },
+    "country-filter": "Landfilter",
+    "hide-empty": "Skjul tomme servere",
+    "hide-full": "Skjul fulde servere",
+    "refresh-btn": "Genindlæs liste",
+    "refreshing": "Genindlæser liste...",
+    "yes-no-filter": {
+      "none": "Inkluder alle",
+      "yes": "Ja",
+      "no": "Nej",
+      "friendly-fire": "Venlig ild",
+      "whitelist": "Whitelist",
+      "modded": "Modded",
+      "order-type": {
+        "name": "Sorteringsmetode",
+        "player-desc": "Stort antal spillere",
+        "player-asc": "Lille antal spillere",
+        "distance-asc": "Tæt afstand",
+        "distance-desc": "Lang afstand"
+      }
+    }
+  },
+  "server-stats": {
+    "online-users": "Alle brugere: {{count}}",
+    "online-servers": "Online servere: {{count}}",
+    "display-users": "Visning af brugere: {{count}}",
+    "display-servers": "Visning af servere: {{count}}",
+    "offline-servers": "Offline (gemte) servere: {{count}}"
+  },
+  "server-list": {
+    "head": {
+      "number": "Nummer",
+      "address": "Adresse",
+      "name": "Navn",
+      "pastebin": "Pastebin",
+      "players": "Spillere",
+      "distance": "Afstand"
+    },
+    "loading": "Indlæser data fra server...",
+    "empty": "Der er ingen data at vise.",
+    "tech": {
+      "yes": "Ja",
+      "no": "Nej",
+      "country": "Land",
+      "game-version": "Spilversion",
+      "friendly-fire": "Venlig ild",
+      "whitelist": "Whitelist"
+    }
+  },
+  "server-info": {
+    "title": "Serverinformation",
+    "not-exist": "Serveren findes ikke.",
+    "status": {
+      "name": "Status",
+      "online": "Online",
+      "offline": "Offline"
+    },
+    "address": "Adresse",
+    "players": "Spillere",
+    "pastebin": "Pastebin",
+    "distance": "Afstand",
+    "statistics": "Serverstatistik",
+    "daylight-saving-time": "Tiden på grafen påvirkes ikke af sommertid.",
+    "graph": {
+      "loading": "Indlæser data fra server...",
+      "visitors": "Besøgende",
+      "visitor-suffix": "",
+      "options": {
+        "date-format": "yyyy-MM-dd aa hh:mm",
+        "invalid-start-time": "Starttidspunktet skal være tidligere end stopptidspunktet.",
+        "invalid-stop-time": "Stopptidspunktet skal være senere end starttidspunktet.",
+        "data-range": "Dataperiode",
+        "start-time": "Starttidspunkt",
+        "stop-time": "Stopptidspunkt",
+        "data-resolution": "Dataopløsning",
+        "graph-update-btn": "Opdater graf",
+        "period": {
+          "custom": "Brugerdefineret",
+          "1hour": "1 time",
+          "8hour": "8 timer",
+          "1day": "1 dag",
+          "2day": "2 dage",
+          "1week": "1 uge",
+          "1month": "1 måned",
+          "3month": "3 måneder",
+          "1year": "1 år",
+          "4year": "4 år"
+        },
+        "resolution": {
+          "1m": "1 minut",
+          "5m": "5 minutter",
+          "1h": "1 time",
+          "1d": "1 dag"
+        }
+      }
+    }
+  },
+  "footer": {
+    "notice": "SCP: Secret Laboratory er et spil udgivet af Northwood Studios™. Denne side er ikke tilknyttet Northwood Studios™.<br/>Alle varemærker og registrerede varemærker tilhører deres respektive ejere."
+  },
+  "cookie-notice": {
+    "message": "Denne hjemmeside bruger cookies for at sikre, at du får den bedste oplevelse på vores hjemmeside.",
+    "dismiss": "Forstået!",
+    "link-text": "Læs mere"
+  },
+  "all-stats": {
+    "users": {
+      "title": "Samlet antal serverbrugere",
+      "select-compare-country": {
+        "name": "Vælg land"
+      },
+      "show-all": {
+        "name": "Vis alle landdata"
+      },
+      "graph": {
+        "all-country": "Alle lande",
+        "empty-country": "Der er ingen data at forespørge."
+      }
+    },
+    "mod-loader": {
+      "title": "Statistik over mod loader",
+      "tooltip": "Mod Loader"
+    }
+  },
+  "all-server-map": {
+    "title": "Kort over alle servere",
+    "server-info-btn": "Klik for at se serverinfo"
+  }
+}

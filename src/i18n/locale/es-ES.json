@@ -2,7 +2,7 @@
   "general": {
     "language-change": "Idioma cambiado a {{language}}. Algunas veces tienes que refrescar la página.",
     "not-found": "No se encontró la pagina que solicitaste.",
-    "server-error": "An error occurred while fetching data from the server. These issues are typically temporary, so please try again in a little while. If the problem persists, please contact 'horyu' on Discord."
+    "server-error": "Se produjo un error al obtener datos del servidor. Estos problemas suelen ser temporales, así que vuelva a intentarlo dentro de un rato. Si el problema persiste, comuníquese con 'horyu' en Discord."
   },
   "navbar": {
     "title": "Servidores SCP: SL",
@@ -30,7 +30,7 @@
       "yes": "Si",
       "no": "No",
       "friendly-fire": "Fuego Amigo",
-      "whitelist": "Whitelist",
+      "whitelist": "Lista blanca",
       "modded": "Modificado",
       "order-type": {
         "name": "Ordenar por",
@@ -65,7 +65,7 @@
       "country": "País",
       "game-version": "Versión de Juego",
       "friendly-fire": "Fuego Amigo",
-      "whitelist": "Whitelist"
+      "whitelist": "Lista blanca"
     }
   },
   "server-info": {

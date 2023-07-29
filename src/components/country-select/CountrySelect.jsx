@@ -2,7 +2,7 @@ import React, {useEffect, useMemo} from 'react';
 import Select from 'react-select';
 import getStyles from "../SelectCustomStyles";
 import i18n from "i18next";
-import I18nIsoCountries from "../../i18n/i18n-iso-countries";
+import getCountryName from "../../i18n/i18n-iso-countries";
 import {useTranslation} from "react-i18next";
 import {connect} from "react-redux";
 import {bindActionCreators} from "redux";
@@ -53,7 +53,7 @@ const CountrySelect = (
 
     const countryOptions = isoCodes.map(isoCode => {
         const userIsoCode = i18n.language.split('-')[0];
-        const isoCodeName = I18nIsoCountries().getName(isoCode, userIsoCode);
+        const isoCodeName = getCountryName(isoCode, userIsoCode);
 
         return {
             value: isoCode,

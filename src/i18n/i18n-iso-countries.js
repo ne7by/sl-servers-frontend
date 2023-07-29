@@ -15,11 +15,13 @@ import i18nDe from 'i18n-iso-countries/langs/de.json'
 import i18nBg from 'i18n-iso-countries/langs/bg.json'
 import i18nNb from 'i18n-iso-countries/langs/nb.json'
 import i18nSv from 'i18n-iso-countries/langs/sv.json'
+import i18nDa from 'i18n-iso-countries/langs/da.json'
+import i18nEt from 'i18n-iso-countries/langs/et.json'
+import i18nFi from 'i18n-iso-countries/langs/fi.json'
 
 const I18nIsoCountries = () => {
     countries.registerLocale(i18nEn);
     countries.registerLocale(i18nKo);
-    countries.registerLocale(i18nRu);
     countries.registerLocale(i18nRu);
     countries.registerLocale(i18nUk);
     countries.registerLocale(i18nZh);
@@ -34,8 +36,18 @@ const I18nIsoCountries = () => {
     countries.registerLocale(i18nBg);
     countries.registerLocale(i18nNb);
     countries.registerLocale(i18nSv);
+    countries.registerLocale(i18nDa);
+    countries.registerLocale(i18nEt);
+    countries.registerLocale(i18nFi);
 
     return countries;
 }
 
-export default I18nIsoCountries;
+const getCountryName = (isoCode, userIsoCode) => {
+    if (userIsoCode === 'dk') userIsoCode = 'da';
+    if (userIsoCode === 'eo') userIsoCode = 'et';
+
+    return I18nIsoCountries().getName(isoCode, userIsoCode);
+}
+
+export default getCountryName;

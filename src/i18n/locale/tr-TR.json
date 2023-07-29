@@ -1,23 +1,23 @@
 {
   "general": {
-    "language-change": "Changed language to {{language}}. Some may need a refresh.",
-    "not-found": "The page you requested could not be found.",
-    "server-error": "An error occurred while fetching data from the server. These issues are typically temporary, so please try again in a little while. If the problem persists, please contact 'horyu' on Discord."
+    "language-change": "Dil {{language}} olarak değiştirildi. Sayfayı yenilemeniz gerekebilir.",
+    "not-found": "Aradığınız sayfa bulunamadı.",
+    "server-error": "Sunucudan veri alınırken bir hata oluştu. Bu sorun genellikle geçicidir, lütfen kısa bir süre sonra tekrar deneyin. Sorun devam ederse Discord üzerinden 'horyu' ile iletişime geçin."
   },
   "navbar": {
     "title": "SCP: SL Sunucular",
     "server-list": "Sunucu Listesi",
-    "all-stats": "Bütün İstatistikler",
+    "all-stats": "Tüm İstatistikler",
     "all-server-map": "Sunucuların Dünya Haritası"
   },
   "select": {
-    "placeholder": "Please select an item",
+    "placeholder": "Lütfen bir öğe seçin",
     "empty": "Hiçbir şey seçilmedi"
   },
   "filter-option": {
     "server-search": {
       "name": "Sunucu Ara",
-      "placeholder": "Arama terimin girin",
+      "placeholder": "Arama terimi girin",
       "search-btn": "Ara"
     },
     "country-filter": "Ülke Filtresi",
@@ -26,7 +26,7 @@
     "refresh-btn": "Listeyi yenile",
     "refreshing": "Liste yenileniyor...",
     "yes-no-filter": {
-      "none": "Include All",
+      "none": "Tümünü Dahil Et",
       "yes": "Evet",
       "no": "Hayır",
       "friendly-fire": "Dost Ateşi",
@@ -51,7 +51,7 @@
   "server-list": {
     "head": {
       "number": "Numara",
-      "address": "IP Adres",
+      "address": "IP Adresi",
       "name": "Sunucu Adı",
       "pastebin": "Pastebin",
       "players": "Oyuncular",
@@ -70,7 +70,7 @@
   },
   "server-info": {
     "title": "Sunucu Bilgisi",
-    "not-exist": "The server does not exist.",
+    "not-exist": "Sunucu mevcut değil.",
     "status": {
       "name": "Durum",
       "online": "Çevrimiçi",
@@ -81,37 +81,37 @@
     "pastebin": "Pastebin",
     "distance": "Uzaklık",
     "statistics": "Sunucu İstatistikleri",
-    "daylight-saving-time": "Grafikteki saat, yaz saati uygulamasından etkilenmez.",
+    "daylight-saving-time": "Yaz saati uygulaması programdaki saati etkilemez.",
     "graph": {
       "loading": "Sunucudan veri alınıyor...",
       "visitors": "Ziyaretçiler",
       "visitor-suffix": "",
       "options": {
-        "date-format": "yyyy-MM-dd aa hh:mm",
-        "invalid-start-time": "The start time must be earlier than the stop time.",
-        "invalid-stop-time": "The stop time must be later than the start time.",
-        "data-range": "Data Period",
-        "start-time": "Start Time",
-        "stop-time": "Stop Time",
-        "data-resolution": "Data Resolution",
-        "graph-update-btn": "Update Graph",
+        "date-format": "dd/MM/yyyy hh:mm",
+        "invalid-start-time": "Başlangıç zamanı, bitiş zamanından daha erken olmalıdır.",
+        "invalid-stop-time": "Bitiş zamanı, başlangıç zamanından sonra olmalıdır.",
+        "data-range": "Veri Dönemi",
+        "start-time": "Başlangıç Tarihi",
+        "stop-time": "Bitiş Tarihi",
+        "data-resolution": "Veri Aralığı",
+        "graph-update-btn": "Grafiği Yenile",
         "period": {
-          "custom": "Custom",
-          "1hour": "1 Hour",
-          "8hour": "8 Hours",
-          "1day": "1 Day",
-          "2day": "2 Days",
-          "1week": "1 Week",
-          "1month": "1 Month",
-          "3month": "3 Months",
-          "1year": "1 Year",
-          "4year": "4 Years"
+          "custom": "Özel Tarih",
+          "1hour": "1 saat",
+          "8hour": "8 saat",
+          "1day": "1 gün",
+          "2day": "2 gün",
+          "1week": "1 Hafta",
+          "1month": "1 ay",
+          "3month": "3 ay",
+          "1year": "1 yıl",
+          "4year": "4 yıl"
         },
         "resolution": {
-          "1m": "1 Minute",
-          "5m": "5 Minutes",
-          "1h": "1 Hour",
-          "1d": "1 Day"
+          "1m": "1 dakika",
+          "5m": "5 dakika",
+          "1h": "1 saat",
+          "1d": "1 gün"
         }
       }
     }
@@ -126,20 +126,20 @@
   },
   "all-stats": {
     "users": {
-      "title": "Total number of server users",
+      "title": "Toplam Oyuncu Sayısı (Global)",
       "select-compare-country": {
         "name": "Ülke Seç"
       },
       "show-all": {
-        "name": "Display all country data"
+        "name": "Tüm ülke verilerini göster"
       },
       "graph": {
         "all-country": "Tüm Ülkeler",
-        "empty-country": "There is no data to query."
+        "empty-country": "Sorgulanacak veri yok."
       }
     },
     "mod-loader": {
-      "title": "Mod loader statistics",
+      "title": "Mod loader istatistikleri",
       "tooltip": "Mod Loader"
     }
   },

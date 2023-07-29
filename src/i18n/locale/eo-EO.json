@@ -1,0 +1,150 @@
+{
+  "general": {
+    "language-change": "Keel on muudetud {{language}}-ks. Mõned võivad vajada värskendamist.",
+    "not-found": "Lehte, mida te taotlesite, ei leitud.",
+    "server-error": "Andmete hankimisel serverist ilmnes viga. Need probleemid on tavaliselt ajutised, seega proovige natukese aja pärast uuesti. Kui probleem püsib, võtke ühendust kasutajaga 'horyu' Discordis."
+  },
+  "navbar": {
+    "title": "SCP: SL Serverid",
+    "server-list": "Serverite nimekiri",
+    "all-stats": "Täielik statistika",
+    "all-server-map": "Kõikide serverite kaart"
+  },
+  "select": {
+    "placeholder": "Valige üksus",
+    "empty": "Miski pole valitud"
+  },
+  "filter-option": {
+    "server-search": {
+      "name": "Serveri otsing",
+      "placeholder": "Sisestage otsinguterminid",
+      "search-btn": "Otsi"
+    },
+    "country-filter": "Riigi filter",
+    "hide-empty": "Peida tühjad serverid",
+    "hide-full": "Peida täis serverid",
+    "refresh-btn": "Laadi nimekiri uuesti",
+    "refreshing": "Laadin nimekirja uuesti...",
+    "yes-no-filter": {
+      "none": "Kuva kõik",
+      "yes": "Jah",
+      "no": "Ei",
+      "friendly-fire": "Sõbralik tuli",
+      "whitelist": "Valgedkirjad",
+      "modded": "Moditud",
+      "order-type": {
+        "name": "Sorteerimise tüüp",
+        "player-desc": "Suur hulk inimesi",
+        "player-asc": "Väike hulk inimesi",
+        "distance-asc": "Lähedalolev kaugus",
+        "distance-desc": "Kaugelolev kaugus"
+      }
+    }
+  },
+  "server-stats": {
+    "online-users": "Kõik kasutajad: {{count}}",
+    "online-servers": "Online-serverid: {{count}}",
+    "display-users": "Kuvatud kasutajad: {{count}}",
+    "display-servers": "Kuvatud serverid: {{count}}",
+    "offline-servers": "Offline (vahemällu salvestatud) serverid: {{count}}"
+  },
+  "server-list": {
+    "head": {
+      "number": "Number",
+      "address": "Aadress",
+      "name": "Nimi",
+      "pastebin": "Pastebin",
+      "players": "Mängijad",
+      "distance": "Kaugus"
+    },
+    "loading": "Andmete laadimine serverist...",
+    "empty": "Andmeid pole kuvamiseks.",
+    "tech": {
+      "yes": "Jah",
+      "no": "Ei",
+      "country": "Riik",
+      "game-version": "Mängu versioon",
+      "friendly-fire": "Sõbralik tuli",
+      "whitelist": "Valgedkirjad"
+    }
+  },
+  "server-info": {
+    "title": "Serveri teave",
+    "not-exist": "Serverit ei eksisteeri.",
+    "status": {
+      "name": "Staatus",
+      "online": "Online",
+      "offline": "Offline"
+    },
+    "address": "Aadress",
+    "players": "Mängijad",
+    "pastebin": "Pastebin",
+    "distance": "Kaugus",
+    "statistics": "Serveri statistika",
+    "daylight-saving-time": "Graafikul olev aeg ei ole mõjutatud suveajast.",
+    "graph": {
+      "loading": "Andmete laadimine serverist...",
+      "visitors": "Külastajad",
+      "visitor-suffix": "",
+      "options": {
+        "date-format": "yyyy-MM-dd aa hh:mm",
+        "invalid-start-time": "Algusaeg peab olema lõppajast varem.",
+        "invalid-stop-time": "Lõppaeg peab olema algusajast hilisem.",
+        "data-range": "Andmeperiood",
+        "start-time": "Algusaeg",
+        "stop-time": "Lõppaeg",
+        "data-resolution": "Andmete lahutusvõimekus",
+        "graph-update-btn": "Uuenda graafikut",
+        "period": {
+          "custom": "Kohandatud",
+          "1hour": "1 tund",
+          "8hour": "8 tundi",
+          "1day": "1 päev",
+          "2day": "2 päeva",
+          "1week": "1 nädal",
+          "1month": "1 kuu",
+          "3month": "3 kuud",
+          "1year": "1 aasta",
+          "4year": "4 aastat"
+        },
+        "resolution": {
+          "1m": "1 minut",
+          "5m": "5 minutit",
+          "1h": "1 tund",
+          "1d": "1 päev"
+        }
+      }
+    }
+  },
+  "footer": {
+    "notice": "SCP: Secret Laboratory on mäng, mille on välja andnud Northwood Studios™. See veebisait ei ole seotud Northwood Studios™-ga.<br/>Kõik kaubamärgid ja registreeritud kaubamärgid on nende vastavate omanike vara."
+  },
+  "cookie-notice": {
+    "message": "See veebisait kasutab küpsiseid, et tagada teile parim kogemus meie veebisaidil.",
+    "dismiss": "Sain aru!",
+    "link-text": "Lisateave"
+  },
+  "all-stats": {
+    "users": {
+      "title": "Serverite kasutajate koguarv",
+      "select-compare-country": {
+        "name": "Vali riik"
+      },
+      "show-all": {
+        "name": "Kuva kõik riigiandmed"
+      },
+      "graph": {
+        "all-country": "Kõik riigid",
+        "empty-country": "Päringu jaoks pole andmeid."
+      }
+    },
+    "mod-loader": {
+      "title": "Modi laadur statistika",
+      "tooltip": "Modi Laadur"
+    }
+  },
+  "all-server-map": {
+    "title": "Kõikide serverite kaart",
+    "server-info-btn": "Klõpsake serveri teabe kontrollimiseks"
+  }
+}
