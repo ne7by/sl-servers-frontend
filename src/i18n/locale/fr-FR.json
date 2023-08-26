@@ -1,8 +1,8 @@
 {
   "general": {
-    "language-change": "Changed language to {{language}}. Some may need a refresh.",
-    "not-found": "The page you requested could not be found.",
-    "server-error": "An error occurred while fetching data from the server. These issues are typically temporary, so please try again in a little while. If the problem persists, please contact 'horyu' on Discord."
+    "language-change": "Changement de la langue en {{language}}. Vous pourriez avoir besoin de recharger la page.",
+    "not-found": "La page que vous avez demandée est introuvable.",
+    "server-error": "Une erreur s'est produite lors de la récupération des données du serveur. Ces erreures sont généralement temporaires, veuillez reéssayer plus tard. Si le problème persiste, merci de contacter 'horyu' sur Discord."
   },
   "navbar": {
     "title": "Serveurs SCP:SL",
@@ -11,7 +11,7 @@
     "all-server-map": "Carte de tous les serveurs"
   },
   "select": {
-    "placeholder": "Please select an item",
+    "placeholder": "Selectionnez un élément",
     "empty": "Aucune sélection"
   },
   "filter-option": {
@@ -29,7 +29,7 @@
       "none": "Inclure tout",
       "yes": "Oui",
       "no": "Non",
-      "friendly-fire": "Tirs alliés",
+      "friendly-fire": "Tir allié",
       "whitelist": "Liste blanche",
       "modded": "Moddé",
       "order-type": {
@@ -57,22 +57,22 @@
       "players": "Joueurs",
       "distance": "Distance"
     },
-    "loading": "Chargement des donnés du serveur...",
-    "empty": "Aucune donné à afficher",
+    "loading": "Chargement des données du serveur...",
+    "empty": "Aucune données à afficher",
     "tech": {
       "yes": "Oui",
       "no": "Non",
       "country": "Pays",
       "game-version": "Version du jeu",
-      "friendly-fire": "Tirs alliés",
+      "friendly-fire": "Tir allié",
       "whitelist": "Liste blanche"
     }
   },
   "server-info": {
-    "title": "Information du serveur",
-    "not-exist": "The server does not exist.",
+    "title": "Informations du serveur",
+    "not-exist": "Le serveur n'existe pas.",
     "status": {
-      "name": "Status",
+      "name": "État",
       "online": "En ligne",
       "offline": "Hors ligne"
     },
@@ -81,37 +81,37 @@
     "pastebin": "Pastebin",
     "distance": "Distance",
     "statistics": "Statistiques du serveur",
-    "daylight-saving-time": "L’heure sur le graphique n’est pas modifiée par l’heure d’été.",
+    "daylight-saving-time": "L’heure sur le graphique n’est pas affectée par l’heure d’été.",
     "graph": {
-      "loading": "Chargement des donnés du serveur...",
+      "loading": "Chargement des données du serveur...",
       "visitors": "Visiteurs",
       "visitor-suffix": "",
       "options": {
-        "date-format": "yyyy-MM-dd aa hh:mm",
-        "invalid-start-time": "The start time must be earlier than the stop time.",
-        "invalid-stop-time": "The stop time must be later than the start time.",
-        "data-range": "Data Period",
-        "start-time": "Start Time",
-        "stop-time": "Stop Time",
-        "data-resolution": "Data Resolution",
-        "graph-update-btn": "Update Graph",
+        "date-format": "dd/MM/yyyy HH:mm",
+        "invalid-start-time": "La date de début doit être antérieure à la date de fin.",
+        "invalid-stop-time": "La date de fin doit être postérieure à la date de début.",
+        "data-range": "Période",
+        "start-time": "Date de début",
+        "stop-time": "Date de fin",
+        "data-resolution": "Résolution",
+        "graph-update-btn": "Actualiser le graphique",
         "period": {
-          "custom": "Custom",
-          "1hour": "1 Hour",
-          "8hour": "8 Hours",
-          "1day": "1 Day",
-          "2day": "2 Days",
-          "1week": "1 Week",
-          "1month": "1 Month",
-          "3month": "3 Months",
-          "1year": "1 Year",
-          "4year": "4 Years"
+          "custom": "Personnalisée",
+          "1hour": "1 Heure",
+          "8hour": "8 Heures",
+          "1day": "1 Jour",
+          "2day": "2 Jours",
+          "1week": "1 Semaine",
+          "1month": "1 Mois",
+          "3month": "3 Mois",
+          "1year": "1 An",
+          "4year": "4 Ans"
         },
         "resolution": {
           "1m": "1 Minute",
           "5m": "5 Minutes",
-          "1h": "1 Hour",
-          "1d": "1 Day"
+          "1h": "1 Heure",
+          "1d": "1 Jour"
         }
       }
     }
@@ -126,20 +126,20 @@
   },
   "all-stats": {
     "users": {
-      "title": "Nombre total d’utilisateur de serveurs",
+      "title": "Nombre total d’utilisateurs de tous les serveurs",
       "select-compare-country": {
         "name": "Sélectionner un pays"
       },
       "show-all": {
-        "name": "Display all country data"
+        "name": "Montrer les données de tous les pays"
       },
       "graph": {
         "all-country": "Tous les pays",
-        "empty-country": "There is no data to query."
+        "empty-country": "Il n'y a pas de données disponibles."
       }
     },
     "mod-loader": {
-      "title": "Mod loader statistics",
+      "title": "Statistiques des Mod loader",
       "tooltip": "Mod Loader"
     }
   },

@@ -1,8 +1,8 @@
 {
   "general": {
-    "language-change": "Changed language to {{language}}. Some may need a refresh.",
-    "not-found": "The page you requested could not be found.",
-    "server-error": "An error occurred while fetching data from the server. These issues are typically temporary, so please try again in a little while. If the problem persists, please contact 'horyu' on Discord."
+    "language-change": "Sprache auf {{language}} geändert. Vielleicht musst du die Seite neu laden.",
+    "not-found": "Die angeforderte Seite konnte nicht gefunden werden.",
+    "server-error": "Beim Abrufen der Daten vom Server ist ein Fehler aufgetreten. Diese Probleme sind in der Regel vorübergehend, also versuche es bitte in Kürze erneut. Wenn das Problem weiterhin besteht, kontaktiere bitte 'horyu' auf Discord."
   },
   "navbar": {
     "title": "SCP: SL Server",
@@ -11,7 +11,7 @@
     "all-server-map": "Karte von allen Servern"
   },
   "select": {
-    "placeholder": "Please select an item",
+    "placeholder": "Bitte wähle einen Eintrag",
     "empty": "Nichts ausgewählt"
   },
   "filter-option": {
@@ -42,11 +42,11 @@
     }
   },
   "server-stats": {
-    "online-users": "All users: {{count}}",
-    "online-servers": "Online servers: {{count}}",
-    "display-users": "Users listed: {{count}}",
-    "display-servers": "Servers listed: {{count}}",
-    "offline-servers": "Offline (cached) servers: {{count}}"
+    "online-users": "Alle Benutzer: {{count}}",
+    "online-servers": "Aktive Server: {{count}}",
+    "display-users": "Benutzer gelistet: {{count}}",
+    "display-servers": "Server gelistet: {{count}}",
+    "offline-servers": "Inaktive (zwischengespeicherte) Server: {{count}}"
   },
   "server-list": {
     "head": {
@@ -70,7 +70,7 @@
   },
   "server-info": {
     "title": "Server Informationen",
-    "not-exist": "The server does not exist.",
+    "not-exist": "Der Server existiert nicht.",
     "status": {
       "name": "Status",
       "online": "Online",
@@ -87,37 +87,37 @@
       "visitors": "Besucher",
       "visitor-suffix": "",
       "options": {
-        "date-format": "yyyy-MM-dd aa hh:mm",
-        "invalid-start-time": "The start time must be earlier than the stop time.",
-        "invalid-stop-time": "The stop time must be later than the start time.",
-        "data-range": "Data Period",
-        "start-time": "Start Time",
-        "stop-time": "Stop Time",
-        "data-resolution": "Data Resolution",
-        "graph-update-btn": "Update Graph",
+        "date-format": "dd-MM-yyyy HH:mm",
+        "invalid-start-time": "Der Startzeitpunkt muss vor der Stopzeit sein.",
+        "invalid-stop-time": "Die Stopzeit muss nach dem Startzeitpunkt sein.",
+        "data-range": "Zeitraum",
+        "start-time": "Startzeitpunkt",
+        "stop-time": "Stopzeit",
+        "data-resolution": "Datenauflösung",
+        "graph-update-btn": "Grafik aktualisieren",
         "period": {
-          "custom": "Custom",
-          "1hour": "1 Hour",
-          "8hour": "8 Hours",
-          "1day": "1 Day",
-          "2day": "2 Days",
-          "1week": "1 Week",
-          "1month": "1 Month",
-          "3month": "3 Months",
-          "1year": "1 Year",
-          "4year": "4 Years"
+          "custom": "Benutzerdefiniert",
+          "1hour": "1 Stunde",
+          "8hour": "8 Stunden",
+          "1day": "1 Tag",
+          "2day": "2 Tage",
+          "1week": "1 Woche",
+          "1month": "1 Monat",
+          "3month": "3 Monate",
+          "1year": "1 Jahr",
+          "4year": "4 Jahre"
         },
         "resolution": {
           "1m": "1 Minute",
-          "5m": "5 Minutes",
-          "1h": "1 Hour",
-          "1d": "1 Day"
+          "5m": "5 Minuten",
+          "1h": "1 Stunde",
+          "1d": "1 Tag"
         }
       }
     }
   },
   "footer": {
-    "notice": "SCP: Secret Laboratory is a game released by Northwood Studios™, this site is not affiliated with Northwood Studios™.<br/>All trademarks and registered trademarks are the property of their respective owners."
+    "notice": "SCP: Secret Laboratory ist ein Spiel, das von Northwood Studios™ veröffentlicht wurde. Diese Website steht nicht in Verbindung mit Northwood Studios™.<br/>Alle Marken und eingetragenen Marken sind Eigentum ihrer jeweiligen Inhaber."
   },
   "cookie-notice": {
     "message": "Diese Seite nutzt Cookies um dir das beste erlebnis zu bieten.",
