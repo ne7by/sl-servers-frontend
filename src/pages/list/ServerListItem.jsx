@@ -1,9 +1,8 @@
 import React from "react";
-import getCountryName from "../../i18n/i18n-iso-countries";
+import getCountryName from "../../i18n/i18n-countries";
 import ServerTech from "./ServerTech";
 import ServerDistance from "../../components/ServerDistance";
 import {useTranslation} from "react-i18next";
-import i18n from "i18next";
 
 const ServerListItem = (
     {
@@ -13,8 +12,6 @@ const ServerListItem = (
 ) => {
     const {t} = useTranslation();
 
-    const userIsoCode = i18n.language.split('-')[0];
-
     const handleClickServerInfo = (serverId) => {
         window.open(`/servers/${serverId}`, '_blank');
     }
@@ -22,7 +19,7 @@ const ServerListItem = (
     const commonTechList = [
         {
             name: t('server-list.tech.country'),
-            version: getCountryName(server.isoCode, userIsoCode)
+            version: getCountryName(server.isoCode)
         },
         {
             name: t('server-list.tech.game-version'),

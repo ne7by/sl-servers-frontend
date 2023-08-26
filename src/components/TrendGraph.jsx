@@ -1,13 +1,10 @@
 import React from 'react';
 import {Plot} from '@influxdata/giraffe';
 import {useTranslation} from "react-i18next";
-import i18n from "i18next";
-import getCountryName from "../i18n/i18n-iso-countries";
+import getCountryName from "../i18n/i18n-countries";
 
 const TrendGraph = ({layers, fluxResponse}) => {
     const {t} = useTranslation();
-
-    const userIsoCode = i18n.language.split('-')[0];
 
     const timeText = (unixTime) => {
         const time = new Date(unixTime);
@@ -27,7 +24,7 @@ const TrendGraph = ({layers, fluxResponse}) => {
             iso_code: isoCode => {
                 if (isoCode === 'ALL') return t('all-stats.users.graph.all-country')
 
-                const isoCodeName = getCountryName(isoCode, userIsoCode);
+                const isoCodeName = getCountryName(isoCode);
                 return isoCodeName || isoCode;
             },
         },
