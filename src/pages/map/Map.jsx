@@ -3,7 +3,6 @@ import {useTranslation} from "react-i18next";
 import {useDispatch, useSelector} from "react-redux";
 import {getServerMap} from "../../modules/serverMap";
 import {MapContainer, Marker, Popup, TileLayer, Tooltip} from 'react-leaflet';
-import MarkerClusterGroup from "react-leaflet-markercluster";
 
 import './map.css'
 
@@ -14,15 +13,6 @@ const Map = () => {
         data: state.serverMap.data
     }))
     const dispatch = useDispatch();
-
-    useEffect(() => {
-        delete window.L.Icon.Default.prototype._getIconUrl;
-        window.L.Icon.Default.mergeOptions({
-            iconRetinaUrl: require("leaflet/dist/images/marker-icon-2x.png"),
-            iconUrl: require("leaflet/dist/images/marker-icon.png"),
-            shadowUrl: require("leaflet/dist/images/marker-shadow.png")
-        });
-    }, [])
 
     useEffect(() => {
         dispatch(getServerMap());
@@ -46,28 +36,26 @@ const Map = () => {
                             attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                         />
 
-                        <MarkerClusterGroup>
-                            {data.map(serverLoc => (
-                                <Marker key={serverLoc.serverId}
-                                        position={[serverLoc.location.lat, serverLoc.location.long]}
-                                >
-                                    <Tooltip>
-                                        <span>Server ID: {serverLoc.serverId}</span>
-                                    </Tooltip>
-                                    <Popup minWidth={200} closeButton={true}>
-                                        <div dangerouslySetInnerHTML={{__html: serverLoc.info}}/>
-                                        <br/>
-                                        <br/>
-                                        <a target="_blank" rel="noreferrer"
-                                           href={`/servers/${serverLoc.serverId}`}
-                                           style={{fontSize: '10pt'}}
-                                        >
-                                            {t('all-server-map.server-info-btn')}
-                                        </a>
-                                    </Popup>
-                                </Marker>
-                            ))}
-                        </MarkerClusterGroup>
+                        {data.map(serverLoc => (
+                            <Marker key={serverLoc.serverId}
+                                    position={[serverLoc.location.lat, serverLoc.location.long]}
+                            >
+                                <Tooltip>
+                                    <span>Server ID: {serverLoc.serverId}</span>
+                                </Tooltip>
+                                <Popup minWidth={200} closeButton={true}>
+                                    <div dangerouslySetInnerHTML={{__html: serverLoc.info}}/>
+                                    <br/>
+                                    <br/>
+                                    <a target="_blank" rel="noreferrer"
+                                       href={`/servers/${serverLoc.serverId}`}
+                                       style={{fontSize: '10pt'}}
+                                    >
+                                        {t('all-server-map.server-info-btn')}
+                                    </a>
+                                </Popup>
+                            </Marker>
+                        ))}
                     </MapContainer>
                 </div>
             </div>
