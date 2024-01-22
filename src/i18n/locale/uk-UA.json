@@ -1,8 +1,8 @@
 {
   "general": {
-    "language-change": "Changed language to {{language}}. Some may need a refresh.",
+    "language-change": "Мова змінена на {{language}}. Деяким може знадобитися оновлення.",
     "not-found": "Запитана вами сторінка не знайдена.",
-    "server-error": "An error occurred while fetching data from the server. These issues are typically temporary, so please try again in a little while. If the problem persists, please contact 'horyu' on Discord."
+    "server-error": "Виникла помилка під час отримання даних з сервера. Ці проблеми зазвичай є тимчасовими, тому спробуйте повторити спробу через деякий час. Якщо проблема не зникне, зверніться до 'horyu' у Discord."
   },
   "navbar": {
     "title": "Сервера SCP: SL",
@@ -11,7 +11,7 @@
     "all-server-map": "Карта всіх серверів"
   },
   "select": {
-    "placeholder": "Please select an item",
+    "placeholder": "Будь ласка оберіть предмет",
     "empty": "Нічого не вибрано"
   },
   "filter-option": {
@@ -88,12 +88,12 @@
       "visitor-suffix": "",
       "options": {
         "date-format": "yyyy-MM-dd aa hh:mm",
-        "invalid-start-time": "The start time must be earlier than the stop time.",
-        "invalid-stop-time": "The stop time must be later than the start time.",
+        "invalid-start-time": "Час початку повинен бути раніше, ніж час зупинки.",
+        "invalid-stop-time": "Час зупинки повинен бути пізніше часу старту.",
         "data-range": "Період даних",
         "start-time": "Час початку",
         "stop-time": "Час зупинки",
-        "data-resolution": "Data Resolution",
+        "data-resolution": "Масштаб",
         "graph-update-btn": "Відновити графік",
         "period": {
           "custom": "Свій",
@@ -108,10 +108,10 @@
           "4year": "4 Роки"
         },
         "resolution": {
-          "1m": "1 Minute",
-          "5m": "5 Minutes",
-          "1h": "1 Hour",
-          "1d": "1 Day"
+          "1m": "1 Хвилина",
+          "5m": "5 Хвилин",
+          "1h": "1 Година",
+          "1d": "1 День"
         }
       }
     }
