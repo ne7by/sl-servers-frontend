@@ -1,17 +1,17 @@
 {
   "general": {
-    "language-change": "Changed language to {{language}}. Some may need a refresh.",
-    "not-found": "The page you requested could not be found.",
-    "server-error": "An error occurred while fetching data from the server. These issues are typically temporary, so please try again in a little while. If the problem persists, please contact 'horyu' on Discord."
+    "language-change": "已将语言更改为 {{language}}. 某些地方可能需要刷新才能生效喵~",
+    "not-found": "找不到主人请求的页面QAQ",
+    "server-error": "从服务器获取数据的时候出了一点小小的问题 AWA. 通常来说一段时间后就好啦~ 所以请主人耐心等待一下哦~ 如果问题依旧存在, 请主人从 Discord 上联系'horyu' 吧!."
   },
   "navbar": {
-    "title": "SCP: SL 服务器",
+    "title": "SCP:SL 服务器",
     "server-list": "服务器列表",
     "all-stats": "总体信息概况",
     "all-server-map": "服务器大地图"
   },
   "select": {
-    "placeholder": "Please select an item",
+    "placeholder": "请主人选择一个项目喵~",
     "empty": "未选择"
   },
   "filter-option": {
@@ -42,10 +42,10 @@
     }
   },
   "server-stats": {
-    "online-users": "全球在线玩家: {{count}}",
-    "online-servers": "全球在线服务器: {{count}}",
-    "display-users": "列表显示玩家: {{count}}",
-    "display-servers": "列表显示服务器: {{count}}",
+    "online-users": "全球总在线玩家数: {{count}}",
+    "online-servers": "全球总在线服务器数: {{count}}",
+    "display-users": "当前显示的服务器中的玩家数: {{count}}",
+    "display-servers": "当前显示的服务器数: {{count}}",
     "offline-servers": "离线 (缓存) 服务器: {{count}}"
   },
   "server-list": {
@@ -53,7 +53,7 @@
       "number": "序号",
       "address": "IP地址",
       "name": "服务器名称",
-      "pastebin": "Pastebin",
+      "pastebin": "PastebinID",
       "players": "玩家数",
       "distance": "距离"
     },
@@ -70,7 +70,7 @@
   },
   "server-info": {
     "title": "服务器信息",
-    "not-exist": "The server does not exist.",
+    "not-exist": "诶?可是我找不到这个服务器啊QAQ",
     "status": {
       "name": "状态",
       "online": "在线",
@@ -78,40 +78,40 @@
     },
     "address": "IP地址",
     "players": "玩家数",
-    "pastebin": "Pastebin",
+    "pastebin": "PastebinID",
     "distance": "距离",
     "statistics": "服务器统计",
     "daylight-saving-time": "图表上的时间不受夏令时的影响(其实中国自1992年就已经不受影响了的说)",
     "graph": {
       "loading": "正在努力获取服务器信息喵~",
-      "visitors": "游客数",
+      "visitors": "玩家数",
       "visitor-suffix": "",
       "options": {
         "date-format": "yyyy-MM-dd aa hh:mm",
-        "invalid-start-time": "The start time must be earlier than the stop time.",
-        "invalid-stop-time": "The stop time must be later than the start time.",
-        "data-range": "Data Period",
-        "start-time": "Start Time",
-        "stop-time": "Stop Time",
-        "data-resolution": "Data Resolution",
-        "graph-update-btn": "Update Graph",
+        "invalid-start-time": "别闹,主人!起始时间必须早于结束时间哦~",
+        "invalid-stop-time": "别闹,主人!停止时间必须晚于结束时间哦~",
+        "data-range": "数据时长",
+        "start-time": "起始时间",
+        "stop-time": "结束时间",
+        "data-resolution": "数据更新间隔",
+        "graph-update-btn": "更新统计图",
         "period": {
-          "custom": "Custom",
-          "1hour": "1 Hour",
-          "8hour": "8 Hours",
-          "1day": "1 Day",
-          "2day": "2 Days",
-          "1week": "1 Week",
-          "1month": "1 Month",
-          "3month": "3 Months",
-          "1year": "1 Year",
-          "4year": "4 Years"
+          "custom": "自定义",
+          "1hour": "1小时",
+          "8hour": "8小时",
+          "1day": "1天",
+          "2day": "2天",
+          "1week": "1周",
+          "1month": "1个月",
+          "3month": "3个月",
+          "1year": "1年",
+          "4year": "4年"
         },
         "resolution": {
-          "1m": "1 Minute",
-          "5m": "5 Minutes",
-          "1h": "1 Hour",
-          "1d": "1 Day"
+          "1m": "1分钟",
+          "5m": "5分钟",
+          "1h": "1小时",
+          "1d": "1天"
         }
       }
     }
@@ -131,16 +131,16 @@
         "name": "查看指定国家/地区"
       },
       "show-all": {
-        "name": "Display all country data"
+        "name": "显示所有国家/地区的数据"
       },
       "graph": {
         "all-country": "所有国家/地区",
-        "empty-country": "There is no data to query."
+        "empty-country": "抱歉,这里没有可供主人查询的数据哦,请回吧~"
       }
     },
     "mod-loader": {
-      "title": "Mod loader statistics",
-      "tooltip": "Mod Loader"
+      "title": "插件加载器统计信息",
+      "tooltip": "插件加载器"
     }
   },
   "all-server-map": {
