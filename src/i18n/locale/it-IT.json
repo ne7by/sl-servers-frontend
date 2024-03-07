@@ -58,7 +58,7 @@
       "distance": "Distanza"
     },
     "loading": "Caricamento dati dal server...",
-    "empty": "Non ci sono dati per questo serber.",
+    "empty": "Non ci sono dati per questo server.",
     "tech": {
       "yes": "Si",
       "no": "No",
