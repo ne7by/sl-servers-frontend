@@ -1,8 +1,8 @@
 {
   "general": {
-    "language-change": "Changed language to {{language}}. Some may need a refresh.",
-    "not-found": "The page you requested could not be found.",
-    "server-error": "An error occurred while fetching data from the server. These issues are typically temporary, so please try again in a little while. If the problem persists, please contact 'horyu' on Discord."
+    "language-change": "已將語言更改為 {{language}}. 有些可能需要重繪.",
+    "not-found": "找不到您請求的頁面。",
+    "server-error": "從伺服器獲取數據時出錯。 這些問題通常是暫時的，請稍後再試。 如果問題仍然存在，請聯系Discord上的“horyu”。"
   },
   "navbar": {
     "title": "SCP: SL 伺服器",
@@ -11,7 +11,7 @@
     "all-server-map": "伺服器大地圖"
   },
   "select": {
-    "placeholder": "Please select an item",
+    "placeholder": "請選擇一個項目",
     "empty": "未選擇"
   },
   "filter-option": {
@@ -70,7 +70,7 @@
   },
   "server-info": {
     "title": "伺服器信息",
-    "not-exist": "The server does not exist.",
+    "not-exist": "伺服器不存在。",
     "status": {
       "name": "狀態",
       "online": "線上",
@@ -88,30 +88,30 @@
       "visitor-suffix": "",
       "options": {
         "date-format": "yyyy-MM-dd aa hh:mm",
-        "invalid-start-time": "The start time must be earlier than the stop time.",
-        "invalid-stop-time": "The stop time must be later than the start time.",
-        "data-range": "Data Period",
-        "start-time": "Start Time",
-        "stop-time": "Stop Time",
-        "data-resolution": "Data Resolution",
-        "graph-update-btn": "Update Graph",
+        "invalid-start-time": "開始時間必須早於停止時間。",
+        "invalid-stop-time": "停止時間必須晚於開始時間。",
+        "data-range": "數據週期",
+        "start-time": "開始時間",
+        "stop-time": "停止時間",
+        "data-resolution": "數據間隔",
+        "graph-update-btn": "更新圖表",
         "period": {
-          "custom": "Custom",
-          "1hour": "1 Hour",
-          "8hour": "8 Hours",
-          "1day": "1 Day",
-          "2day": "2 Days",
-          "1week": "1 Week",
-          "1month": "1 Month",
-          "3month": "3 Months",
-          "1year": "1 Year",
-          "4year": "4 Years"
+          "custom": "自定義",
+          "1hour": "1小時",
+          "8hour": "8小時",
+          "1day": "1天",
+          "2day": "2天",
+          "1week": "1周",
+          "1month": "1個月",
+          "3month": "3個月",
+          "1year": "1年",
+          "4year": "4年"
         },
         "resolution": {
-          "1m": "1 Minute",
-          "5m": "5 Minutes",
-          "1h": "1 Hour",
-          "1d": "1 Day"
+          "1m": "1分鐘",
+          "5m": "5分鐘",
+          "1h": "1小時",
+          "1d": "1天"
         }
       }
     }
@@ -135,7 +135,7 @@
       },
       "graph": {
         "all-country": "所有國家/地區",
-        "empty-country": "There is no data to query."
+        "empty-country": "沒有可査詢的數據。"
       }
     },
     "mod-loader": {

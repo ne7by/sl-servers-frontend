@@ -2,13 +2,13 @@
   "general": {
     "language-change": "Lingua impostata su {{language}}. Potrebbe essere necessario ricaricare la pagina.",
     "not-found": "La pagina che hai richiesto non esiste.",
-    "server-error": "An error occurred while fetching data from the server. These issues are typically temporary, so please try again in a little while. If the problem persists, please contact 'horyu' on Discord."
+    "server-error": "Si è verificato un errore durante il recupero dei dati dal server. Questi problemi sono in genere temporanei, quindi si prega di riprovare più tardi. Se il problema persiste, contatta 'horyu' su Discord."
   },
   "navbar": {
-    "title": "Server SCP:SL",
+    "title": "Server SCP: Secret Laboratory",
     "server-list": "Lista dei Server",
     "all-stats": "Statistiche complete",
-    "all-server-map": "Mappa di tutti i Server"
+    "all-server-map": "Mappa dei Server"
   },
   "select": {
     "placeholder": "Per favore, seleziona qualcosa",
@@ -24,12 +24,12 @@
     "hide-empty": "Nascondi i server vuoti",
     "hide-full": "Nascondi i server pieni",
     "refresh-btn": "Ricarica la lista",
-    "refreshing": "Caricamento lista...",
+    "refreshing": "Caricamento lista in corso...",
     "yes-no-filter": {
       "none": "Includi tutto",
       "yes": "Si",
       "no": "No",
-      "friendly-fire": "Friendly Fire",
+      "friendly-fire": "Fuoco amico",
       "whitelist": "Whitelist",
       "modded": "Moddato",
       "order-type": {
@@ -46,7 +46,7 @@
     "online-servers": "Server online: {{count}}",
     "display-users": "Utenti in lista: {{count}}",
     "display-servers": "Server in lista: {{count}}",
-    "offline-servers": "Server offline (cached): {{count}}"
+    "offline-servers": "Server offline (nella cache): {{count}}"
   },
   "server-list": {
     "head": {
@@ -57,20 +57,20 @@
       "players": "Giocatori",
       "distance": "Distanza"
     },
-    "loading": "Caricamento dati dal server...",
+    "loading": "Caricamento dei dati del server in corso...",
     "empty": "Non ci sono dati per questo server.",
     "tech": {
       "yes": "Si",
       "no": "No",
       "country": "Paese",
       "game-version": "Versione del Gioco",
-      "friendly-fire": "Friendly Fire",
+      "friendly-fire": "Fuoco amico",
       "whitelist": "Whitelist"
     }
   },
   "server-info": {
-    "title": "Informazioni del Server",
-    "not-exist": "The server does not exist.",
+    "title": "Informazioni sul Server",
+    "not-exist": "Il Server non esiste.",
     "status": {
       "name": "Stato",
       "online": "Online",
@@ -83,17 +83,17 @@
     "statistics": "Statistiche del Server",
     "daylight-saving-time": "L'ora sul grafico non è influenzata dall'ora legale.",
     "graph": {
-      "loading": "Caricamento dati dal server...",
+      "loading": "Caricamento dati del server in corso...",
       "visitors": "Visitatori",
       "visitor-suffix": "",
       "options": {
         "date-format": "yyyy-MM-dd aa hh:mm",
-        "invalid-start-time": "La data di inizio deve essere prima della data di file.",
-        "invalid-stop-time": "La data di fine deve essere dopo la data di inizio.",
+        "invalid-start-time": "L'ora di inizio deve essere precedente all'ora di fine.",
+        "invalid-stop-time": "L'ora di fine deve essere successiva all'ora di inizio.",
         "data-range": "Periodo",
         "start-time": "Da",
         "stop-time": "A",
-        "data-resolution": "Risoluzione",
+        "data-resolution": "Risoluzione dei dati",
         "graph-update-btn": "Aggiorna il grafico",
         "period": {
           "custom": "Personalizzato",
@@ -120,7 +120,7 @@
     "notice": "SCP: Secret Laboratory è un gioco rilasciato da Northwood Studios™, questo sito non è affiliato con Northwood Studios™.<br/>Tutti i diritti sono riservati al creatore del gioco."
   },
   "cookie-notice": {
-    "message": "Questo sito utilizza i cookie per un'esperienza migliore di navigazione.",
+    "message": "Questo sito utilizza i cookie per un'esperienza di navigazione migliore.",
     "dismiss": "Capito!",
     "link-text": "Leggi di più"
   },
@@ -131,7 +131,7 @@
         "name": "Seleziona un Paese"
       },
       "show-all": {
-        "name": "Mostra tutti i dati di ogni paese"
+        "name": "Mostra tutti i dati del paese"
       },
       "graph": {
         "all-country": "Tutti i paesi",
@@ -144,7 +144,7 @@
     }
   },
   "all-server-map": {
-    "title": "Mappa dei server",
+    "title": "Mappa di tutti i server",
     "server-info-btn": "Clicca per vedere le informazioni del server"
   }
 }

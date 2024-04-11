@@ -1,8 +1,8 @@
 {
   "general": {
-    "language-change": "เปลี่ยนภาษาเป็น {{language}}. อาจต้องรีเฟรช.",
-    "not-found": "ไม่พบหน้า.",
-    "server-error": "An error occurred while fetching data from the server. These issues are typically temporary, so please try again in a little while. If the problem persists, please contact 'horyu' on Discord."
+    "language-change": "เปลี่ยนภาษาเป็น {{language}} อาจต้องรีเฟรช",
+    "not-found": "ไม่พบหน้าที่ตามหา",
+    "server-error": "เกิดข้อผิดพลาดขณะดึงข้อมูลจากเซิร์ฟเวอร์ ปัญหานี้จะเกิดขึ้นชั่วคราว, ดังนั้นโปรดลองอีกครั้งในอีกสักครู่ หากยังมีปัญหาอยู่, โปรดติดต่อ 'horyu' บน Discord"
   },
   "navbar": {
     "title": "เซิร์ฟเวอร์ SCP: SL",
@@ -51,7 +51,7 @@
   "server-list": {
     "head": {
       "number": "หมายเลข",
-      "address": "ที่อยู่ IP",
+      "address": "IP",
       "name": "ชื่อ",
       "pastebin": "Pastebin",
       "players": "ผู้เล่น",
@@ -81,15 +81,15 @@
     "pastebin": "Pastebin",
     "distance": "ระยะห่าง",
     "statistics": "สถิติเซิร์ฟเวอร์",
-    "daylight-saving-time": "เวลาบนกราฟจะไม่ได้รับผลกระทบจากระบบ.",
+    "daylight-saving-time": "เวลาบนกราฟจะไม่ได้รับผลกระทบจากระบบ",
     "graph": {
       "loading": "กำลังโหลดข้อมูลจากเซิร์ฟเวอร์...",
       "visitors": "ผู้เล่น",
       "visitor-suffix": "",
       "options": {
         "date-format": "yyyy-MM-dd aa hh:mm",
-        "invalid-start-time": "เวลาเริ่มต้นต้องมาก่อนเวลาหยุด.",
-        "invalid-stop-time": "เวลาหยุดต้องช้ากว่าเวลาเริ่มต้น.",
+        "invalid-start-time": "เวลาเริ่มต้นต้องมาก่อนเวลาหยุด",
+        "invalid-stop-time": "เวลาหยุดต้องช้ากว่าเวลาเริ่มต้น",
         "data-range": "ระยะเวลาข้อมูล",
         "start-time": "เวลาเริ่มต้น",
         "stop-time": "หยุดเวลา",
@@ -120,7 +120,7 @@
     "notice": "SCP: Secret Laboratory เป็นเกมที่ออกโดย Northwood Studios™ เว็บไซต์นี้ไม่มีส่วนเกี่ยวข้องกับ Northwood Studios™<br/>เครื่องหมายการค้าและเครื่องหมายการค้าจดทะเบียนทั้งหมดเป็นทรัพย์สินของเจ้าของที่เกี่ยวข้อง"
   },
   "cookie-notice": {
-    "message": "เว็บไซต์นี้ใช้คุกกี้เพื่อให้แน่ใจว่าคุณได้รับประสบการณ์ที่ดีที่สุดบนเว็บไซต์ของเรา.",
+    "message": "เว็บไซต์นี้ใช้คุกกี้เพื่อให้แน่ใจว่าคุณได้รับประสบการณ์ที่ดีที่สุดบนเว็บไซต์ของเรา",
     "dismiss": "เข้าใจแล้ว!",
     "link-text": "เรียนรู้เพิ่มเติม"
   },
@@ -135,7 +135,7 @@
       },
       "graph": {
         "all-country": "ทุกประเทศ",
-        "empty-country": "ไม่มีข้อมูลที่จะตรวจสอบ."
+        "empty-country": "ไม่มีข้อมูลที่จะตรวจสอบ"
       }
     },
     "mod-loader": {

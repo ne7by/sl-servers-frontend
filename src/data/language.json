@@ -39,7 +39,8 @@
     "code": "zh-TW",
     "name": "Traditional Chinese",
     "contributors": [
-      "Cheng Cheng"
+      "Cheng Cheng",
+      "FlyCloud"
     ]
   },
   {
@@ -83,13 +84,14 @@
     "code": "th-TH",
     "name": "Thailand",
     "contributors": [
-      "ImFiwEditer"
+      "Aquarty"
     ]
   },
   {
     "code": "it-IT",
     "name": "Italian",
     "contributors": [
+      "Istigazione",
       "FoxWorn3365",
       "InziDeveloperMode"
     ]
