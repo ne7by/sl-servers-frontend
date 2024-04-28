@@ -1,0 +1,150 @@
+{
+  "general": {
+    "language-change": "Valoda ir mainīta uz {{language}}. Dažiem var būt nepieciešams atsvaidzināt.",
+    "not-found": "Pieprasītā lapa netika atrasta.",
+    "server-error": "Radās kļūda, izgūstot datus no servera. Šādas problēmas parasti ir pagaidu, tāpēc lūdzu, mēģiniet vēlreiz pēc brīža. Ja problēma turpinās, lūdzu, sazinieties ar 'horyu' Discord."
+  },
+  "navbar": {
+    "title": "SCP: SL Serveri",
+    "server-list": "Serveru saraksts",
+    "all-stats": "Pilns statistika",
+    "all-server-map": "Visu serveru karte"
+  },
+  "select": {
+    "placeholder": "Lūdzu, izvēlieties vienumu",
+    "empty": "Nav nekas izvēlēts"
+  },
+  "filter-option": {
+    "server-search": {
+      "name": "Servera meklēšana",
+      "placeholder": "Ievadiet meklēšanas terminus",
+      "search-btn": "Meklēt"
+    },
+    "country-filter": "Valsts filtrs",
+    "hide-empty": "Paslēpt tukšos serverus",
+    "hide-full": "Paslēpt pilnos serverus",
+    "refresh-btn": "Atsvaidzināt sarakstu",
+    "refreshing": "Saraksta atsvaidzināšana...",
+    "yes-no-filter": {
+      "none": "Iekļaut visus",
+      "yes": "Jā",
+      "no": "Nē",
+      "friendly-fire": "Draudzīgs uguns",
+      "whitelist": "Baltais saraksts",
+      "modded": "Modded",
+      "order-type": {
+        "name": "Kārta",
+        "player-desc": "Lielā daudzuma cilvēku",
+        "player-asc": "Mazs cilvēku skaits",
+        "distance-asc": "Tuva attāluma",
+        "distance-desc": "Tāla attāluma"
+      }
+    }
+  },
+  "server-stats": {
+    "online-users": "Visi lietotāji: {{count}}",
+    "online-servers": "Tiešsaistes serveri: {{count}}",
+    "display-users": "Lietotāji uzskaitīti: {{count}}",
+    "display-servers": "Serveri uzskaitīti: {{count}}",
+    "offline-servers": "Bezsaistes (kešota) serveri: {{count}}"
+  },
+  "server-list": {
+    "head": {
+      "number": "Numurs",
+      "address": "Adrese",
+      "name": "Nosaukums",
+      "pastebin": "Pastebin",
+      "players": "Spēlētāji",
+      "distance": "Attālums"
+    },
+    "loading": "Datu ielāde no servera...",
+    "empty": "Nav datu, ko parādīt.",
+    "tech": {
+      "yes": "Jā",
+      "no": "Nē",
+      "country": "Valsts",
+      "game-version": "Spēles versija",
+      "friendly-fire": "Draudzīgs uguns",
+      "whitelist": "Baltais saraksts"
+    }
+  },
+  "server-info": {
+    "title": "Servera informācija",
+    "not-exist": "Serveris neeksistē.",
+    "status": {
+      "name": "Statuss",
+      "online": "Tiešsaistē",
+      "offline": "Bezsaistē"
+    },
+    "address": "Adrese",
+    "players": "Spēlētāji",
+    "pastebin": "Pastebin",
+    "distance": "Attālums",
+    "statistics": "Servera statistika",
+    "daylight-saving-time": "Grafikā norādītais laiks nav ietekmēts no vasaras laika izmaiņām.",
+    "graph": {
+      "loading": "Datu ielāde no servera...",
+      "visitors": "Apmeklētāji",
+      "visitor-suffix": "",
+      "options": {
+        "date-format": "yyyy-MM-dd aa hh:mm",
+        "invalid-start-time": "Sākuma laikam jābūt agrākam nekā beigu laiks.",
+        "invalid-stop-time": "Beigu laikam jābūt vēlākam nekā sākuma laiks.",
+        "data-range": "Datu periods",
+        "start-time": "Sākuma laiks",
+        "stop-time": "Beigu laiks",
+        "data-resolution": "Datu izšķirtspēja",
+        "graph-update-btn": "Atjaunot grafiku",
+        "period": {
+          "custom": "Pielāgots",
+          "1hour": "1 stunda",
+          "8hour": "8 stundas",
+          "1day": "1 diena",
+          "2day": "2 dienas",
+          "1week": "1 nedēļa",
+          "1month": "1 mēnesis",
+          "3month": "3 mēneši",
+          "1year": "1 gads",
+          "4year": "4 gadi"
+        },
+        "resolution": {
+          "1m": "1 minūte",
+          "5m": "5 minūtes",
+          "1h": "1 stunda",
+          "1d": "1 diena"
+        }
+      }
+    }
+  },
+  "footer": {
+    "notice": "SCP: Secret Laboratory ir spēle, ko izstrādājusi Northwood Studios™, šī vietne nav saistīta ar Northwood Studios™.<br/>Visas preču zīmes un reģistrētās preču zīmes pieder to attiecīgajiem īpašniekiem."
+  },
+  "cookie-notice": {
+    "message": "Šī vietne izmanto sīkdatnes, lai nodrošinātu labāko pieredzi mūsu vietnē.",
+    "dismiss": "Sapratu!",
+    "link-text": "Uzzināt vairāk"
+  },
+  "all-stats": {
+    "users": {
+      "title": "Kopējais servera lietotāju skaits",
+      "select-compare-country": {
+        "name": "Izvēlieties valsti"
+      },
+      "show-all": {
+        "name": "Parādīt visu valstu datus"
+      },
+      "graph": {
+        "all-country": "Visas valstis",
+        "empty-country": "Nav datu, ko vaicāt."
+      }
+    },
+    "mod-loader": {
+      "title": "Moduļu ielādētāja statistika",
+      "tooltip": "Moduļu ielādētājs"
+    }
+  },
+  "all-server-map": {
+    "title": "Visu serveru karte",
+    "server-info-btn": "Noklikšķiniet, lai pārbaudītu servera informāciju"
+  }
+}

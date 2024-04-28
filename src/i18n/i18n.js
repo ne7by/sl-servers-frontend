@@ -23,6 +23,9 @@ import svSV from './locale/sv-SV.json';
 import dkDk from './locale/dk-DK.json';
 import eoEo from './locale/eo-EO.json';
 import fiFi from './locale/fi-FI.json';
+import eeEE from './locale/ee-EE.json';
+import isIS from './locale/is-IS.json';
+import lvLV from './locale/lv-LV.json';
 
 const resource = {
     "en-US": {
@@ -87,6 +90,15 @@ const resource = {
     },
     "fi-FI": {
         translation: fiFi
+    },
+    "ee-EE": {
+        translation: eeEE
+    },
+    "is-IS": {
+        translation: isIS
+    },
+    "lv-LV": {
+        translation: lvLV
     },
 }
 

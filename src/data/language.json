@@ -146,8 +146,22 @@
     ]
   },
   {
-    "code": "eo-EO",
+    "code": "ee-EE",
     "name": "Estonian",
+    "contributors": [
+      "Kf637"
+    ]
+  },
+  {
+    "code": "is-IS",
+    "name": "Icelandic",
+    "contributors": [
+      "Kf637"
+    ]
+  },
+  {
+    "code": "lv-LV",
+    "name": "Latvian",
     "contributors": [
       "Kf637"
     ]

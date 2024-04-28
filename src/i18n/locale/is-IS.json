@@ -1,0 +1,150 @@
+{
+  "general": {
+    "language-change": "Breytti tungumál í {{language}}. Sumir gætu þurft að endurhlaða síðunni.",
+    "not-found": "Síðan sem þú baðst um fannst ekki.",
+    "server-error": "Villa kom upp við að sækja gögn frá netþjóninum. Þessar vandamál eru venjulega tímabundin, svo vinsamlegast reyndu aftur eftir smá stund. Ef vandamálið heldur áfram, vinsamlegast hafðu samband við 'horyu' á Discord."
+  },
+  "navbar": {
+    "title": "SCP: SL Netþjónir",
+    "server-list": "Netþjónalisti",
+    "all-stats": "Fullar tölfræði",
+    "all-server-map": "Kort yfir allar netþjónir"
+  },
+  "select": {
+    "placeholder": "Vinsamlegast veldu hlut",
+    "empty": "Ekkert valið"
+  },
+  "filter-option": {
+    "server-search": {
+      "name": "Leita að netþjón",
+      "placeholder": "Sláðu inn leitarorð",
+      "search-btn": "Leita"
+    },
+    "country-filter": "Landafilter",
+    "hide-empty": "Fela tóma netþjóna",
+    "hide-full": "Fela fulla netþjóna",
+    "refresh-btn": "Endurhlaða listann",
+    "refreshing": "Endurhlaðning lista...",
+    "yes-no-filter": {
+      "none": "Innifalið Allt",
+      "yes": "Já",
+      "no": "Nei",
+      "friendly-fire": "Vinaleg eldur",
+      "whitelist": "Hvítlisti",
+      "modded": "Breytt",
+      "order-type": {
+        "name": "Röðunartegund",
+        "player-desc": "Fjöldi fólks",
+        "player-asc": "Lítill fjöldi fólks",
+        "distance-asc": "Nálægt fjarlægð",
+        "distance-desc": "Langt í burtu"
+      }
+    }
+  },
+  "server-stats": {
+    "online-users": "Allir notendur: {{count}}",
+    "online-servers": "Netþjónir í gangi: {{count}}",
+    "display-users": "Notendur sýndir: {{count}}",
+    "display-servers": "Netþjónir sýndir: {{count}}",
+    "offline-servers": "Ótengdir (í skyndihlaði) netþjónir: {{count}}"
+  },
+  "server-list": {
+    "head": {
+      "number": "Tala",
+      "address": "Heimilisfang",
+      "name": "Nafn",
+      "pastebin": "Pastebin",
+      "players": "Leikmenn",
+      "distance": "Fjarlægð"
+    },
+    "loading": "Hleð gögnum frá netþjóni...",
+    "empty": "Engin gögn til að sýna.",
+    "tech": {
+      "yes": "Já",
+      "no": "Nei",
+      "country": "Land",
+      "game-version": "Leikritunarútgáfa",
+      "friendly-fire": "Vinaleg eldur",
+      "whitelist": "Hvítlisti"
+    }
+  },
+  "server-info": {
+    "title": "Upplýsingar um netþjón",
+    "not-exist": "Netþjónninn er ekki til.",
+    "status": {
+      "name": "Staða",
+      "online": "Í gangi",
+      "offline": "Ótengdur"
+    },
+    "address": "Heimilisfang",
+    "players": "Leikmenn",
+    "pastebin": "Pastebin",
+    "distance": "Fjarlægð",
+    "statistics": "Tölfræði um netþjón",
+    "daylight-saving-time": "Tíminn á grafinu er ekki hraðstæður af sumartíma.",
+    "graph": {
+      "loading": "Hleð gögnum frá netþjóni...",
+      "visitors": "Heimsóttir",
+      "visitor-suffix": "",
+      "options": {
+        "date-format": "yyyy-MM-dd aa hh:mm",
+        "invalid-start-time": "Byrjunartíminn verður að vera á undan lokatímanum.",
+        "invalid-stop-time": "Lokatíminn verður að vera á eftir byrjunartímanum.",
+        "data-range": "Gögnumars",
+        "start-time": "Byrjunartími",
+        "stop-time": "Lokatími",
+        "data-resolution": "Upplausn gagna",
+        "graph-update-btn": "Uppfæra graf",
+        "period": {
+          "custom": "Sérsniðið",
+          "1hour": "1 klukkustund",
+          "8hour": "8 klukkustundir",
+          "1day": "1 dagur",
+          "2day": "2 dagar",
+          "1week": "1 vika",
+          "1month": "1 mánuður",
+          "3month": "3 mánuðir",
+          "1year": "1 ár",
+          "4year": "4 ár"
+        },
+        "resolution": {
+          "1m": "1 mínúta",
+          "5m": "5 mínútur",
+          "1h": "1 klukkustund",
+          "1d": "1 dagur"
+        }
+      }
+    }
+  },
+  "footer": {
+    "notice": "SCP: Secret Laboratory er leikur gefinn út af Northwood Studios™, þessi síða er ekki tengd Northwood Studios™.<br/>Allar vörumerki og skráð vörumerki eru eignir sínar eigenda."
+  },
+  "cookie-notice": {
+    "message": "Þessi vefsíða notar kökur til að tryggja þér bestu reynslu á vefsíðunni okkar.",
+    "dismiss": "Áskilja!",
+    "link-text": "Nánar um"
+  },
+  "all-stats": {
+    "users": {
+      "title": "Heildarfjöldi notenda á netþjóni",
+      "select-compare-country": {
+        "name": "Veldu land"
+      },
+      "show-all": {
+        "name": "Sýna öll gögn um lönd"
+      },
+      "graph": {
+        "all-country": "Öll lönd",
+        "empty-country": "Engin gögn til að fyrirspurn."
+      }
+    },
+    "mod-loader": {
+      "title": "Tölfræði um breytingahlaðari",
+      "tooltip": "Breytingahlaðari"
+    }
+  },
+  "all-server-map": {
+    "title": "Kort yfir allar netþjónir",
+    "server-info-btn": "Smelltu til að athuga upplýsingar um netþjón"
+  }
+}
