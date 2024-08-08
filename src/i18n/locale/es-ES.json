@@ -1,11 +1,11 @@
 {
   "general": {
     "language-change": "Idioma cambiado a {{language}}. Algunas veces tienes que refrescar la página.",
-    "not-found": "No se encontró la pagina que solicitaste.",
-    "server-error": "Se produjo un error al obtener datos del servidor. Estos problemas suelen ser temporales, así que vuelva a intentarlo dentro de un rato. Si el problema persiste, comuníquese con 'horyu' en Discord."
+    "not-found": "No se encontró la página que solicitaste.",
+    "server-error": "Se produjo un error al obtener datos del servidor. Estos problemas suelen ser temporales, así que vuelva a intentarlo dentro de un rato. Si el problema persiste, comunícate con 'horyu' en Discord."
   },
   "navbar": {
-    "title": "Servidores SCP: SL",
+    "title": "Servidores SCP:SL",
     "server-list": "Lista de servidores",
     "all-stats": "Estadísticas completas",
     "all-server-map": "Mapa de todos los servidores"
@@ -27,7 +27,7 @@
     "refreshing": "Recargando lista...",
     "yes-no-filter": {
       "none": "Incluir Todo",
-      "yes": "Si",
+      "yes": "Sí",
       "no": "No",
       "friendly-fire": "Fuego Amigo",
       "whitelist": "Lista blanca",
@@ -42,16 +42,16 @@
     }
   },
   "server-stats": {
-    "online-users": "Todos los usuarios: {{count}}",
+    "online-users": "Total de usuarios: {{count}}",
     "online-servers": "Servidores Online: {{count}}",
-    "display-users": "Usuarios seleccionados: {{count}}",
+    "display-users": "Total de usuarios con filtros: {{count}}",
     "display-servers": "Servidores seleccionados: {{count}}",
     "offline-servers": "Servidores Offline (en caché): {{count}}"
   },
   "server-list": {
     "head": {
       "number": "Número",
-      "address": "Dirección",
+      "address": "IP",
       "name": "Nombre",
       "pastebin": "Pastebin",
       "players": "Jugadores",
@@ -60,10 +60,10 @@
     "loading": "Cargando datos del servidor...",
     "empty": "No hay datos que mostrar.",
     "tech": {
-      "yes": "Si",
+      "yes": "Sí",
       "no": "No",
       "country": "País",
-      "game-version": "Versión de Juego",
+      "game-version": "Versión del juego",
       "friendly-fire": "Fuego Amigo",
       "whitelist": "Lista blanca"
     }
@@ -76,7 +76,7 @@
       "online": "Online",
       "offline": "Offline"
     },
-    "address": "Dirección",
+    "address": "IP",
     "players": "Jugadores",
     "pastebin": "Pastebin",
     "distance": "Distancia",
@@ -84,7 +84,7 @@
     "daylight-saving-time": "El tiempo en el gráfico no es alterado por el horario de verano.",
     "graph": {
       "loading": "Cargando datos del servidor...",
-      "visitors": "Visitantes",
+      "visitors": "Jugadores",
       "visitor-suffix": "",
       "options": {
         "date-format": "yyyy-MM-dd aa hh:mm",
@@ -96,7 +96,7 @@
         "data-resolution": "Resolución de datos.",
         "graph-update-btn": "Actualizar gráfico",
         "period": {
-          "custom": "Personalizar",
+          "custom": "Personalizado",
           "1hour": "1 Hora",
           "8hour": "8 Horas",
           "1day": "1 Día",
@@ -110,8 +110,8 @@
         "resolution": {
           "1m": "1 Minuto",
           "5m": "5 Minutos",
-          "1h": "1 Horas",
-          "1d": "1 Días"
+          "1h": "1 Hora",
+          "1d": "1 Día"
         }
       }
     }
@@ -121,7 +121,7 @@
   },
   "cookie-notice": {
     "message": "Esta página utiliza cookies para darte una mejor experiencia.",
-    "dismiss": "Entendido!",
+    "dismiss": "¡Entendido!",
     "link-text": "Saber más"
   },
   "all-stats": {
@@ -135,16 +135,16 @@
       },
       "graph": {
         "all-country": "Todos los Países",
-        "empty-country": "No hay datos para consultar.."
+        "empty-country": "No hay datos para consultar."
       }
     },
     "mod-loader": {
       "title": "Estadísticas del cargador de mods",
-      "tooltip": "Cargador de Mods"
+      "tooltip": "Cargador de Plugins"
     }
   },
   "all-server-map": {
     "title": "Mapa de todos los servidores",
-    "server-info-btn": "Click para ver la información del servidor"
+    "server-info-btn": "Haz click aquí para ver la información del servidor"
   }
 }

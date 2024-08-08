@@ -26,6 +26,7 @@ import fiFi from './locale/fi-FI.json';
 import eeEE from './locale/ee-EE.json';
 import isIS from './locale/is-IS.json';
 import lvLV from './locale/lv-LV.json';
+import ptBR from './locale/pt-BR.json';
 
 const resource = {
     "en-US": {
@@ -99,6 +100,9 @@ const resource = {
     },
     "lv-LV": {
         translation: lvLV
+    },
+    "pt-BR": {
+        translation: ptBR
     },
 }
 

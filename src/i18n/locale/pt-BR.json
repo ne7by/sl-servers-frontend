@@ -1,0 +1,150 @@
+{
+  "general": {
+    "language-change": "Alterou o idioma para {{language}}. Alguns talvez precisem recarregar a página.",
+    "not-found": "A página que você solicitou não pôde ser encontrada.",
+    "server-error": "Um erro ocorreu durante a obtenção de dados do servidor. Alguns problemas geralmente são temporários, então tente novamente após um curto período de tempo. Se o problema persistir, por favor, contate 'horyu' no Discord."
+  },
+  "navbar": {
+    "title": "Servidores do SCP:SL",
+    "server-list": "Lista de Servidor",
+    "all-stats": "Estatísticas completas",
+    "all-server-map": "Mapas de todos os servidores"
+  },
+  "select": {
+    "placeholder": "Por favor, selecione um item",
+    "empty": "Nada selecionado"
+  },
+  "filter-option": {
+    "server-search": {
+      "name": "Buscar Servidor",
+      "placeholder": "Digite os parâmetros de busca",
+      "search-btn": "Buscar"
+    },
+    "country-filter": "Filtro por País",
+    "hide-empty": "Ocultar servidores vazios",
+    "hide-full": "Ocultar servidores cheios",
+    "refresh-btn": "Recarregar Lista",
+    "refreshing": "Recarregando lista...",
+    "yes-no-filter": {
+      "none": "Incluir Todos",
+      "yes": "Sim",
+      "no": "Não",
+      "friendly-fire": "Fogo Amigo",
+      "whitelist": "Whitelist",
+      "modded": "Modificado",
+      "order-type": {
+        "name": "Ordenar Por",
+        "player-desc": "Um grande número de pessoas",
+        "player-asc": "Pequeno número de pessoas",
+        "distance-asc": "Próximo de você",
+        "distance-desc": "Longe de você"
+      }
+    }
+  },
+  "server-stats": {
+    "online-users": "Todos usuários: {{count}}",
+    "online-servers": "Servidores on-line: {{count}}",
+    "display-users": "Usuários listados: {{count}}",
+    "display-servers": "Servidores listados: {{count}}",
+    "offline-servers": "Servidores off-line (em cache): {{count}}"
+  },
+  "server-list": {
+    "head": {
+      "number": "Número",
+      "address": "Endereço",
+      "name": "Nome",
+      "pastebin": "Pastebin",
+      "players": "Jogadores",
+      "distance": "Distância"
+    },
+    "loading": "Carregando dados do servidor...",
+    "empty": "Não há dados para exibir.",
+    "tech": {
+      "yes": "Sim",
+      "no": "Não",
+      "country": "País",
+      "game-version": "Versão do Jogo",
+      "friendly-fire": "Fogo Amigo",
+      "whitelist": "Whitelist"
+    }
+  },
+  "server-info": {
+    "title": "Informações do Servidor",
+    "not-exist": "O servidor não existe.",
+    "status": {
+      "name": "Status",
+      "online": "On-line",
+      "offline": "Off-line"
+    },
+    "address": "Endereço",
+    "players": "Jogadores",
+    "pastebin": "Pastebin",
+    "distance": "Distância",
+    "statistics": "Estatísticas do Servidor",
+    "daylight-saving-time": "O tempo no gráfico não é afetado pelo horário de verão.",
+    "graph": {
+      "loading": "Carregando dados do servidor...",
+      "visitors": "Visitantes",
+      "visitor-suffix": "",
+      "options": {
+        "date-format": "yyyy-MM-dd aa hh:mm",
+        "invalid-start-time": "O tempo inicial deve ser menor que o tempo final.",
+        "invalid-stop-time": "O tempo final deve ser maior que o tempo inicial.",
+        "data-range": "Período de Dados",
+        "start-time": "Tempo Inicial",
+        "stop-time": "Tempo Final",
+        "data-resolution": "Resolução de Dados",
+        "graph-update-btn": "Atualizar Gráfico",
+        "period": {
+          "custom": "Personalizado",
+          "1hour": "1 Hora",
+          "8hour": "8 Horas",
+          "1day": "1 Dia",
+          "2day": "2 Dias",
+          "1week": "1 Semana",
+          "1month": "1 Mês",
+          "3month": "3 Meses",
+          "1year": "1 Ano",
+          "4year": "4 Anos"
+        },
+        "resolution": {
+          "1m": "1 Minuto",
+          "5m": "5 Minutos",
+          "1h": "1 Hora",
+          "1d": "1 Dia"
+        }
+      }
+    }
+  },
+  "footer": {
+    "notice": "SCP: Secret Laboratory é um jogo publicado pela Northwood Studios™, esse site não é afiliado à Northwood Studios™.<br/>Todas marcas comerciais e registradas são propriedades de seus respectivos donos."
+  },
+  "cookie-notice": {
+    "message": "Esse site usa cookies para garantir que você tenha a melhor experiência.",
+    "dismiss": "Entendi!",
+    "link-text": "Saiba mais"
+  },
+  "all-stats": {
+    "users": {
+      "title": "Número total de usuários do servidor",
+      "select-compare-country": {
+        "name": "Selecionar País"
+      },
+      "show-all": {
+        "name": "Exibir todos os dados do país"
+      },
+      "graph": {
+        "all-country": "Todos países",
+        "empty-country": "Não há nenhum dado para consulta."
+      }
+    },
+    "mod-loader": {
+      "title": "Estatísticas de Carregador de Modificações",
+      "tooltip": "Carregador de Modificações"
+    }
+  },
+  "all-server-map": {
+    "title": "Mapa de todos os servidores",
+    "server-info-btn": "Clique para verificar as informações do servidor"
+  }
+}
