@@ -8,7 +8,10 @@
     "title": "SCP: SL Server",
     "server-list": "Server Liste",
     "all-stats": "Alle Statistiken",
-    "all-server-map": "Karte von allen Servern"
+    "all-server-map": "Karte von allen Servern",
+    "credit": "Mitwirkende",
+    "language": "Sprache:",
+    "unit": "Einheit:"
   },
   "select": {
     "placeholder": "Bitte wähle einen Eintrag",
@@ -25,6 +28,7 @@
     "hide-full": "Verstecke volle Server",
     "refresh-btn": "Liste neuladen",
     "refreshing": "List wird neugeladen...",
+    "filter-options-title": "Filteroptionen",
     "yes-no-filter": {
       "none": "Alle",
       "yes": "Ja",
@@ -46,7 +50,14 @@
     "online-servers": "Aktive Server: {{count}}",
     "display-users": "Benutzer gelistet: {{count}}",
     "display-servers": "Server gelistet: {{count}}",
-    "offline-servers": "Inaktive (zwischengespeicherte) Server: {{count}}"
+    "offline-servers": "Inaktive (zwischengespeicherte) Server: {{count}}",
+    "users-title": "Benutzer",
+    "servers-title": "Server",
+    "total-online-users": "Gesamte Online-Benutzer",
+    "filtered-users": "Gefilterte Benutzer",
+    "online-label": "Online",
+    "offline-label": "Offline",
+    "filtered-servers": "Gefilterte Server"
   },
   "server-list": {
     "head": {
@@ -135,7 +146,7 @@
       },
       "graph": {
         "all-country": "Alle Länder",
-        "empty-country": "There is no data to query."
+        "empty-country": "Es gibt keine Daten zum Abfragen."
       }
     },
     "mod-loader": {

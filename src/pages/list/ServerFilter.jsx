@@ -78,109 +78,112 @@ const ServerFilter = (
     }
 
     return (
-        <div className="jumbotron" style={{padding: '20px', marginBottom: '10px'}}>
-            <div className="row">
-                <div id="search-option" className="col-sm-12 col-md-8 text-center">
-                    <div className="form-group">
-                        <div className="input-group">
-                            <label className="col-form-label search-option-name" htmlFor="server-search">
-                                {t('filter-option.server-search.name')}
-                            </label>
+        <div className="filter-container card main-card">
+            <div className="card-body py-3">
+                <div className="row">
+                    <div id="search-option" className="col-sm-12 col-md-8">
+                        <div className="form-group mb-3">
+                            <div className="input-group">
+                                <label className="col-form-label search-option-name fw-bold" htmlFor="server-search">
+                                    {t('filter-option.server-search.name')}
+                                </label>
 
-                            <input type="text" className="form-control btn-secondary"
-                                   placeholder={t('filter-option.server-search.placeholder')}
-                                   value={searchFilter} onChange={handleChangeSearchFilter}
-                                   onKeyDown={handleKeyPressSearchFilter}
-                            />
+                                <input type="text" className="form-control"
+                                    placeholder={t('filter-option.server-search.placeholder')}
+                                    value={searchFilter} onChange={handleChangeSearchFilter}
+                                    onKeyDown={handleKeyPressSearchFilter}
+                                />
 
-                            <div className="input-group-append">
-                                <button className="btn btn-info" type="button" onClick={updateServerList}>
-                                    {t('filter-option.server-search.search-btn')}
+                                <div className="input-group-append">
+                                    <button className="btn btn-primary" type="button" onClick={updateServerList}>
+                                        {t('filter-option.server-search.search-btn')}
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="form-group mb-3">
+                            <div className="input-group text-start">
+                                <label className="col-form-label search-option-name fw-bold" htmlFor="country-filter">
+                                    {t('filter-option.country-filter')}
+                                </label>
+                                <CountrySelect
+                                    value={countryFilter}
+                                    onChange={handleChangeCountryFilter}
+                                />
+                            </div>
+                        </div>
+
+                        <div className="filter-options row">
+                            <div className="col-sm-12 col-md-4">
+                                <div className="form-check form-switch mb-2">
+                                    <input type="checkbox" className="form-check-input" id="hide-empty-server"
+                                        checked={hideEmptyServer} onChange={handleChangeHideEmpty}
+                                    />
+                                    <label className="form-check-label" htmlFor="hide-empty-server">
+                                        {t('filter-option.hide-empty')}
+                                    </label>
+                                </div>
+
+                                <div className="form-check form-switch">
+                                    <input type="checkbox" className="form-check-input" id="hide-full-server"
+                                        checked={hideFullServer} onChange={handleChangeHideFull}
+                                    />
+                                    <label className="form-check-label" htmlFor="hide-full-server">
+                                        {t('filter-option.hide-full')}
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div className="col-sm-12 col-md-6 col-lg-4 mt-sm-3"/>
+                            <div className="col-sm-12 col-md-6 col-lg-4 mt-sm-3 d-flex justify-content-end">
+                                <button className="btn btn-primary"
+                                    type="button"
+                                    onClick={updateServerList}
+                                    disabled={serverListFetching}
+                                >
+                                    <FontAwesomeIcon icon={faArrowsRotate} className="me-3"/> 
+                                    {t(`filter-option.${serverListFetching ? 'refreshing' : 'refresh-btn'}`)}
                                 </button>
                             </div>
                         </div>
                     </div>
 
-                    <div className="form-group">
-                        <div className="input-group text-left">
-                            <label className="col-form-label search-option-name" htmlFor="country-filter">
-                                {t('filter-option.country-filter')}
-                            </label>
-                            <CountrySelect
-                                value={countryFilter}
-                                onChange={handleChangeCountryFilter}
+                    <div className="col-sm-12 col-md-4 mt-md-0 mt-4" id="search-filter">
+                        <div className="filter-options-title mb-3 fw-bold border-bottom pb-2">
+                            {t('filter-option.filter-options-title')}
+                        </div>
+                        
+                        <div className="yes-no-filter mb-3">
+                            <YesNoFilter
+                                title={t('filter-option.yes-no-filter.friendly-fire')}
+                                value={friendlyFire}
+                                onChange={handleChangeFriendlyFire}
                             />
                         </div>
-                    </div>
 
-                    <div className="search-option-toggle row">
-                        <div className="col-sm-12 col-md-4" style={{paddingLeft: 0}}>
-                            <div className="custom-control custom-switch mt-3">
-                                <input type="checkbox" className="custom-control-input" id="hide-empty-server"
-                                       checked={hideEmptyServer} onChange={handleChangeHideEmpty}
-                                />
-                                <label className="custom-control-label" htmlFor="hide-empty-server">
-                                    {t('filter-option.hide-empty')}
-                                </label>
-                            </div>
-
-                            <div className="custom-control custom-switch mt-1">
-                                <input type="checkbox" className="custom-control-input" id="hide-full-server"
-                                       checked={hideFullServer} onChange={handleChangeHideFull}
-                                />
-                                <label className="custom-control-label" htmlFor="hide-full-server">
-                                    {t('filter-option.hide-full')}
-                                </label>
-                            </div>
+                        <div className="yes-no-filter mb-3">
+                            <YesNoFilter
+                                title={t('filter-option.yes-no-filter.whitelist')}
+                                value={whitelist}
+                                onChange={handleChangeWhitelist}
+                            />
                         </div>
 
-                        <div className="col-sm-12 col-md-6 col-lg-4 mt-sm-3"/>
-                        <div className="col-sm-12 col-md-6 col-lg-4 mt-sm-3" style={{textAlign: 'right'}}>
-                            <button className="btn btn-info"
-                                    type="button"
-                                    onClick={updateServerList}
-                                    disabled={serverListFetching}
-                            >
-                                <FontAwesomeIcon
-                                    icon={faArrowsRotate}/> {t(`filter-option.${serverListFetching ? 'refreshing' : 'refresh-btn'}`)}
-                            </button>
+                        <div className="yes-no-filter mb-3">
+                            <YesNoFilter
+                                title={t('filter-option.yes-no-filter.modded')}
+                                value={modded}
+                                onChange={handleChangeModded}
+                            />
                         </div>
-                    </div>
-                </div>
 
-                <div className="col-sm-12 col-md-6 col-lg-4 mt-sm-3" id="search-filter">
-                    <div className="yes-no-filter col-12">
-                        <YesNoFilter
-                            title={t('filter-option.yes-no-filter.friendly-fire')}
-
-                            value={friendlyFire}
-                            onChange={handleChangeFriendlyFire}
-                        />
-                    </div>
-
-                    <div className="yes-no-filter col-12 mt-2">
-                        <YesNoFilter
-                            title={t('filter-option.yes-no-filter.whitelist')}
-
-                            value={whitelist}
-                            onChange={handleChangeWhitelist}
-                        />
-                    </div>
-
-                    <div className="yes-no-filter col-12 mt-2">
-                        <YesNoFilter
-                            title={t('filter-option.yes-no-filter.modded')}
-
-                            value={modded}
-                            onChange={handleChangeModded}
-                        />
-                    </div>
-
-                    <div className="yes-no-filter col-12 mt-2">
-                        <SortType
-                            value={sort}
-                            onChange={handleChangeSortType}
-                        />
+                        <div className="yes-no-filter">
+                            <SortType
+                                value={sort}
+                                onChange={handleChangeSortType}
+                            />
+                        </div>
                     </div>
                 </div>
             </div>

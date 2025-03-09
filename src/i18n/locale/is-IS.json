@@ -8,7 +8,10 @@
     "title": "SCP: SL Netþjónir",
     "server-list": "Netþjónalisti",
     "all-stats": "Fullar tölfræði",
-    "all-server-map": "Kort yfir allar netþjónir"
+    "all-server-map": "Kort yfir allar netþjónir",
+    "credit": "Credits",
+    "language": "Language:",
+    "unit": "Unit:"
   },
   "select": {
     "placeholder": "Vinsamlegast veldu hlut",
@@ -25,6 +28,7 @@
     "hide-full": "Fela fulla netþjóna",
     "refresh-btn": "Endurhlaða listann",
     "refreshing": "Endurhlaðning lista...",
+    "filter-options-title": "Filter Options",
     "yes-no-filter": {
       "none": "Innifalið Allt",
       "yes": "Já",
@@ -46,7 +50,14 @@
     "online-servers": "Netþjónir í gangi: {{count}}",
     "display-users": "Notendur sýndir: {{count}}",
     "display-servers": "Netþjónir sýndir: {{count}}",
-    "offline-servers": "Ótengdir (í skyndihlaði) netþjónir: {{count}}"
+    "offline-servers": "Ótengdir (í skyndihlaði) netþjónir: {{count}}",
+    "users-title": "Users",
+    "servers-title": "Servers",
+    "total-online-users": "Total Online Users",
+    "filtered-users": "Filtered Users",
+    "online-label": "Online",
+    "offline-label": "Offline",
+    "filtered-servers": "Filtered Servers"
   },
   "server-list": {
     "head": {
@@ -144,6 +155,9 @@
     }
   },
   "all-server-map": {
+    "credit": "Credits",
+    "language": "Language:",
+    "unit": "Unit:",
     "title": "Kort yfir allar netþjónir",
     "server-info-btn": "Smelltu til að athuga upplýsingar um netþjón"
   }

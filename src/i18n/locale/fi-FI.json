@@ -8,7 +8,10 @@
     "title": "SCP: SL - Palvelimet",
     "server-list": "Palvelinluettelo",
     "all-stats": "Tilastot",
-    "all-server-map": "Kaikkien palvelinten kartta"
+    "all-server-map": "Kaikkien palvelinten kartta",
+    "credit": "Credits",
+    "language": "Language:",
+    "unit": "Unit:"
   },
   "select": {
     "placeholder": "Valitse kohta",
@@ -25,6 +28,7 @@
     "hide-full": "Piilota täydet palvelimet",
     "refresh-btn": "Päivitä luettelo",
     "refreshing": "Päivitetään luetteloa...",
+    "filter-options-title": "Filter Options",
     "yes-no-filter": {
       "none": "Sisällytä kaikki",
       "yes": "Kyllä",
@@ -46,7 +50,14 @@
     "online-servers": "Verkossa olevat palvelimet: {{count}}",
     "display-users": "Listatut käyttäjät: {{count}}",
     "display-servers": "Listatut palvelimet: {{count}}",
-    "offline-servers": "Offline (välimuistissa olevat) palvelimet: {{count}}"
+    "offline-servers": "Offline (välimuistissa olevat) palvelimet: {{count}}",
+    "users-title": "Users",
+    "servers-title": "Servers",
+    "total-online-users": "Total Online Users",
+    "filtered-users": "Filtered Users",
+    "online-label": "Online",
+    "offline-label": "Offline",
+    "filtered-servers": "Filtered Servers"
   },
   "server-list": {
     "head": {
@@ -144,6 +155,9 @@
     }
   },
   "all-server-map": {
+    "credit": "Credits",
+    "language": "Language:",
+    "unit": "Unit:",
     "title": "Kaikkien palvelinten kartta",
     "server-info-btn": "Napsauta tarkistaaksesi palvelimen tiedot"
   }

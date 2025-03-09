@@ -8,7 +8,10 @@
     "title": "SCP: SL Serveri",
     "server-list": "Serveru saraksts",
     "all-stats": "Pilns statistika",
-    "all-server-map": "Visu serveru karte"
+    "all-server-map": "Visu serveru karte",
+    "credit": "Credits",
+    "language": "Language:",
+    "unit": "Unit:"
   },
   "select": {
     "placeholder": "Lūdzu, izvēlieties vienumu",
@@ -25,6 +28,7 @@
     "hide-full": "Paslēpt pilnos serverus",
     "refresh-btn": "Atsvaidzināt sarakstu",
     "refreshing": "Saraksta atsvaidzināšana...",
+    "filter-options-title": "Filter Options",
     "yes-no-filter": {
       "none": "Iekļaut visus",
       "yes": "Jā",
@@ -46,7 +50,14 @@
     "online-servers": "Tiešsaistes serveri: {{count}}",
     "display-users": "Lietotāji uzskaitīti: {{count}}",
     "display-servers": "Serveri uzskaitīti: {{count}}",
-    "offline-servers": "Bezsaistes (kešota) serveri: {{count}}"
+    "offline-servers": "Bezsaistes (kešota) serveri: {{count}}",
+    "users-title": "Users",
+    "servers-title": "Servers",
+    "total-online-users": "Total Online Users",
+    "filtered-users": "Filtered Users",
+    "online-label": "Online",
+    "offline-label": "Offline",
+    "filtered-servers": "Filtered Servers"
   },
   "server-list": {
     "head": {
@@ -144,6 +155,9 @@
     }
   },
   "all-server-map": {
+    "credit": "Credits",
+    "language": "Language:",
+    "unit": "Unit:",
     "title": "Visu serveru karte",
     "server-info-btn": "Noklikšķiniet, lai pārbaudītu servera informāciju"
   }

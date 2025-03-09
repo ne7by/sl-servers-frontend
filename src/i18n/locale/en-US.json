@@ -8,7 +8,10 @@
     "title": "SCP: SL Servers",
     "server-list": "Server List",
     "all-stats": "Full statistics",
-    "all-server-map": "Map of all servers"
+    "all-server-map": "Map of all servers",
+    "credit": "Credits",
+    "language": "Language:",
+    "unit": "Unit:"
   },
   "select": {
     "placeholder": "Please select an item",
@@ -25,6 +28,7 @@
     "hide-full": "Hide full servers",
     "refresh-btn": "Reload List",
     "refreshing": "Reloading list...",
+    "filter-options-title": "Filter Options",
     "yes-no-filter": {
       "none": "Include All",
       "yes": "Yes",
@@ -46,7 +50,14 @@
     "online-servers": "Online servers: {{count}}",
     "display-users": "Users listed: {{count}}",
     "display-servers": "Servers listed: {{count}}",
-    "offline-servers": "Offline (cached) servers: {{count}}"
+    "offline-servers": "Offline (cached) servers: {{count}}",
+    "users-title": "Users",
+    "servers-title": "Servers",
+    "total-online-users": "Total Online Users",
+    "filtered-users": "Filtered Users",
+    "online-label": "Online",
+    "offline-label": "Offline",
+    "filtered-servers": "Filtered Servers"
   },
   "server-list": {
     "head": {

@@ -10,6 +10,8 @@ import NoticeBanner from "./components/notice/NoticeBanner";
 import "./i18n/i18n";
 
 import 'bootswatch/dist/darkly/bootstrap.min.css';
+import './index.css';
+import './styles/global.css';
 
 Sentry.init({
     dsn: "https://273bce475a7d46cdb126ba29bd99f867@o508489.ingest.sentry.io/4505483920998400",

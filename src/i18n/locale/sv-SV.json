@@ -8,7 +8,10 @@
     "title": "SCP:SL-servrar",
     "server-list": "Serverlista",
     "all-stats": "Fullständig statistik",
-    "all-server-map": "Karta över alla servrar"
+    "all-server-map": "Karta över alla servrar",
+    "credit": "Credits",
+    "language": "Language:",
+    "unit": "Unit:"
   },
   "select": {
     "placeholder": "Välj ett objekt",
@@ -25,6 +28,7 @@
     "hide-full": "Dölj fulla servrar",
     "refresh-btn": "Ladda om lista",
     "refreshing": "Laddar om lista...",
+    "filter-options-title": "Filter Options",
     "yes-no-filter": {
       "none": "Inkludera alla",
       "yes": "Ja",
@@ -46,7 +50,14 @@
     "online-servers": "Online-servrar: {{count}}",
     "display-users": "Visade användare: {{count}}",
     "display-servers": "Visade servrar: {{count}}",
-    "offline-servers": "Offline (cacheade) servrar: {{count}}"
+    "offline-servers": "Offline (cacheade) servrar: {{count}}",
+    "users-title": "Users",
+    "servers-title": "Servers",
+    "total-online-users": "Total Online Users",
+    "filtered-users": "Filtered Users",
+    "online-label": "Online",
+    "offline-label": "Offline",
+    "filtered-servers": "Filtered Servers"
   },
   "server-list": {
     "head": {
@@ -144,6 +155,9 @@
     }
   },
   "all-server-map": {
+    "credit": "Credits",
+    "language": "Language:",
+    "unit": "Unit:",
     "title": "Karta över alla servrar",
     "server-info-btn": "Klicka för att se serverinfo"
   }

@@ -8,7 +8,10 @@
     "title": "SCP:SL 服务器",
     "server-list": "服务器列表",
     "all-stats": "总体信息概况",
-    "all-server-map": "服务器大地图"
+    "all-server-map": "服务器大地图",
+    "credit": "贡献名单",
+    "language": "语言:",
+    "unit": "单位:"
   },
   "select": {
     "placeholder": "请主人选择一个项目喵~",
@@ -25,6 +28,7 @@
     "hide-full": "隐藏满人服务器",
     "refresh-btn": "刷新列表",
     "refreshing": "正在加载喵~",
+    "filter-options-title": "筛选选项",
     "yes-no-filter": {
       "none": "全部",
       "yes": "是",
@@ -46,7 +50,14 @@
     "online-servers": "全球总在线服务器数: {{count}}",
     "display-users": "当前显示的服务器中的玩家数: {{count}}",
     "display-servers": "当前显示的服务器数: {{count}}",
-    "offline-servers": "离线 (缓存) 服务器: {{count}}"
+    "offline-servers": "离线 (缓存) 服务器: {{count}}",
+    "users-title": "用户",
+    "servers-title": "服务器",
+    "total-online-users": "总在线用户",
+    "filtered-users": "已筛选用户",
+    "online-label": "在线",
+    "offline-label": "离线",
+    "filtered-servers": "已筛选服务器"
   },
   "server-list": {
     "head": {

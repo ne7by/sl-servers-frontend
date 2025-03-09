@@ -8,7 +8,10 @@
     "title": "Server SCP: Secret Laboratory",
     "server-list": "Lista dei Server",
     "all-stats": "Statistiche complete",
-    "all-server-map": "Mappa dei Server"
+    "all-server-map": "Mappa dei Server",
+    "credit": "Credits",
+    "language": "Language:",
+    "unit": "Unit:"
   },
   "select": {
     "placeholder": "Per favore, seleziona qualcosa",
@@ -25,6 +28,7 @@
     "hide-full": "Nascondi i server pieni",
     "refresh-btn": "Ricarica la lista",
     "refreshing": "Caricamento lista in corso...",
+    "filter-options-title": "Filter Options",
     "yes-no-filter": {
       "none": "Includi tutto",
       "yes": "Si",
@@ -46,7 +50,14 @@
     "online-servers": "Server online: {{count}}",
     "display-users": "Utenti in lista: {{count}}",
     "display-servers": "Server in lista: {{count}}",
-    "offline-servers": "Server offline (nella cache): {{count}}"
+    "offline-servers": "Server offline (nella cache): {{count}}",
+    "users-title": "Users",
+    "servers-title": "Servers",
+    "total-online-users": "Total Online Users",
+    "filtered-users": "Filtered Users",
+    "online-label": "Online",
+    "offline-label": "Offline",
+    "filtered-servers": "Filtered Servers"
   },
   "server-list": {
     "head": {
@@ -144,6 +155,9 @@
     }
   },
   "all-server-map": {
+    "credit": "Credits",
+    "language": "Language:",
+    "unit": "Unit:",
     "title": "Mappa di tutti i server",
     "server-info-btn": "Clicca per vedere le informazioni del server"
   }

@@ -8,7 +8,10 @@
     "title": "Sèrver SCP:SL",
     "server-list": "Lìsta di Sèrver",
     "all-stats": "Statistiche conplête",
-    "all-server-map": "Màppa de tutti i Sèrver"
+    "all-server-map": "Màppa de tutti i Sèrver",
+    "credit": "Credits",
+    "language": "Language:",
+    "unit": "Unit:"
   },
   "select": {
     "placeholder": "Pe cortexîa, indicâ quarcösa",
@@ -25,6 +28,7 @@
     "hide-full": "Intafoâ i sèrver pieni",
     "refresh-btn": "Recàrega a lìsta",
     "refreshing": "Caregaménto lìsta inte còrso...",
+    "filter-options-title": "Filter Options",
     "yes-no-filter": {
       "none": "Inclùdde tùtto",
       "yes": "Si",
@@ -46,7 +50,14 @@
     "online-servers": "Sèrver conéssi: {{count}}",
     "display-users": "Utènti inta lìsta: {{count}}",
     "display-servers": "Sèrver inta lìsta: {{count}}",
-    "offline-servers": "Sèrver no conéssi (cached): {{count}}"
+    "offline-servers": "Sèrver no conéssi (cached): {{count}}",
+    "users-title": "Users",
+    "servers-title": "Servers",
+    "total-online-users": "Total Online Users",
+    "filtered-users": "Filtered Users",
+    "online-label": "Online",
+    "offline-label": "Offline",
+    "filtered-servers": "Filtered Servers"
   },
   "server-list": {
     "head": {
@@ -144,6 +155,9 @@
     }
   },
   "all-server-map": {
+    "credit": "Credits",
+    "language": "Language:",
+    "unit": "Unit:",
     "title": "Màppa di sèrver",
     "server-info-btn": "Sciacâ per védde-e informaçióni de sèrver"
   }

@@ -8,7 +8,10 @@
     "title": "SCP: SL 伺服器",
     "server-list": "伺服器列表",
     "all-stats": "整體信息狀態",
-    "all-server-map": "伺服器大地圖"
+    "all-server-map": "伺服器大地圖",
+    "credit": "貢獻名單",
+    "language": "語言:",
+    "unit": "單位:"
   },
   "select": {
     "placeholder": "請選擇一個項目",
@@ -25,6 +28,7 @@
     "hide-full": "隱藏滿人伺服器",
     "refresh-btn": "刷新列表",
     "refreshing": "我正在載入...",
+    "filter-options-title": "篩選選項",
     "yes-no-filter": {
       "none": "全部",
       "yes": "是",
@@ -46,7 +50,14 @@
     "online-servers": "全球線上伺服器: {{count}}",
     "display-users": "列表已顯示玩家: {{count}}",
     "display-servers": "列表已顯示伺服器: {{count}}",
-    "offline-servers": "離線(IDLE)伺服器: {{count}}"
+    "offline-servers": "離線(IDLE)伺服器: {{count}}",
+    "users-title": "用戶",
+    "servers-title": "伺服器",
+    "total-online-users": "總在線用戶",
+    "filtered-users": "已篩選用戶",
+    "online-label": "在線",
+    "offline-label": "離線",
+    "filtered-servers": "已篩選伺服器"
   },
   "server-list": {
     "head": {

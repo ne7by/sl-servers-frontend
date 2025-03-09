@@ -30,18 +30,17 @@ const SortType = (
     ];
 
     return (
-        <>
+        <div className="d-flex align-items-center">
             <span className="yes-no-filter-name">
                 {t('filter-option.yes-no-filter.order-type.name')}
             </span>
 
             <DropdownSelect
                 options={options}
-
                 value={options.find(option => option.value === value)}
                 onChange={(option) => onChange(option.value)}
             />
-        </>
+        </div>
     )
 }
 

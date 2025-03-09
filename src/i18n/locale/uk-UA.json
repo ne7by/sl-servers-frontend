@@ -8,7 +8,10 @@
     "title": "Сервера SCP: SL",
     "server-list": "Список серверів",
     "all-stats": "Повна статистика",
-    "all-server-map": "Карта всіх серверів"
+    "all-server-map": "Карта всіх серверів",
+    "credit": "Credits",
+    "language": "Language:",
+    "unit": "Unit:"
   },
   "select": {
     "placeholder": "Будь ласка оберіть предмет",
@@ -25,6 +28,7 @@
     "hide-full": "Приховати повні сервера",
     "refresh-btn": "Перезавантажити список",
     "refreshing": "Перезавантажити список...",
+    "filter-options-title": "Filter Options",
     "yes-no-filter": {
       "none": "Включити всі",
       "yes": "Так",
@@ -46,7 +50,14 @@
     "online-servers": "Доступно серверів: {{count}}",
     "display-users": "Користувачів у списку: {{count}}",
     "display-servers": "Серверів в списку: {{count}}",
-    "offline-servers": "Серверів в не мережі: {{count}}"
+    "offline-servers": "Серверів в не мережі: {{count}}",
+    "users-title": "Users",
+    "servers-title": "Servers",
+    "total-online-users": "Total Online Users",
+    "filtered-users": "Filtered Users",
+    "online-label": "Online",
+    "offline-label": "Offline",
+    "filtered-servers": "Filtered Servers"
   },
   "server-list": {
     "head": {
@@ -144,6 +155,9 @@
     }
   },
   "all-server-map": {
+    "credit": "Credits",
+    "language": "Language:",
+    "unit": "Unit:",
     "title": "Карта всіх серверів",
     "server-info-btn": "Клацніть, щоб дізнатися інформацію про цей сервер"
   }

@@ -4,13 +4,16 @@ const getStyles = (width, notSearchable) => ({
         cursor: state.isDisabled || notSearchable ? 'default' : 'pointer',
         backgroundColor: state.isSelected || state.isFocused ? '#375a7f' : '#222',
         paddingTop: '5px',
-        paddingBottom: '5px'
+        paddingBottom: '5px',
+        whiteSpace: 'nowrap'
     }),
     control: (provided) => {
         const controlStyle = {
             ...provided,
             background: "#444",
             border: 0,
+            borderRadius: "4px",
+            minHeight: "32px",
             cursor: notSearchable ? 'default' : 'text'
         };
 
@@ -19,7 +22,8 @@ const getStyles = (width, notSearchable) => ({
     },
     singleValue: (provided, state) => ({
         ...provided,
-        color: state.data.color
+        color: state.data.color,
+        whiteSpace: 'nowrap'
     }),
     menu: (provided) => ({
         ...provided,

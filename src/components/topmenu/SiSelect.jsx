@@ -12,7 +12,7 @@ const SiSelect = (
         SettingActions
     }
 ) => {
-    const customStyles = useMemo(() => getStyles(160), []);
+    const customStyles = useMemo(() => getStyles(140), []);
     const siOptions = [{
         "value": "km",
         "label": "Kilometers (km)"

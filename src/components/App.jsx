@@ -15,13 +15,22 @@ const Credit = React.lazy(() => import('../pages/credit/Credit'));
 const Api = React.lazy(() => import('../pages/api/Api'));
 const NotFound = React.lazy(() => import('../pages/NotFound'));
 
+// Loading component with spinner
+const Loading = () => (
+    <div className="d-flex justify-content-center align-items-center" style={{height: '100vh'}}>
+        <div className="spinner-border text-primary" role="status" style={{width: '3rem', height: '3rem'}}>
+            <span className="sr-only">Loading...</span>
+        </div>
+    </div>
+);
+
 const App = () => {
     const {t} = useTranslation();
 
     return (
         <>
             <BrowserRouter>
-                <React.Suspense fallback={<h1>Please wait...</h1>}>
+                <React.Suspense fallback={<Loading />}>
                     <Switch>
                         <Route exact path="/" render={() => <Container view={<List/>}/>}/>
                         <Route path="/servers/:serverId" render={() => <Container view={<Info/>}/>}/>
@@ -44,11 +53,14 @@ const App = () => {
                 pauseOnFocusLoss
                 draggable
                 pauseOnHover
+                theme="dark"
             />
 
             <CookieConsent
                 cookieName="user.cookie.consent"
                 buttonText={t('cookie-notice.dismiss')}
+                style={{ background: 'var(--bg-tertiary)', boxShadow: 'var(--box-shadow)' }}
+                buttonStyle={{ background: 'var(--primary-color)', color: 'white', fontSize: '13px', borderRadius: 'var(--border-radius)' }}
             >
                 {t('cookie-notice.message')} <a href="https://www.cookiesandyou.com/"
                                                 target="_blank" rel="noreferrer">{t('cookie-notice.link-text')}</a>

@@ -8,7 +8,10 @@
     "title": "Servidores SCP:SL",
     "server-list": "Lista de servidores",
     "all-stats": "Estadísticas completas",
-    "all-server-map": "Mapa de todos los servidores"
+    "all-server-map": "Mapa de todos los servidores",
+    "credit": "Créditos",
+    "language": "Idioma:",
+    "unit": "Unidad:"
   },
   "select": {
     "placeholder": "Por favor selecciona un término.",
@@ -25,6 +28,7 @@
     "hide-full": "Esconder servidores llenos",
     "refresh-btn": "Recargar lista",
     "refreshing": "Recargando lista...",
+    "filter-options-title": "Opciones de filtro",
     "yes-no-filter": {
       "none": "Incluir Todo",
       "yes": "Sí",
@@ -46,7 +50,14 @@
     "online-servers": "Servidores Online: {{count}}",
     "display-users": "Total de usuarios con filtros: {{count}}",
     "display-servers": "Servidores seleccionados: {{count}}",
-    "offline-servers": "Servidores Offline (en caché): {{count}}"
+    "offline-servers": "Servidores Offline (en caché): {{count}}",
+    "users-title": "Usuarios",
+    "servers-title": "Servidores",
+    "total-online-users": "Total de usuarios en línea",
+    "filtered-users": "Usuarios filtrados",
+    "online-label": "En línea",
+    "offline-label": "Fuera de línea",
+    "filtered-servers": "Servidores filtrados"
   },
   "server-list": {
     "head": {

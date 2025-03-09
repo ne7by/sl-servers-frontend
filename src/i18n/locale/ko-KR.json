@@ -8,7 +8,10 @@
     "title": "SCP: SL 서버 목록",
     "server-list": "서버 목록",
     "all-stats": "전체 통계",
-    "all-server-map": "전체 서버 지도"
+    "all-server-map": "전체 서버 지도",
+    "credit": "크레딧",
+    "language": "언어:",
+    "unit": "단위:"
   },
   "select": {
     "placeholder": "항목을 선택해주세요",
@@ -25,6 +28,7 @@
     "hide-full": "가득 찬 서버 숨기기",
     "refresh-btn": "목록 다시 불러오기",
     "refreshing": "목록을 다시 불러오는 중...",
+    "filter-options-title": "필터 옵션",
     "yes-no-filter": {
       "none": "모두 포함",
       "yes": "사용",
@@ -46,7 +50,14 @@
     "online-servers": "온라인 서버: {{count}}개",
     "display-users": "목록에 표시된 유저: {{count}}명",
     "display-servers": "목록에 표시된 서버: {{count}}개",
-    "offline-servers": "오프라인(캐시된) 서버: {{count}}개"
+    "offline-servers": "오프라인(캐시된) 서버: {{count}}개",
+    "users-title": "유저",
+    "servers-title": "서버",
+    "total-online-users": "전체 온라인 유저",
+    "filtered-users": "필터링된 유저",
+    "online-label": "온라인",
+    "offline-label": "오프라인",
+    "filtered-servers": "필터링된 서버"
   },
   "server-list": {
     "head": {

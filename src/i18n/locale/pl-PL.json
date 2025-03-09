@@ -8,7 +8,10 @@
     "title": "Serwery SCP: SL",
     "server-list": "Lista serwerów",
     "all-stats": "Ogólne statystyki",
-    "all-server-map": "Mapa wszystkich serwerów"
+    "all-server-map": "Mapa wszystkich serwerów",
+    "credit": "Credits",
+    "language": "Language:",
+    "unit": "Unit:"
   },
   "select": {
     "placeholder": "Please select an item",
@@ -25,6 +28,7 @@
     "hide-full": "Ukryj pełne serwery",
     "refresh-btn": "Przeładuj listę",
     "refreshing": "Przeładowywanie listy...",
+    "filter-options-title": "Filter Options",
     "yes-no-filter": {
       "none": "Wszystkie",
       "yes": "Tak",
@@ -46,7 +50,14 @@
     "online-servers": "Serwery online: {{count}}",
     "display-users": "Ogólna liczba osób: {{count}}",
     "display-servers": "Ogólna liczba serwerów: {{count}}",
-    "offline-servers": "Offline (zapisanych) serwerów: {{count}}"
+    "offline-servers": "Offline (zapisanych) serwerów: {{count}}",
+    "users-title": "Users",
+    "servers-title": "Servers",
+    "total-online-users": "Total Online Users",
+    "filtered-users": "Filtered Users",
+    "online-label": "Online",
+    "offline-label": "Offline",
+    "filtered-servers": "Filtered Servers"
   },
   "server-list": {
     "head": {
@@ -144,6 +155,9 @@
     }
   },
   "all-server-map": {
+    "credit": "Credits",
+    "language": "Language:",
+    "unit": "Unit:",
     "title": "Mapa serwerów",
     "server-info-btn": "Kliknij, aby sprawdzić informacje o serwerze."
   }

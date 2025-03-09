@@ -8,7 +8,10 @@
     "title": "เซิร์ฟเวอร์ SCP: SL",
     "server-list": "รายชื่อเซิร์ฟเวอร์",
     "all-stats": "สถิติทั้งหมด",
-    "all-server-map": "แผนที่ของเซิร์ฟเวอร์ทั้งหมด"
+    "all-server-map": "แผนที่ของเซิร์ฟเวอร์ทั้งหมด",
+    "credit": "Credits",
+    "language": "Language:",
+    "unit": "Unit:"
   },
   "select": {
     "placeholder": "กรุณาเลือกรายการ",
@@ -25,6 +28,7 @@
     "hide-full": "ซ่อนเซิร์ฟเวอร์คนเต็ม",
     "refresh-btn": "โหลดอีกครั้ง",
     "refreshing": "กำลังโหลด...",
+    "filter-options-title": "Filter Options",
     "yes-no-filter": {
       "none": "ทั้งหมด",
       "yes": "ใช่",
@@ -46,7 +50,14 @@
     "online-servers": "เซิร์ฟเวอร์ร์ออนไลน์: {{count}}",
     "display-users": "รายชื่อผู้ใช้: {{count}}",
     "display-servers": "รายชื่อเซิร์ฟเวอร์: {{count}}",
-    "offline-servers": "เซิร์ฟเวอร์ออฟไลน์ (แคช): {{count}}"
+    "offline-servers": "เซิร์ฟเวอร์ออฟไลน์ (แคช): {{count}}",
+    "users-title": "Users",
+    "servers-title": "Servers",
+    "total-online-users": "Total Online Users",
+    "filtered-users": "Filtered Users",
+    "online-label": "Online",
+    "offline-label": "Offline",
+    "filtered-servers": "Filtered Servers"
   },
   "server-list": {
     "head": {
@@ -144,6 +155,9 @@
     }
   },
   "all-server-map": {
+    "credit": "Credits",
+    "language": "Language:",
+    "unit": "Unit:",
     "title": "แผนที่ของเซิร์ฟเวอร์ทั้งหมด",
     "server-info-btn": "คลิกเพื่อตรวจสอบข้อมูลเซิร์ฟเวอร์"
   }

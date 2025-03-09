@@ -8,7 +8,10 @@
     "title": "SCP: SL Сървъри",
     "server-list": "Списък от сървъри",
     "all-stats": "Пълна статистика",
-    "all-server-map": "Карта на всички сървъри"
+    "all-server-map": "Карта на всички сървъри",
+    "credit": "Заслуги",
+    "language": "Език:",
+    "unit": "Мерна единица:"
   },
   "select": {
     "placeholder": "Моля изберете едно от посочените",
@@ -25,6 +28,7 @@
     "hide-full": "Скрийте пълни сървъри",
     "refresh-btn": "Презареди списъка",
     "refreshing": "Презареждане на списъка...",
+    "filter-options-title": "Опции за филтриране",
     "yes-no-filter": {
       "none": "Включи всички",
       "yes": "Да",
@@ -46,7 +50,14 @@
     "online-servers": "Онлайн сървъри: {{count}}",
     "display-users": "Потребители изброени: {{count}}",
     "display-servers": "Сървъри изброени: {{count}}",
-    "offline-servers": "Офлайн (запазени) сървъри: {{count}}"
+    "offline-servers": "Офлайн (запазени) сървъри: {{count}}",
+    "users-title": "Потребители",
+    "servers-title": "Сървъри",
+    "total-online-users": "Общо онлайн потребители",
+    "filtered-users": "Филтрирани потребители",
+    "online-label": "Онлайн",
+    "offline-label": "Офлайн",
+    "filtered-servers": "Филтрирани сървъри"
   },
   "server-list": {
     "head": {

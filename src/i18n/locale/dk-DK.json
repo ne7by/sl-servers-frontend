@@ -8,7 +8,10 @@
     "title": "SCP: SL Servere",
     "server-list": "Serverliste",
     "all-stats": "Fuldstændig statistik",
-    "all-server-map": "Kort over alle servere"
+    "all-server-map": "Kort over alle servere",
+    "credit": "Credits",
+    "language": "Language:",
+    "unit": "Unit:"
   },
   "select": {
     "placeholder": "Vælg venligst et element",
@@ -25,6 +28,7 @@
     "hide-full": "Skjul fulde servere",
     "refresh-btn": "Genindlæs liste",
     "refreshing": "Genindlæser liste...",
+    "filter-options-title": "Filter Options",
     "yes-no-filter": {
       "none": "Inkluder alle",
       "yes": "Ja",
@@ -46,7 +50,14 @@
     "online-servers": "Online servere: {{count}}",
     "display-users": "Visning af brugere: {{count}}",
     "display-servers": "Visning af servere: {{count}}",
-    "offline-servers": "Offline (gemte) servere: {{count}}"
+    "offline-servers": "Offline (gemte) servere: {{count}}",
+    "users-title": "Users",
+    "servers-title": "Servers",
+    "total-online-users": "Total Online Users",
+    "filtered-users": "Filtered Users",
+    "online-label": "Online",
+    "offline-label": "Offline",
+    "filtered-servers": "Filtered Servers"
   },
   "server-list": {
     "head": {
@@ -144,6 +155,9 @@
     }
   },
   "all-server-map": {
+    "credit": "Credits",
+    "language": "Language:",
+    "unit": "Unit:",
     "title": "Kort over alle servere",
     "server-info-btn": "Klik for at se serverinfo"
   }

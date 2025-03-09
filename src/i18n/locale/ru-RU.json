@@ -2,13 +2,16 @@
   "general": {
     "language-change": "Язык изменен на {{language}}. Некоторые языки могут нуждаться в обновлении.",
     "not-found": "Запрашиваемая страница не найдена.",
-    "server-error": "An error occurred while fetching data from the server. These issues are typically temporary, so please try again in a little while. If the problem persists, please contact 'horyu' on Discord."
+    "server-error": "Произошла ошибка при получении данных с сервера. Такие проблемы обычно носят временный характер, поэтому, пожалуйста, повторите попытку немного позже. Если проблема не устраняется, свяжитесь с 'horyu' в Discord."
   },
   "navbar": {
     "title": "Серверы SCP:SL",
     "server-list": "Список серверов",
     "all-stats": "Статистика",
-    "all-server-map": "Карта серверов"
+    "all-server-map": "Карта серверов",
+    "credit": "Авторы",
+    "language": "Язык:",
+    "unit": "Единицы:"
   },
   "select": {
     "placeholder": "Выберите элемент",
@@ -25,6 +28,7 @@
     "hide-full": "Скрыть заполненные серверы",
     "refresh-btn": "Перезагрузить",
     "refreshing": "Обновление...",
+    "filter-options-title": "Параметры фильтрации",
     "yes-no-filter": {
       "none": "Не важно",
       "yes": "Вкл",
@@ -46,7 +50,14 @@
     "online-servers": "Серверов: {{count}}",
     "display-users": "Игроков в списке: {{count}}",
     "display-servers": "Серверов в списке: {{count}}",
-    "offline-servers": "Серверов оффлайн (кэшированных): {{count}}"
+    "offline-servers": "Серверов оффлайн (кэшированных): {{count}}",
+    "users-title": "Игроки",
+    "servers-title": "Серверы",
+    "total-online-users": "Всего онлайн игроков",
+    "filtered-users": "Отфильтрованные игроки",
+    "online-label": "Онлайн",
+    "offline-label": "Оффлайн",
+    "filtered-servers": "Отфильтрованные серверы"
   },
   "server-list": {
     "head": {

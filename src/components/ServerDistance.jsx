@@ -12,7 +12,7 @@ const ServerDistance = (
     const displayValue = Math.floor(value * 100) / 100;
 
     return (
-        <>{displayValue} {si}</>
+        <span className="distance-value">{displayValue} {si}</span>
     )
 }
 

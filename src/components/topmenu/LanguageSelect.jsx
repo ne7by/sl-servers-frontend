@@ -8,7 +8,7 @@ import {useTranslation} from "react-i18next";
 
 const LanguageSelect = () => {
     const {t} = useTranslation();
-    const customStyles = useMemo(() => getStyles(160), []);
+    const customStyles = useMemo(() => getStyles(140), []);
     const languageOptions = languages.map(language => {
         return {
             value: language.code,
