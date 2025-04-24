@@ -9,6 +9,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `yarn test src/path/to/test.js` - Run a specific test file
 
 ## Code Style Guidelines
+- WebStorm default code formatting settings are used
 - React components use JSX syntax with `.jsx` file extension
 - Functional components with hooks are preferred over class components
 - Redux for state management with async actions using thunks

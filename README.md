@@ -2,6 +2,8 @@
 
 Frontend application for displaying and managing SCP: Secret Laboratory servers information.
 
+> **Note:** This project was recently transitioned from closed source to open source. We welcome your contributions to help improve and expand the project!
+
 [한국어 문서](./README.ko.md)
 
 ## Features
