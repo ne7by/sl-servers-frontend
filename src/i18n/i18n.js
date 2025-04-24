@@ -7,6 +7,7 @@ import koKR from './locale/ko-KR.json';
 import ruRU from './locale/ru-RU.json';
 import ukUA from './locale/uk-UA.json';
 import zhCN from './locale/zh-CN.json';
+import zhLZH from './locale/zh-LZH.json';
 import zhTW from './locale/zh-TW.json';
 import esES from './locale/es-ES.json';
 import plPL from './locale/pl-PL.json';
@@ -43,6 +44,9 @@ const resource = {
     },
     "zh-CN": {
         translation: zhCN
+    },
+    "zh-LZH": {
+        translation: zhLZH
     },
     "zh-TW": {
         translation: zhTW

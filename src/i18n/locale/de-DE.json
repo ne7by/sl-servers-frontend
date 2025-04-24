@@ -23,7 +23,7 @@
       "placeholder": "Gebe suchbegriffe ein",
       "search-btn": "Suche"
     },
-    "country-filter": "Länder Filtern",
+    "country-filter": "Länder filtern",
     "hide-empty": "Verstecke leere Server",
     "hide-full": "Verstecke volle Server",
     "refresh-btn": "Liste neuladen",
@@ -99,8 +99,8 @@
       "visitor-suffix": "",
       "options": {
         "date-format": "dd-MM-yyyy HH:mm",
-        "invalid-start-time": "Der Startzeitpunkt muss vor der Stopzeit sein.",
-        "invalid-stop-time": "Die Stopzeit muss nach dem Startzeitpunkt sein.",
+        "invalid-start-time": "Der Startzeitpunkt muss vor dem Endzeitpunkt sein.",
+        "invalid-stop-time": "Der Endzeitpunkt muss nach dem Startzeitpunkt sein.",
         "data-range": "Zeitraum",
         "start-time": "Startzeitpunkt",
         "stop-time": "Stopzeit",
@@ -137,7 +137,7 @@
   },
   "all-stats": {
     "users": {
-      "title": "Gesammte anzahl von Servernutzern",
+      "title": "Gesamte Anzahl von Servernutzern",
       "select-compare-country": {
         "name": "Wähle ein Land"
       },
@@ -156,6 +156,6 @@
   },
   "all-server-map": {
     "title": "Karte von allen Servern",
-    "server-info-btn": "Klicke um Server Info zu überprüfen"
+    "server-info-btn": "Klicke um die Serverinfo zu überprüfen"
   }
 }

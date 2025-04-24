@@ -9,8 +9,8 @@
     "server-list": "Sunucu Listesi",
     "all-stats": "Tüm İstatistikler",
     "all-server-map": "Sunucuların Dünya Haritası",
-    "credit": "Credits",
-    "language": "Language:",
+    "credit": "Emeği Geçenler",
+    "language": "Dil:",
     "unit": "Unit:"
   },
   "select": {
@@ -51,13 +51,13 @@
     "display-users": "Oyuncu Sayısı: {{count}}",
     "display-servers": "Sunucu Sayısı: {{count}}",
     "offline-servers": "Çevrımdışı (önbellek) Sunucu Sayısı: {{count}}",
-    "users-title": "Users",
-    "servers-title": "Servers",
-    "total-online-users": "Total Online Users",
-    "filtered-users": "Filtered Users",
-    "online-label": "Online",
-    "offline-label": "Offline",
-    "filtered-servers": "Filtered Servers"
+    "users-title": "Kullanıcılar",
+    "servers-title": "Sunucular",
+    "total-online-users": "Toplam Çevrimiçi Kullanıcı Sayısı",
+    "filtered-users": "Filtrelenmiş Kullanıcılar",
+    "online-label": "Çevrimiçi",
+    "offline-label": "Çevrimdışı",
+    "filtered-servers": "Filtrelenmiş Sunucular"
   },
   "server-list": {
     "head": {
@@ -155,8 +155,8 @@
     }
   },
   "all-server-map": {
-    "credit": "Credits",
-    "language": "Language:",
+    "credit": "Emeği Geçenler",
+    "language": "Dil:",
     "unit": "Unit:",
     "title": "Sunucuların Dünya Haritası",
     "server-info-btn": "Sunucu bilgilerini kontrol etmek için tıklayın"
