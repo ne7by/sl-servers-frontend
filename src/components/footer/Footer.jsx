@@ -54,7 +54,7 @@ const Footer = () => {
                         </p>
                         <a 
                             target="_blank"
-                            href="https://github.com/horyu1234/SCPLIST-KR-Translations"
+                            href="https://github.com/horyu1234/sl-servers-frontend"
                             rel="noreferrer"
                             className="btn btn-outline-primary btn-sm d-inline-flex align-items-center"
                             style={{ gap: '8px' }}
