@@ -1,20 +1,20 @@
 {
   "general": {
-    "language-change": "Changed language to {{language}}. Some may need a refresh.",
-    "not-found": "The page you requested could not be found.",
-    "server-error": "An error occurred while fetching data from the server. These issues are typically temporary, so please try again in a little while. If the problem persists, please contact 'horyu' on Discord."
+    "language-change": "Zmieniono język na {{language}}. Niektóre elementy mogą wymagać odświeżenia.",
+    "not-found": "Nie znaleziono żądanej strony.",
+    "server-error": "Wystąpił błąd podczas pobierania danych z serwera. Problemy te są zazwyczaj tymczasowe, więc spróbuj ponownie za chwilę. Jeśli problem będzie się powtarzał, skontaktuj się z użytkownikiem 'horyu' na Discordzie."
   },
   "navbar": {
     "title": "Serwery SCP: SL",
     "server-list": "Lista serwerów",
     "all-stats": "Ogólne statystyki",
     "all-server-map": "Mapa wszystkich serwerów",
-    "credit": "Credits",
-    "language": "Language:",
-    "unit": "Unit:"
+    "credit": "Twórcy",
+    "language": "Język:",
+    "unit": "Jednostka:"
   },
   "select": {
-    "placeholder": "Please select an item",
+    "placeholder": "Wybierz element",
     "empty": "Nie wybrano"
   },
   "filter-option": {
@@ -28,7 +28,7 @@
     "hide-full": "Ukryj pełne serwery",
     "refresh-btn": "Przeładuj listę",
     "refreshing": "Przeładowywanie listy...",
-    "filter-options-title": "Filter Options",
+    "filter-options-title": "Opcje Filtrowania",
     "yes-no-filter": {
       "none": "Wszystkie",
       "yes": "Tak",
@@ -51,13 +51,13 @@
     "display-users": "Ogólna liczba osób: {{count}}",
     "display-servers": "Ogólna liczba serwerów: {{count}}",
     "offline-servers": "Offline (zapisanych) serwerów: {{count}}",
-    "users-title": "Users",
-    "servers-title": "Servers",
-    "total-online-users": "Total Online Users",
-    "filtered-users": "Filtered Users",
+    "users-title": "Gracze",
+    "servers-title": "Serwery",
+    "total-online-users": "Łączna liczba aktywnych graczy",
+    "filtered-users": "Przefiltrowani gracze",
     "online-label": "Online",
     "offline-label": "Offline",
-    "filtered-servers": "Filtered Servers"
+    "filtered-servers": "Przefiltrowane serwery"
   },
   "server-list": {
     "head": {
@@ -81,7 +81,7 @@
   },
   "server-info": {
     "title": "Informacje o serwerze",
-    "not-exist": "The server does not exist.",
+    "not-exist": "Ten serwer nie istnieje.",
     "status": {
       "name": "Status",
       "online": "Online",
@@ -99,30 +99,30 @@
       "visitor-suffix": "",
       "options": {
         "date-format": "yyyy-MM-dd aa hh:mm",
-        "invalid-start-time": "The start time must be earlier than the stop time.",
-        "invalid-stop-time": "The stop time must be later than the start time.",
-        "data-range": "Data Period",
-        "start-time": "Start Time",
-        "stop-time": "Stop Time",
-        "data-resolution": "Data Resolution",
-        "graph-update-btn": "Update Graph",
+        "invalid-start-time": "Czas rozpoczęcia musi być wcześniejszy niż czas zakończenia.",
+        "invalid-stop-time": "Czas zakończenia musi być późniejszy niż czas rozpoczęcia.",
+        "data-range": "Zakres danych",
+        "start-time": "Czas rozpoczęcia",
+        "stop-time": "Czas zakończenia",
+        "data-resolution": "Częstotliwość danych",
+        "graph-update-btn": "Aktualizuj wykres",
         "period": {
-          "custom": "Custom",
-          "1hour": "1 Hour",
-          "8hour": "8 Hours",
-          "1day": "1 Day",
-          "2day": "2 Days",
-          "1week": "1 Week",
-          "1month": "1 Month",
-          "3month": "3 Months",
-          "1year": "1 Year",
-          "4year": "4 Years"
+          "custom": "Niestandardowy",
+          "1hour": "1 Godzina",
+          "8hour": "8 Godzin",
+          "1day": "1 Dzień",
+          "2day": "2 Dni",
+          "1week": "1 Tydzień",
+          "1month": "1 Miesiąc",
+          "3month": "3 Miesiące",
+          "1year": "1 Rok",
+          "4year": "4 Lata"
         },
         "resolution": {
-          "1m": "1 Minute",
-          "5m": "5 Minutes",
-          "1h": "1 Hour",
-          "1d": "1 Day"
+          "1m": "1 Minuta",
+          "5m": "5 Minut",
+          "1h": "1 Godzina",
+          "1d": "1 Dzień"
         }
       }
     }
@@ -142,11 +142,11 @@
         "name": "Wybierz kraj"
       },
       "show-all": {
-        "name": "Display all country data"
+        "name": "Pokaż dane ze wszystkich krajów""
       },
       "graph": {
         "all-country": "Wszystkie kraje",
-        "empty-country": "There is no data to query."
+        "empty-country": "Brak danych do zapytania."
       }
     },
     "mod-loader": {
@@ -155,9 +155,9 @@
     }
   },
   "all-server-map": {
-    "credit": "Credits",
-    "language": "Language:",
-    "unit": "Unit:",
+    "credit": "Twórcy",
+    "language": "Język:",
+    "unit": "Jednostka:",
     "title": "Mapa serwerów",
     "server-info-btn": "Kliknij, aby sprawdzić informacje o serwerze."
   }
